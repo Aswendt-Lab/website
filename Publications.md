@@ -11,13 +11,7 @@ Neuroimage (IF 5.8). 2021 Mar;228:117692. PMID: 33385546.
 [Lesion size- and location-dependent recruitment of contralesional thalamus and motor cortex facilitates recovery after stroke in mice.](https://doi.org/10.1007/s12975-020-00802-3)
 Transl Stroke Res. (IF 5.9). 2021 Feb;12(1):87-97. PMID: 32166716
 
-<div> style= "float:left;position: relative; right: 30px; top: -7px;">
-```{r echo=FALSE, out.width="500px", fig.align='left'}
-
-knitr::include_graphics("Images/Neuroimage_Cover_Volume_217.gif") 
-
-```
-</div>
+<img style="float: right;" src="Images/Neuroimage_Cover_Volume_217.gif">
 <div>4. Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. 
 [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873)
 Neuroimage (IF 5.8). 2020 Aug 15;217:116873. PMID: 32380139. 
