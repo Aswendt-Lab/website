@@ -1,6 +1,6 @@
 Research articles (N=26) 
 1.	Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. 
-The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia. 
+[The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) 
 iScience (IF 5.5)2. In press
 
 2.	Leuze C, Goubran M, Aswendt M, Tian Q, Barakovic M, Hsueh B, Crow A, Steinberg GK, Zeineh, M, Plowey E, Deisseroth K, McNab J. 
