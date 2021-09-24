@@ -12,10 +12,10 @@ Neuroimage (IF 5.8). 2021 Mar;228:117692. PMID: 33385546.
 Transl Stroke Res. (IF 5.9). 2021 Feb;12(1):87-97. PMID: 32166716
 
 <img style="float: right;" src="Images/Neuroimage_Cover_Volume_217.gif">
-<div>4. Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. 
+4. Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. 
 [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873)
 Neuroimage (IF 5.8). 2020 Aug 15;217:116873. PMID: 32380139. 
-Selected as cover title.</div>
+Selected as cover title.
 
 5.	Goubran M*, Leuze C*, Hsueh B*, Aswendt M*, Ye L, Tian Q, Cheng MY, Crow A, Steinberg GK, McNab JA, Deisseroth K, Zeineh M. 
 Multimodal image registration and connectivity analysis for integration of connectomic data from microscopy to MRI.
