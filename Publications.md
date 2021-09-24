@@ -1,14 +1,14 @@
 Research articles (N=26) 
 
-1. Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. [The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) iScience (IF 5.5) In 
+1. Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. [The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) **iScience** In 
 
 2.	Leuze C, Goubran M, Aswendt M, Tian Q, Barakovic M, Hsueh B, Crow A, Steinberg GK, Zeineh, M, Plowey E, Deisseroth K, McNab J. 
 [Comparison of diffusion MRI and CLARITY fiber orientation estimates in the same human brain tissue.](https://doi.org/10.1016/j.neuroimage.2020.117692)
-Neuroimage (IF 5.8). 2021 Mar;228:117692. PMID: 33385546.
+**Neuroimage** 2021 Mar;228:117692. PMID: 33385546.
 
 3.	Aswendt M*, Pallast N*, Wieters F*, Baues M, Hoehn M, Fink GR. 
 [Lesion size- and location-dependent recruitment of contralesional thalamus and motor cortex facilitates recovery after stroke in mice.](https://doi.org/10.1007/s12975-020-00802-3)
-Transl Stroke Res. (IF 5.9). 2021 Feb;12(1):87-97. PMID: 32166716
+**Transl Stroke Res.** 2021 Feb;12(1):87-97. PMID: 32166716
 
 4. Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873) Neuroimage (IF 5.8). 2020 Aug 15;217:116873. 
 
