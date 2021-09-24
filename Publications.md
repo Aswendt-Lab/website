@@ -7,12 +7,16 @@ iScience (IF 5.5)2. In press
 [Comparison of diffusion MRI and CLARITY fiber orientation estimates in the same human brain tissue.](https://doi.org/10.1016/j.neuroimage.2020.117692)
 Neuroimage (IF 5.8). 2021 Mar;228:117692. PMID: 33385546.
 
-![](Images/Neuroimage_Cover_Volume_217.gif?classes=float-left)
 3.	Aswendt M*, Pallast N*, Wieters F*, Baues M, Hoehn M, Fink GR. 
 [Lesion size- and location-dependent recruitment of contralesional thalamus and motor cortex facilitates recovery after stroke in mice.](https://doi.org/10.1007/s12975-020-00802-3)
 Transl Stroke Res. (IF 5.9). 2021 Feb;12(1):87-97. PMID: 32166716
-<div style="clear: both;"></div>
 
+<div style= "float:right;position: relative; top: -80px;">
+```{r pressure, echo=FALSE}
+img(Images/Neuroimage_Cover_Volume_217.gi)
+```
+</div>
+![](Images/Neuroimage_Cover_Volume_217.gif?classes=float-left)
 4.	Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. 
 [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873)
 Neuroimage (IF 5.8). 2020 Aug 15;217:116873. PMID: 32380139. 
