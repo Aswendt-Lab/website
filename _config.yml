@@ -2,8 +2,9 @@ title: Aswendt Lab
 description: Website of the Aswendt Laboratory, Neurology, University Cologne, Germany.
 theme: jekyll-theme-cayman
 
-url: "https://aswendt-lab.github.io/"
+url: "https://aswendtlab.github.io/"
 baseurl: "/"
+repository: "Aswendt-Lab/aswendtlab.github.io"
 
 show_menu: true
 show_footer: true
