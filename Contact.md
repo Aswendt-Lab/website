@@ -1,4 +1,5 @@
-### [Home](README.md) | [Publications](Publications.md) | [Research](Research.md) | [Contact](Contact.md)| 
+### [Home](index.md) | [Publications](Publications.md) | [Projects](Projects.md) | [Research](Research.md) | [Our Team](Team.md) | [Contact](Contact.md) |
+
 Markus Aswendt, PhD  
 Group Leader  
 Neuroimaging & Neuroengineering of Experimental Stroke  

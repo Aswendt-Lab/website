@@ -1,3 +1,10 @@
+---
+title: Publications
+layout: default
+---
+
+### [Home](index.md) | [Publications](Publications.md) | [Projects](Projects.md) | [Research](Research.md) | [Our Team](Team.md) | [Contact](Contact.md) |
+
 Research articles (N=26) 
 
 1. Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. [The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) **iScience** In press
