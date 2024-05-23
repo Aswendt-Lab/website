@@ -1,2 +1,27 @@
-#remote_theme: hydecorp/hydejack
-theme: jekyll-theme-slate
+title: Aswendt Lab
+description: Website of the Aswendt Laboratory, Neurology, University Cologne, Germany.
+theme: jekyll-theme-cayman
+
+url: "aswendtlab.github.io"
+baseurl: "/"
+
+show_menu: true
+show_footer: true
+google_analytics: false
+
+docs_list_title: List of Contents
+docs:
+  - title: Home
+    url: 
+  
+  - title: Projects
+    url: Projects.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - gemfiles/
+  - Gemfile*
+  - README.md
