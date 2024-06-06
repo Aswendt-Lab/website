@@ -1,31 +1,52 @@
-### [Home](README.md) | [Publications](publications.md) | [Research](research.md) | [Contact](contact.md)| 
-Research articles (N=26) 
-| Cover art           | Research articles |
-| :------------------------- | :----|
-| ![Neuroimage](Images/Neuroimage_Cover_Volume_217.gif) | <font size =1>Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. [The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) iScience (IF 5.5) In press</font> |
+---
+title: Publications
+layout: default
+---
 
-|  /> | Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873) Neuroimage (IF 5.8). 2020 Aug 15;217:116873. |
-| Phone               |   $12 |
-| Pipe                |    $1 |
+### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Our Team](team.md) | [Contact](contact.md) |
 
-<img style="float: left;" src="Images/Neuroimage_Cover_Volume_217.gif"
+### 2024
+- Thomas Paß, Konrad M Ricke, Pierre Hofmann, Roy S Chowdhury, Yu Nie, Patrick Chinnery, Heike Endepols, Bernd Neumaier, André Carvalho, Lionel Rigoux, Sophie M Steculorum, Julien Prudent, Trine Riemer, Markus Aswendt, Birgit Liss, Bent Brachvogel, Rudolf J Wiesner. [Preserved striatal innervation maintains motor function despite severe loss of nigral dopaminergic neurons.](https://doi.org/10.1093/brain/awae089)
+**Brain** 2024 Apr;awae089
 
-2.	Leuze C, Goubran M, Aswendt M, Tian Q, Barakovic M, Hsueh B, Crow A, Steinberg GK, Zeineh, M, Plowey E, Deisseroth K, McNab J. 
+### 2023
+- Mahani, Fatemeh S. N.  and Kalantari, Aref  and Fink, Gereon R.  and Hoehn, Mathias  and Aswendt, Markus. [A systematic review of the relationship between magnetic resonance imaging based resting-state and structural networks in the rodent brain](https//doi.org/10.3389/fnins.2023.1194630)
+**Frontiers in Neuroscience** 2023 Jul;17
+- Anna Stokowska, Markus Aswendt, Daniel Zucha, Stephanie Lohmann, Frederique Wieters, Javier Morán Suarez, Alison L. Atkins, YiXian Li, Maria Miteva, Julia Lewin, Dirk Wiedermann AND Michael Diedenhofen AND Åsa Torinsson Naluai AND Pavel Abaffy AND Lukas Valihrach AND Mikael Kubista AND Mathias Hoehn AND Milos Pekny AND Marcela Pekna
+
+### 2022
+
+### 2021
+
+### 2020
+
+### 2019
+
+### 2018
+
+### 2017
+
+<ul>
+<li> Aswendt M, Green C, Sadler R, Dzikowski L, Gomez de Agüero M, Diedenhofen M, Vogel S, Wieters F, Wiedermann D, Liesz A, Hoehn M. [The gut microbiota modulates brain network connectivity under physiological conditions and after acute brain ischemia.](https://doi.org/10.1016/j.isci.2021.103095) **iScience** In press</li>
+
+<li>2.	Leuze C, Goubran M, Aswendt M, Tian Q, Barakovic M, Hsueh B, Crow A, Steinberg GK, Zeineh, M, Plowey E, Deisseroth K, McNab J. 
 [Comparison of diffusion MRI and CLARITY fiber orientation estimates in the same human brain tissue.](https://doi.org/10.1016/j.neuroimage.2020.117692)
-Neuroimage (IF 5.8). 2021 Mar;228:117692. PMID: 33385546.
+**Neuroimage** 2021 Mar;228:117692. </li>
+</ul>
 
 3.	Aswendt M*, Pallast N*, Wieters F*, Baues M, Hoehn M, Fink GR. 
 [Lesion size- and location-dependent recruitment of contralesional thalamus and motor cortex facilitates recovery after stroke in mice.](https://doi.org/10.1007/s12975-020-00802-3)
-Transl Stroke Res. (IF 5.9). 2021 Feb;12(1):87-97. PMID: 32166716
+**Transl Stroke Res.** 2021 Feb;12(1):87-97. 
 
+4. Pallast N, Wieters F, Nill M, Fink GR, Aswendt M. [Graph theoretical quantification of white matter reorganization after cortical stroke in mice.](https://doi.org/10.1016/j.neuroimage.2020.116873) Neuroimage (IF 5.8). 2020 Aug 15;217:116873. 
 
 5.	Goubran M*, Leuze C*, Hsueh B*, Aswendt M*, Ye L, Tian Q, Cheng MY, Crow A, Steinberg GK, McNab JA, Deisseroth K, Zeineh M. 
 Multimodal image registration and connectivity analysis for integration of connectomic data from microscopy to MRI.
-Nat Commun. (IF 11.9). 2019 Dec 3;10(1):5504. PMID: 31796741 
+**Nat Commun.** 2019 Dec 3;10(1):5504.  
 
 6.	Pallast N, Wieters F, Fink GR, Aswendt M.
 Atlas-based imaging data analysis tool for quantitative mouse brain histology (AIDAhisto).
-J Neurosci Methods (IF 2.8). 2019 Oct 1;326:108394. PMID: 31415844 
+J Neurosci Methods (IF 2.8). 2019 Oct 1;326:108394. 
 
 7.	Apetz N, Kordys E, Simon M, Mang B, Aswendt M, Wiedermann D, Neumaier B, Drzezga A, Timmermann L, Endepols H. 
 Effects of deep brain stimulation on striatal functional connectivity in a rat hemiparkinsonian model.
