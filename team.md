@@ -8,8 +8,8 @@ layout: default
 ## Our Team
 <style>
     .clearfix::after{content: ""; clear: both; display: table;}
-    .main-content table{table-layout: fixed; width: 100%}
-    .main-content table th{text-align: right; vertical-align:top; border-color: transparent}
+    .main-content table{display: table; table-layout: fixed; width: 100%;}
+    .main-content table th{text-align: right; width: 30%; vertical-align:top; border-color: transparent}
     .main-content table td{text-align: left; border-color: transparent}
 </style>
 
@@ -63,9 +63,9 @@ layout: default
 
 ## Alumni
 ### Carolin Hambrock
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2023-2024</td>
     </tr>
     <tr>
@@ -75,9 +75,9 @@ layout: default
 </table>
 
 ### Thomas Kühnel
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2023</td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ layout: default
         <td>2023-2024</td>
     </tr>
     <tr>
-        <th style="width:30%">Position/topic:</th>
+        <th>Position/topic:</th>
         <td>Bachelor thesis (Neuroscience): Characterization of secondary neurodegeneration in white matter tracts after experimental stroke</td>
     </tr>
     <tr>
@@ -107,9 +107,9 @@ layout: default
 </table>
 
 ### Marc Schneider
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2023-2024</td>
     </tr>
     <tr>
@@ -123,9 +123,9 @@ layout: default
 </table>
 
 ### Elizabete Vetra
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2023</td>
     </tr>
     <tr>
@@ -139,9 +139,9 @@ layout: default
 </table>
 
 ### Léon Schulte-Holtey
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2022-2023</td>
     </tr>
     <tr>
@@ -155,9 +155,9 @@ layout: default
 </table>
 
 ### Victor Vera Frazão
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2022-2024</td>
     </tr>
     <tr>
@@ -167,9 +167,9 @@ layout: default
 </table>
 
 ### Annika Vohn
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2022</td>
     </tr>
     <tr>
@@ -183,9 +183,9 @@ layout: default
 </table>
 
 ### Tim Fleiner
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2021</td>
     </tr>
     <tr>
@@ -195,9 +195,9 @@ layout: default
 </table>
 
 ### Prisca Kuhnhäuser
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2021-2022</td>
     </tr>
     <tr>
@@ -211,9 +211,9 @@ layout: default
 </table>
 
 ### Jule Ullert
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2021-2023</td>
     </tr>
     <tr>
@@ -223,9 +223,9 @@ layout: default
 </table>
 
 ### Philip Baxter Aßmann
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2020-2021</td>
     </tr>
     <tr>
@@ -235,9 +235,9 @@ layout: default
 </table>
 
 ### Jan Götz
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2020-2022</td>
     </tr>
     <tr>
@@ -251,9 +251,9 @@ layout: default
 </table>
 
 ### Sebastian Kloubert
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2020-2021</td>
     </tr>
     <tr>
@@ -263,9 +263,9 @@ layout: default
 </table>
 
 ### Leon Scharwächter
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2020-2021</td>
     </tr>
     <tr>
@@ -275,9 +275,9 @@ layout: default
 </table>
 
 ### Mayan Baues
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2020-2022</td>
     </tr>
     <tr>
@@ -291,9 +291,9 @@ layout: default
 </table>
 
 ### Nicole Kuschel
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2019-2021</td>
     </tr>
     <tr>
@@ -303,9 +303,9 @@ layout: default
 </table>
 
 ### Mayan Baues
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2018-2021</td>
     </tr>
     <tr>
@@ -319,9 +319,9 @@ layout: default
 </table>
 
 ### Alina Jakobs
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2018</td>
     </tr>
     <tr>
@@ -331,9 +331,9 @@ layout: default
 </table>
 
 ### Olivia Käsgen
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2018-2020</td>
     </tr>
     <tr>
@@ -343,9 +343,9 @@ layout: default
 </table>
 
 ### Joshua Strelow
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2018-2019</td>
     </tr>
     <tr>
@@ -359,9 +359,9 @@ layout: default
 </table>
 
 ### Marieke Nill
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2017-2020</td>
     </tr>
     <tr>
@@ -375,9 +375,9 @@ layout: default
 </table>
 
 ### Niklas Pallast
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2017-2020</td>
     </tr>
     <tr>
@@ -391,9 +391,9 @@ layout: default
 </table>
 
 ### Frederique Wieters
-<table style="table-layout:fixed; width: 100%;">
+<table>
     <tr>
-        <th style="width:30%">Year:</th>
+        <th>Year:</th>
         <td>2017-2021</td>
     </tr>
     <tr>
