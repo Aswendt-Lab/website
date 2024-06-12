@@ -7,7 +7,7 @@ layout: default
 ## Our AIDA toolbox
 <img    src="img/AIDA_Logo.png"
             alt="aidalogo"
-            style="width: 400px; height: auto; float: right; margin-right: 10px;" />
+            style="width: 200px; height: auto; float: right; margin-right: 10px;" />
 With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of analysis tools for structural and functional MRI of the mouse brain. Please check out our different project repositories listed below!
 
 ### [AIDA*mri*](https://github.com/Aswendt-Lab/AIDAmri)
