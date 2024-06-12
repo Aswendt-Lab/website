@@ -3,7 +3,7 @@ title: Neuroimaging and Neuroengineering of Experimental Stroke
 layout: default
 ---
 
-### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Our Team](team.md) | [Contact](contact.md) |
+### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Team](team.md) | [Contact](contact.md) |
 
 # *This website is currently under construction. Updates will follow soon.*
 
