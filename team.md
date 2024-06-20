@@ -1,16 +1,13 @@
 ---
-title: Our Team
-layout: default
+title: Team
+layout: page
 ---
-
-### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Our Team](team.md) | [Contact](contact.md) |
-
-## Our Team
 <style>
     .clearfix::after{content: ""; clear: both; display: table;}
-    .main-content table{display: table; table-layout: fixed; width: 100%;}
-    .main-content table th{text-align: right; width: 30%; vertical-align:top; border-color: transparent}
-    .main-content table td{text-align: left; border-color: transparent}
+    table{display: table; table-layout: fixed; width: 100%; border: 0px transparent;}
+    table tr{&:nth-child(even){background-color: transparent}}
+    table th{text-align: right; width: 25%; vertical-align:top; border-color: transparent; background-color: transparent; padding: 1%}
+    table td{text-align: left; border-color: transparent; background-color: transparent; padding: 0%}
 </style>
 
 ### Markus Aswendt
@@ -20,6 +17,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
 </div>
+<br>
 
 ### Daniel Mertens
 <div class="clearfix">
@@ -28,6 +26,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
+<br>
 
 ### Franziska Ziolkowski
 <div class="clearfix">
@@ -36,6 +35,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             2023 – ongoing: Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
 </div>
+<br>
 
 ### Fatemeh Mahani
 <div class="clearfix">
@@ -44,6 +44,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             2022 – ongoing: PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
 </div>
+<br>
 
 ### Marko Schmelzer
 <div class="clearfix">
@@ -52,6 +53,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
 </div>
+<br>
 
 ### Aref Kalantari
 <div class="clearfix">
@@ -60,6 +62,7 @@ layout: default
             style="width: 30%; height: auto; float: left; margin-right: 10px;" />
             2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
 </div>
+<br>
 
 ## Alumni
 ### Carolin Hambrock

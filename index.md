@@ -1,9 +1,9 @@
 ---
-title: Neuroimaging and Neuroengineering of Experimental Stroke
-layout: default
+title: Home
+layout: home
 ---
 
-### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Team](team.md) | [Contact](contact.md) |
+# Neuroimaging and Neuroengineering of Experimental Stroke
 
 # *This website is currently under construction. Updates will follow soon.*
 

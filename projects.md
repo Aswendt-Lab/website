@@ -1,8 +1,7 @@
 ---
 title: Projects
-layout: default
+layout: page
 ---
-### [Home](index.md) | [Publications](publications.md) | [Projects](projects.md) | [Research](research.md) | [Our Team](team.md) | [Contact](contact.md) |
 
 ## Our AIDA toolbox
 <img    src="img/AIDA_Logo.png"
