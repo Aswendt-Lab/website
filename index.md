@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: page
 ---
 
 # Neuroimaging and Neuroengineering of Experimental Stroke
