@@ -14,7 +14,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/aswendt_markus_MFK_5702_corrected_small.JPG"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
 </div>
 <br>
@@ -23,7 +23,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/Daniel_Mertens_2023.jpg"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
 <br>
@@ -32,7 +32,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/Franziska_2022-12-14 09.30.06.jpg"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             2023 – ongoing: Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
 </div>
 <br>
@@ -41,7 +41,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/FatemehMahani.jpg"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             2022 – ongoing: PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
 </div>
 <br>
@@ -50,7 +50,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/Marko_2022-12-14 09.27.52.jpg"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
 </div>
 <br>
@@ -59,7 +59,7 @@ layout: page
 <div class="clearfix">
     <img    src="img/Aref_Kalantari.jpeg"
             alt="Testimage"
-            style="width: 30%; height: auto; float: left; margin-right: 10px;" />
+            style="width: 20%; height: auto; float: left; margin-right: 10px;" />
             2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
 </div>
 <br>
