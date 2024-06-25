@@ -3,8 +3,12 @@ title: Team
 layout: page
 ---
 <style>
+    h3{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
     .clearfix::after{content: ""; clear: both; display: table;}
-    table{display: table; table-layout: fixed; width: 100%; border: 0px transparent;}
+    table{display: table; table-layout: fixed; width: 100%; border: 0px transparent; border-spacing: 0 0}
     table tr{&:nth-child(even){background-color: transparent}}
     table th{text-align: right; width: 25%; vertical-align:top; border-color: transparent; background-color: transparent; padding: 1%}
     table td{text-align: left; border-color: transparent; background-color: transparent; padding: 0%}
@@ -72,7 +76,7 @@ layout: page
         <td>2023-2024</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: eects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice</td>
     </tr>
 </table>
@@ -84,7 +88,7 @@ layout: page
         <td>2023</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: histology</td>
     </tr>
     <tr>
@@ -100,7 +104,7 @@ layout: page
         <td>2023-2024</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Bachelor thesis (Neuroscience): Characterization of secondary neurodegeneration in white matter tracts after experimental stroke</td>
     </tr>
     <tr>
@@ -116,7 +120,7 @@ layout: page
         <td>2023-2024</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: AIDA tools support and further development (adding BIDS-compatibility)</td>
     </tr>
     <tr>
@@ -132,7 +136,7 @@ layout: page
         <td>2023</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: histology</td>
     </tr>
     <tr>
@@ -148,7 +152,7 @@ layout: page
         <td>2022-2023</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Master thesis (Biology)</td>
     </tr>
     <tr>
@@ -164,7 +168,7 @@ layout: page
         <td>2022-2024</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Research assistant: AIDA tools support and further development (debugging and containerization); database maintenance</td>
     </tr>
 </table>
@@ -176,7 +180,7 @@ layout: page
         <td>2022</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Bachelor thesis: Characterization of secondary neurodegeneration in the spinal cord after experimental stroke</td>
     </tr>
     <tr>
@@ -192,7 +196,7 @@ layout: page
         <td>2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Internship: AIDAmri</td>
     </tr>
 </table>
@@ -204,7 +208,7 @@ layout: page
         <td>2021-2022</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Master thesis: Identification and manipulation of spasticity-related extrapyramidal motor nuclei in mice</td>
     </tr>
     <tr>
@@ -220,7 +224,7 @@ layout: page
         <td>2021-2023</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Bachelor thesis (Biology)</td>
     </tr>
 </table>
@@ -232,7 +236,7 @@ layout: page
         <td>2020-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: histology</td>
     </tr>
 </table>
@@ -244,7 +248,7 @@ layout: page
         <td>2020-2022</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Research assistant and master thesis: Longitudinal gene expression analysis in experimental stroke</td>
     </tr>
     <tr>
@@ -260,7 +264,7 @@ layout: page
         <td>2020-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Bachelor thesis (Biology): Automated movement analysis of mouse beam walking using neural networks</td>
     </tr>
 </table>
@@ -272,7 +276,7 @@ layout: page
         <td>2020-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: AIDA tools</td>
     </tr>
 </table>
@@ -284,7 +288,7 @@ layout: page
         <td>2020-2022</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: histology</td>
     </tr>
     <tr>
@@ -300,7 +304,7 @@ layout: page
         <td>2019-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: video analysis</td>
     </tr>
 </table>
@@ -312,7 +316,7 @@ layout: page
         <td>2018-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant and Bachelor thesis: Neuronal tracing in mice with cortical stroke</td>
     </tr>
     <tr>
@@ -328,7 +332,7 @@ layout: page
         <td>2018</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: histology</td>
     </tr>
 </table>
@@ -340,7 +344,7 @@ layout: page
         <td>2018-2020</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Biological technical assistant</td>
     </tr>
 </table>
@@ -352,7 +356,7 @@ layout: page
         <td>2018-2019</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Student assistant: behavior analysis</td>
     </tr>
     <tr>
@@ -368,7 +372,7 @@ layout: page
         <td>2017-2020</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>Biological technical assistant</td>
     </tr>
     <tr>
@@ -384,7 +388,7 @@ layout: page
         <td>2017-2020</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>PHD thesis: A versatile registration and analysis pipeline for multimodal brain imaging data</td>
     </tr>
     <tr>
@@ -400,7 +404,7 @@ layout: page
         <td>2017-2021</td>
     </tr>
     <tr>
-        <th>Position/topic:</th>
+        <th>Position/field:</th>
         <td>PHD thesis: Evaluation of spasticity in experimental models of ischemic stroke</td>
     </tr>
     <tr>
