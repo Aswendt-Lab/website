@@ -7,7 +7,10 @@ layout: page
   <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 500px; height: auto;"/>
 </div>
 
-# Neuroimaging and Neuroengineering of Experimental Stroke
+<div style="text-align: center;">
+  <h1>Neuroimaging and Neuroengineering of Experimental Stroke</h1>
+</div>
+
 ## Our Mission
 One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows, and standardization initiatives, ensuring our [research data](https://gin.g-node.org/Aswendt_Lab) and [software projects](https://github.com/orgs/Aswendt-Lab/repositories) are publicly accessible.
  
