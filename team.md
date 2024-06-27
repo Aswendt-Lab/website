@@ -77,7 +77,7 @@ layout: page
     </tr>
     <tr>
         <th>Position/field:</th>
-        <td>Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: eects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice</td>
+        <td>Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice</td>
     </tr>
 </table>
 
@@ -153,7 +153,7 @@ layout: page
     </tr>
     <tr>
         <th>Position/field:</th>
-        <td>Master thesis (Biology)</td>
+        <td>Master thesis (Biology): Chemogenetic manipulation of the rubrospinal tract in mice</td>
     </tr>
     <tr>
         <th>Next position:</th>
