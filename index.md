@@ -2,7 +2,10 @@
 title: Home
 layout: page
 ---
-![Cover page illustration decoding stroke](img/CoverDecodeStroke.png)
+
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; gap: 10px;">
+  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 500px; height: auto;"/>
+</div>
 
 # Neuroimaging and Neuroengineering of Experimental Stroke
 ## Our Mission
