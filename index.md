@@ -6,9 +6,10 @@ layout: page
 
 # Neuroimaging and Neuroengineering of Experimental Stroke
 ## Our Mission
-One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows and standardization iniatives, ensuring our research data and software projects are publicly accessible.   
+One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows, and standardization initiatives, ensuring our [research data](https://gin.g-node.org/Aswendt_Lab) and [software projects](https://github.com/orgs/Aswendt-Lab/repositories) are publicly accessible.
+ 
 
-# *This website is currently under construction. Updates will follow soon.*
+# This website is currently under construction.
 
 {% for post in site.posts limit:2 %}
    <div class="post-preview">
