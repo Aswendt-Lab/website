@@ -2,7 +2,7 @@
 title: Home
 layout: page
 ---
-![Cover page illustration decoding stroke](assets/images/CoverDecodeStroke.png)
+![Cover page illustration decoding stroke](img/CoverDecodeStroke.png)
 
 # Neuroimaging and Neuroengineering of Experimental Stroke
 ## Our Mission
