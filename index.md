@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; gap: 10px;">
+<div style="text-align: center;">
   <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 500px; height: auto;"/>
 </div>
 
