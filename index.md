@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div style="text-align: center;">
-  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 500px; height: auto;"/>
+  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 700px; height: auto;"/>
 </div>
 
 <div style="text-align: center;">
@@ -15,9 +15,10 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
  
 ## Supported by:
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; gap: 10px;">
-  <img src="img/dfg_logo_schriftzug_blau.jpg" alt="DFG" style="width: 200px; height: auto;"/>
-  <img src="img/CRC1451_Logo.png" alt="CRC1451" style="width: 200px; height: auto;"/>
-  <img src="img/figure3.png" alt="Friebe" style="width: 200px; height: auto;"/>
-  <img src="img/COMULISglobe.png" alt="COMULIS" style="width: 200px; height: auto;"/>
+  <img src="img/dfg_logo_schriftzug_blau.jpg" alt="DFG" style="width: 150px; height: auto;"/>
+  <img src="img/CRC1451_Logo.png" alt="CRC1451" style="width: 150px; height: auto;"/>
+  <img src="img/FriebeLogo.png" alt="Friebe" style="width: 150px; height: auto;"/>
+  <img src="img/COMULISglobe.png" alt="COMULIS" style="width: 150px; height: auto;"/>
+  <img src="img/COST.jpg" alt="COST" style="width: 150px; height: auto;"/>
 </div>
 
