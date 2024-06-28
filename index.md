@@ -16,7 +16,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 </div>
 
  
-## Supported by:
+## Supported by
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; gap: 10px;">
   <img src="img/dfg_logo_schriftzug_blau.jpg" alt="DFG" style="width: 150px; height: auto;"/>
   <img src="img/CRC1451_Logo.png" alt="CRC1451" style="width: 150px; height: auto;"/>
@@ -25,3 +25,39 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   <img src="img/COST.jpg" alt="COST" style="width: 150px; height: auto;"/>
 </div>
 
+## Collaboration partners
+
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/charite_logo.svg" alt="Charité Berlin" style="width: 50px; height: auto;"/> 
+    <span>Prof. Dr. Philipp Boehm-Sturm (Charité Berlin, Experimental Neurology)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/FZJ_logo.svg" alt="Forschungszentrum Jülich" style="width: 50px; height: auto;"/>
+    <span>Prof. Dr. Michael Hanke (Forschungszentrum Jülich, INM-7)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/toronto_logo.png" alt="University of Toronto" style="width: 50px; height: auto;"/>
+    <span>Prof. Maged Goubran (University of Toronto, Dept. of Medical Biophysics, Toronto, Canada)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/Novartis_logo.png" alt="Novartis" style="width: 50px; height: auto;"/>
+    <span>Dr. Giovanna Ielacqua (Novartis Pharma AG, Novartis Institutes for Biomedical Research, Basel, Switzerland)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/Stanford_logo.svg" alt="Stanford University" style="width: 50px; height: auto;"/>
+    <span>Dr. Christoph Leuze (Stanford University School of Medicine, Radiology)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/Gothenburg_logo.png" alt="University of Gothenburg" style="width: 50px; height: auto;"/>
+    <span>Prof. Milos Pekny and Prof. Marcela Pekna (University of Gothenburg, Dept. of Clinical Neurosciences, Gothenburg, Sweden)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/UKK_logo.png" alt="Uniklinik Köln" style="width: 50px; height: auto;"/>
+    <span>Prof. Dr. Dr. Adele Rüger (University Hospital Cologne)</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/LMU_logo.jpg" alt="LMU Klinikum" style="width: 50px; height: auto;"/>
+    <span>Prof. Dr. Dr. Anna-Sophia Wahl (Institute for Stroke and Dementia Research, LMU Klinikum and Institute of Anatomy, Munich)</span>
+  </div>
+</div>
