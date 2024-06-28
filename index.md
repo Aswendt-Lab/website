@@ -1,17 +1,20 @@
 ---
 layout: page
 ---
+<div style="text-align: center;">
+  <h1>Neuroimaging and Neuroengineering of Experimental Stroke</h1>
+</div>
 
 <div style="text-align: center;">
   <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 700px; height: auto;"/>
 </div>
 
-<div style="text-align: center;">
-  <h1>Neuroimaging and Neuroengineering of Experimental Stroke</h1>
+## Our Mission
+
+<div style="text-align: justify;">
+One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows, and standardization initiatives, ensuring our <a href="https://gin.g-node.org/Aswendt_Lab">research data</a> and <a href="https://github.com/orgs/Aswendt-Lab/repositories">software projects</a> are publicly accessible.
 </div>
 
-## Our Mission
-One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows, and standardization initiatives, ensuring our [research data](https://gin.g-node.org/Aswendt_Lab) and [software projects](https://github.com/orgs/Aswendt-Lab/repositories) are publicly accessible.
  
 ## Supported by:
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; gap: 10px;">
