@@ -22,6 +22,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/Aswendt-Lab"}
+    - { platform: youtube, user_url: "https://www.youtube.com/@aswendtlab1639" }
+
+header_pages:
+  - news.md
+  - projects.md
+  - publications.md
+  - team.md
+  - contact.md
+  
 github:
   is_project_page: false
 

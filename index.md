@@ -1,5 +1,4 @@
 ---
-title: Home
 layout: page
 ---
 
@@ -22,16 +21,3 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   <img src="img/COMULISglobe.png" alt="COMULIS" style="width: 200px; height: auto;"/>
 </div>
 
-{% for post in site.posts limit:2 %}
-   <div class="post-preview">
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-   {{ post.content | split:'<!--break-->' | first }}
-   {% if post.content contains '<!--break-->' %}
-        <a href="{{ post.url }}">
-            read more
-        </a>
-   {% endif %}
-
-   <hr>
-{% endfor %}
