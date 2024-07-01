@@ -33,48 +33,8 @@ layout: page
 <div class="clearfix team-member">
     <img src="img/aswendt_markus_MFK_5702_corrected_small.JPG"
          alt="Testimage"
-         style="width: 20%; height: auto; float: left;" />
+         style="width: 10%; height: auto; float: left;" />
     Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
-</div>
-
-### Daniel Mertens
-<div class="clearfix team-member">
-    <img src="img/Daniel_Mertens_2023.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
-</div>
-
-### Franziska Ziolkowski
-<div class="clearfix team-member">
-    <img src="img/Franziska_2022-12-14 09.30.06.jpg"
-         alt="Testimage"
-                  style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
-</div>
-
-### Franziska Ziolkowski
-<div class="clearfix team-member">
-    <img src="img/Franziska_2022-12-14 09.30.06.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing: Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
-</div>
-
-### Fatemeh Mahani
-<div class="clearfix team-member">
-    <img src="img/FatemehMahani.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing: PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
-</div>
-
-### Marko Schmelzer
-<div class="clearfix team-member">
-    <img src="img/Marko_2022-12-14 09.27.52.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
 </div>
 
 ### Aref Kalantari
@@ -85,15 +45,50 @@ layout: page
     2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
 </div>
 
+### Fatemeh Mahani
+<div class="clearfix team-member">
+    <img src="img/FatemehMahani.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2022 – ongoing: PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
+</div>
+
+### Daniel Mertens
+<div class="clearfix team-member">
+    <img src="img/Daniel_Mertens_2023.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
+</div>
+
+### Marko Schmelzer
+<div class="clearfix team-member">
+    <img src="img/Marko_2022-12-14 09.27.52.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
+</div>
+
+### Merve Pamuk
+<div class="clearfix team-member">
+    <img src="img/tba.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2024 – ongoing: MD thesis on the internal capsule stroke model.
+</div>
+
+### Franziska Ziolkowski
+<div class="clearfix team-member">
+    <img src="img/Franziska_2022-12-14 09.30.06.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2023 – ongoing: Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
+</div>
+
+
 ## Alumni
 
-<div style="display: flex; align-items: flex-start;">
-    <div style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;">
-        <div style="font-weight: bold;">2024</div>
-        <div style="flex-grow: 1; width: 2px; background-color: black; margin: 5px 0; height: 100%;"></div>
-        <div style="font-weight: bold;">2017</div>
-    </div>
-    <div>
+ <div>
         <div class="alumni-entry">
             <b>Carolin Hambrock</b> <span class="year">(2023-2024)</span><br>
             Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
@@ -174,7 +169,8 @@ layout: page
         <div class="alumni-entry">
             <b>Veronika Fritz</b> <span class="year">(2018-2021)</span><br>
             Student assistant and Bachelor thesis: Neuronal tracing in mice with cortical stroke<br>
-            Next position: PhD student ([lab of Natalia Kononenko](https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/), University of Cologne)
+            Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/" title="CECAD Kononenko Lab">lab of Natalia Kononenko/a>), 
+                University of Cologne)
         </div>
         <div class="alumni-entry">
             <b>Alina Jakobs</b> <span class="year">(2018)</span><br>
