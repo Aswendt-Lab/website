@@ -2,9 +2,6 @@
 title: Neuroimaging and Neuroengineering of Experimental Strok
 layout: page
 ---
-<div style="text-align: center;">
-  <h1>Neuroimaging and Neuroengineering of Experimental Stroke</h1>
-</div>
 
 <div style="text-align: center;">
   <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 700px; height: auto;"/>
@@ -47,7 +44,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/Stanford_logo.svg" alt="Stanford University" style="width: 50px; height: auto;"/>
-    <span>Dr. Christoph Leuze (Stanford University School of Medicine, Radiology)</span>
+    <span>Dr. Christoph Leuze (Stanford University School of Medicine, Radiology, Stanford, USA)</span>
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/Gothenburg_logo.png" alt="University of Gothenburg" style="width: 50px; height: auto;"/>
@@ -55,7 +52,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/UKK_logo.png" alt="Uniklinik Köln" style="width: 50px; height: auto;"/>
-    <span>Prof. Dr. Dr. Adele Rüger (University Hospital Cologne)</span>
+    <span>Prof. Dr. Dr. Adele Rüger, Prof. Dr. Lukas J. Volz (University Hospital Cologne, Department of Neurology)</span>
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/LMU_logo.jpg" alt="LMU Klinikum" style="width: 50px; height: auto;"/>
