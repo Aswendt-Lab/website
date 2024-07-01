@@ -1,10 +1,10 @@
 ---
-title: Neuroimaging and Neuroengineering of Experimental Strok
+title: Neuroimaging and Neuroengineering of Experimental Stroke
 layout: page
 ---
 
 <div style="text-align: center;">
-  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 700px; height: auto;"/>
+  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 600px; height: auto;"/>
 </div>
 
 ## Our Mission
