@@ -82,10 +82,10 @@ layout: page
 <div style="display: flex; align-items: flex-start;">
     <div style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;">
         <div style="font-weight: bold;">2024</div>
-        <div style="flex-grow: 1; width: 2px; background-color: black; margin: 5px 0;"></div>
+        <div style="flex-grow: 1; width: 2px; background-color: black; margin: 5px 0; height: 100%;"></div>
         <div style="font-weight: bold;">2017</div>
     </div>
-    <div style="margin-left: 10px;">
+    <div>
         <div class="alumni-entry">
             <b>Carolin Hambrock</b> <span class="year">(2023-2024)</span><br>
             Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
@@ -198,3 +198,4 @@ layout: page
         </div>
     </div>
 </div>
+
