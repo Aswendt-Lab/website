@@ -2,20 +2,57 @@
 title: Team
 layout: page
 ---
+---
+title: Team
+layout: page
+---
 <style>
-    h3{
+    h3 {
         margin-bottom: 0;
         margin-top: 0;
     }
-    .clearfix::after{content: ""; clear: both; display: table;}
-    table{display: table; table-layout: fixed; width: 100%; border: 0px transparent; border-spacing: 0 0}
-    table tr{&:nth-child(even){background-color: transparent}}
-    table th{text-align: right; width: 25%; vertical-align:top; border-color: transparent; background-color: transparent; padding: 1%}
-    table td{text-align: left; border-color: transparent; background-color: transparent; padding: 0%}
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    table {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        border: 0px transparent;
+        border-spacing: 0;
+        margin: 0;
+    }
+    table tr {
+        &:nth-child(even) {
+            background-color: transparent;
+        }
+    }
+    table th {
+        text-align: right;
+        width: 25%;
+        vertical-align: top;
+        border-color: transparent;
+        background-color: transparent;
+        padding: 0.5% 1%;
+    }
+    table td {
+        text-align: left;
+        border-color: transparent;
+        background-color: transparent;
+        padding: 0.5% 1%;
+    }
+    .team-member {
+        margin-bottom: 5px;
+    }
+    .team-member img {
+        margin-right: 10px;
+    }
 </style>
 
 ### Markus Aswendt
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/aswendt_markus_MFK_5702_corrected_small.JPG"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
@@ -24,7 +61,7 @@ layout: page
 <br>
 
 ### Daniel Mertens
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/Daniel_Mertens_2023.jpg"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
@@ -33,7 +70,7 @@ layout: page
 <br>
 
 ### Franziska Ziolkowski
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/Franziska_2022-12-14 09.30.06.jpg"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
@@ -42,7 +79,7 @@ layout: page
 <br>
 
 ### Fatemeh Mahani
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/FatemehMahani.jpg"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
@@ -51,7 +88,7 @@ layout: page
 <br>
 
 ### Marko Schmelzer
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/Marko_2022-12-14 09.27.52.jpg"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
@@ -60,7 +97,7 @@ layout: page
 <br>
 
 ### Aref Kalantari
-<div class="clearfix">
+<div class="clearfix team-member">
     <img    src="img/Aref_Kalantari.jpeg"
             alt="Testimage"
             style="width: 20%; height: auto; float: left; margin-right: 10px;" />
