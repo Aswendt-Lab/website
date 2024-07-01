@@ -1,4 +1,5 @@
 ---
+title: Neuroimaging and Neuroengineering of Experimental Strok
 layout: page
 ---
 <div style="text-align: center;">
