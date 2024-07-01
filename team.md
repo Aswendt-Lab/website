@@ -37,19 +37,19 @@ layout: page
     Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
 </div>
 
+### Aref Kalantari
+<div class="clearfix team-member">
+    <img src="img/Aref_Kalantari.jpeg"
+         alt="Testimage"
+         style="width: 20%; height: auto; float: left;" />
+    2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
+</div>
+
 ### Daniel Mertens
 <div class="clearfix team-member">
     <img src="img/Daniel_Mertens_2023.jpg"
          alt="Testimage"
          style="width: 20%; height: auto; float: left;" />
-    2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
-</div>
-
-### Franziska Ziolkowski
-<div class="clearfix team-member">
-    <img src="img/Franziska_2022-12-14 09.30.06.jpg"
-         alt="Testimage"
-                  style="width: 20%; height: auto; float: left;" />
     2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
 
@@ -75,14 +75,6 @@ layout: page
          alt="Testimage"
          style="width: 20%; height: auto; float: left;" />
     2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
-</div>
-
-### Aref Kalantari
-<div class="clearfix team-member">
-    <img src="img/Aref_Kalantari.jpeg"
-         alt="Testimage"
-         style="width: 20%; height: auto; float: left;" />
-    2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
 </div>
 
 ## Alumni
