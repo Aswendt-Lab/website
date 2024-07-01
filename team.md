@@ -78,17 +78,14 @@ layout: page
 </div>
 
 ## Alumni
-## Alumni
 
 <div style="display: flex; align-items: flex-start;">
-    <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center;">
+    <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; height: 100%;">
         <div style="margin-bottom: 5px; font-weight: bold;">2024</div>
-        <div style="flex-grow: 1; display: flex; align-items: stretch;">
-            <img src="timeline.svg" alt="Timeline" style="height: 100%; margin: 0;" />
-        </div>
+        <img src="img/timeline.svg" alt="Timeline" style="flex-grow: 1; margin: 0;" />
         <div style="margin-top: 5px; font-weight: bold;">2017</div>
     </div>
-    <div style="margin-left: 10px; display: flex; flex-direction: column; justify-content: flex-start;">
+    <div style="margin-left: 10px;">
         <div class="alumni-entry">
             <b>Carolin Hambrock</b> (2023-2024)<br>
             Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
