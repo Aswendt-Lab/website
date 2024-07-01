@@ -83,7 +83,9 @@ layout: page
 <div style="display: flex; align-items: flex-start;">
     <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center;">
         <div style="margin-bottom: 5px; font-weight: bold;">2024</div>
-        <img src="img/timeline.svg" alt="Timeline" style="height: 100%; margin: 0;" />
+        <div style="flex-grow: 1; display: flex; align-items: stretch;">
+            <img src="timeline.svg" alt="Timeline" style="height: 100%; margin: 0;" />
+        </div>
         <div style="margin-top: 5px; font-weight: bold;">2017</div>
     </div>
     <div style="margin-left: 10px; display: flex; flex-direction: column; justify-content: flex-start;">
