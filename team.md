@@ -88,10 +88,12 @@ layout: page
 ## Alumni
 
 <div style="display: flex; align-items: flex-start;">
-    <div style="flex-shrink: 0; height: 100%;">
-        <img src="img/timeline.svg" alt="Timeline" style="height: 100%;" />
+    <div style="flex-shrink: 0; height: 100%; display: flex; flex-direction: column; align-items: center;">
+        <div style="margin-bottom: 5px; font-weight: bold;">2024</div>
+        <img src="timeline.svg" alt="Timeline" style="height: 100%; margin: 0;" />
+        <div style="margin-top: 5px; font-weight: bold;">2017</div>
     </div>
-    <div style="margin-left: 20px;">
+    <div style="margin-left: 10px;">
         <div class="alumni-entry">
             <b>Carolin Hambrock</b>(2023-2024)<br>
             Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
@@ -203,11 +205,4 @@ layout: page
             Next position: Medical science Liaison Manager und CIDP (<a href="https://www.argenx.de/" title="Argenx">Argenx</a>)
         </div>
     </div>
-</div>
-
-
-<div class="alumni-entry">
-    <b>Frederique Wieters</b><span class="year">(2017-2021)</span><br>
-    PhD thesis: Evaluation of spasticity in experimental models of ischemic stroke<br>
-    Next position: Medical science Liaison Manager und CIDP (<a href="https://www.argenx.de/" title="Argenx">Argenx</a>)
 </div>
