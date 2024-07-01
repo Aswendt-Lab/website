@@ -80,14 +80,12 @@ layout: page
 ## Alumni
 
 <div style="display: flex; align-items: flex-start;">
-    <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; height: 100%;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
         <div style="margin-bottom: 5px; font-weight: bold;">2024</div>
-        <div style="flex-grow: 1; display: flex; align-items: stretch; flex-direction: column;">
-            <img src="img/timeline.svg" alt="Timeline" style="height: 100%; margin: 0; align-self: stretch;" />
-        </div>
+        <img src="img/timeline.svg" alt="Timeline" style="flex-grow: 1; height: 100%; margin: 0;" />
         <div style="margin-top: 5px; font-weight: bold;">2017</div>
     </div>
-    <div style="margin-left: 10px;">
+    <div style="margin-left: 10px; flex-grow: 1;">
         <div class="alumni-entry">
             <b>Carolin Hambrock</b> <span class="year">(2023-2024)</span><br>
             Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
@@ -165,7 +163,7 @@ layout: page
             <b>Nicole Kuschel</b> <span class="year">(2019-2021)</span><br>
             Student assistant: video analysis<br>
         </div>
-        <div class="alumni-entry">
+                <div class="alumni-entry">
             <b>Mayan Baues</b> <span class="year">(2018-2021)</span><br>
             Student assistant and Bachelor thesis: Neuronal tracing in mice with cortical stroke<br>
             Next position: PhD student ([lab of Natalia Kononenko](https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/), University of Cologne)
