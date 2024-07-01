@@ -80,10 +80,10 @@ layout: page
 ## Alumni
 
 <div style="display: flex; align-items: flex-start;">
-    <div style="display: flex; flex-direction: column; align-items: center; height: auto;">
-        <div style="margin-bottom: 5px; font-weight: bold;">2024</div>
-        <img src="img/timeline.svg" alt="Timeline" style="height: 100%; width: 2px; margin: 0;" />
-        <div style="margin-top: 5px; font-weight: bold;">2017</div>
+    <div style="display: flex; flex-direction: column; align-items: center; margin-right: 10px;">
+        <div style="font-weight: bold;">2024</div>
+        <div style="flex-grow: 1; width: 2px; background-color: black; margin: 5px 0;"></div>
+        <div style="font-weight: bold;">2017</div>
     </div>
     <div style="margin-left: 10px;">
         <div class="alumni-entry">
