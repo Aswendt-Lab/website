@@ -42,7 +42,8 @@ layout: page
     <img src="img/Aref_Kalantari.jpeg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2021 – ongoing: PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
+    2021 – ongoing
+    PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
 </div>
 
 ### Fatemeh Mahani
@@ -50,7 +51,8 @@ layout: page
     <img src="img/FatemehMahani.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing: PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
+    2022 – ongoing
+    PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
 </div>
 
 ### Daniel Mertens
@@ -58,7 +60,8 @@ layout: page
     <img src="img/Daniel_Mertens_2023.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing: Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
+    2023 – ongoing
+    Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
 
 ### Marko Schmelzer
@@ -66,7 +69,8 @@ layout: page
     <img src="img/Marko_2022-12-14 09.27.52.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing: Bachelor thesis on histological characterization of white matter changes in major.
+    2022 – ongoing
+    Bachelor thesis on histological characterization of white matter changes in major.
 </div>
 
 ### Merve Pamuk
@@ -74,7 +78,8 @@ layout: page
     <img src="img/tba.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2024 – ongoing: MD thesis on the internal capsule stroke model.
+    2024 – ongoing 
+    MD thesis on the internal capsule stroke model.
 </div>
 
 ### Franziska Ziolkowski
@@ -82,7 +87,8 @@ layout: page
     <img src="img/Franziska_2022-12-14 09.30.06.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing: Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
+    2023 – ongoing 
+    Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
 </div>
 
 
@@ -134,7 +140,7 @@ layout: page
     <div class="alumni-entry">
         <b>Prisca Kuhnhäuser</b> <span class="year">(2021-2022)</span><br>
         Master thesis: Identification and manipulation of spasticity-related extrapyramidal motor nuclei in mice<br>
-        Next position: PhD student (<a href="https://neurologie.uk-koeln.de/forschung/ag-vogt" title="lab of Frank Johannes Vogt">lab of Frank Johannes Vogt</a>, University of Cologne)
+        Next position: PhD student (<a href="https://anatomie.uni-koeln.de/institut-ii/ag-prof-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Jule Ullert</b> <span class="year">(2021-2023)</span><br>
@@ -147,7 +153,7 @@ layout: page
     <div class="alumni-entry">
         <b>Jan Götz</b> <span class="year">(2020-2022)</span><br>
         Research assistant and master thesis: Longitudinal gene expression analysis in experimental stroke<br>
-        Next position: PhD student (<a href="https://neurologie.uk-koeln.de/forschung/ag-vogt" title="lab of Frank Johannes Vogt">lab of Frank Johannes Vogt</a>, University of Cologne)
+        Next position: PhD student (<a href="https://anatomie.uni-koeln.de/institut-ii/ag-prof-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Sebastian Kloubert</b> <span class="year">(2020-2021)</span><br>
@@ -169,8 +175,7 @@ layout: page
     <div class="alumni-entry">
         <b>Veronika Fritz</b> <span class="year">(2018-2021)</span><br>
         Student assistant and Bachelor thesis: Neuronal tracing in mice with cortical stroke<br>
-        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/" title="CECAD Kononenko Lab">lab of Natalia Kononenko/a>), 
-                University of Cologne)
+        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/" title="CECAD Kononenko Lab">lab of Natalia Kononenko/a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Alina Jakobs</b> <span class="year">(2018)</span><br>
