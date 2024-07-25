@@ -30,6 +30,7 @@ minima:
 header_pages:
   - news.md
   - projects.md
+  - talks.md
   - publications.md
   - team.md
   - contact.md
