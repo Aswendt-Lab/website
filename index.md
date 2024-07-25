@@ -54,8 +54,4 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
     <img src="img/UKK_logo.png" alt="Uniklinik Köln" style="width: 50px; height: auto;"/>
     <span>Prof. Dr. Dr. Adele Rüger, Prof. Dr. Lukas J. Volz (University Hospital Cologne, Department of Neurology)</span>
   </div>
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="img/LMU_logo.jpg" alt="LMU Klinikum" style="width: 50px; height: auto;"/>
-    <span>Prof. Dr. Dr. Anna-Sophia Wahl (Institute for Stroke and Dementia Research, LMU Klinikum and Institute of Anatomy, Munich)</span>
-  </div>
 </div>
