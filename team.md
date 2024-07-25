@@ -52,7 +52,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2022 – ongoing
-    PhD thesis on structure-function coupling in relation to timing and stroke lesion size and location.
+    **PhD thesis** on structure-function coupling in relation to timing and stroke lesion size and location.
 </div>
 
 ### Daniel Mertens
