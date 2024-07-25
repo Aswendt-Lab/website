@@ -43,7 +43,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2021 – ongoing
-    PhD thesis on software to promote FAIR and quality control principles in small animal MRI.
+    <b>PhD thesis</b> on software to promote FAIR and quality control principles in small animal MRI.
 </div>
 
 ### Fatemeh Mahani
@@ -52,7 +52,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2022 – ongoing
-    **PhD thesis** on structure-function coupling in relation to timing and stroke lesion size and location.
+    <b>PhD thesis</b> on structure-function coupling in relation to timing and stroke lesion size and location.
 </div>
 
 ### Daniel Mertens
@@ -61,7 +61,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2023 – ongoing
-    Bachelor thesis on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
+    <b>Bachelor thesis</b> on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
 
 ### Marko Schmelzer
@@ -70,7 +70,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2022 – ongoing
-    Bachelor thesis on histological characterization of white matter changes in major.
+    <b>Bachelor thesis</b> on histological characterization of white matter changes in major.
 </div>
 
 ### Merve Pamuk
@@ -79,7 +79,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
-    MD thesis on the internal capsule stroke model.
+    <b>MD thesis</b> on the internal capsule stroke model.
 </div>
 
 ### Franziska Ziolkowski
@@ -88,7 +88,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2023 – ongoing 
-    Master thesis on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
+    <b>Master thesis</b> on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
 </div>
 
 
