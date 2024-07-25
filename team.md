@@ -175,7 +175,7 @@ layout: page
     <div class="alumni-entry">
         <b>Veronika Fritz</b> <span class="year">(2018-2021)</span><br>
         Student assistant and Bachelor thesis: Neuronal tracing in mice with cortical stroke<br>
-        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/" title="CECAD Kononenko Lab">lab of Natalia Kononenko/a>, University of Cologne)
+        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/prof-dr-natalia-kononenko/" title="CECAD Kononenko Lab">lab of Natalia Kononenko</a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Alina Jakobs</b> <span class="year">(2018)</span><br>
