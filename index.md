@@ -38,6 +38,10 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
     <img src="img/toronto_logo.png" alt="University of Toronto" style="width: 50px; height: auto;"/>
     <span>Prof. Maged Goubran (University of Toronto, Dept. of Medical Biophysics, Toronto, Canada)</span>
   </div>
+   <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="img/fz_logo.png" alt="University of Toronto" style="width: 50px; height: auto;"/>
+    <span>Prof. Michael Hanke (INM-7, Research Center Juelich, Juelich, Germany)</span>
+  </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/Novartis_logo.png" alt="Novartis" style="width: 50px; height: auto;"/>
     <span>Dr. Giovanna Ielacqua (Novartis Pharma AG, Novartis Institutes for Biomedical Research, Basel, Switzerland)</span>
