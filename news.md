@@ -16,6 +16,20 @@ layout: page
    <hr>
 {% endfor %}
 
+### Impressions 2023
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/BestOf2023_5.jpeg" alt="Image 1" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_2.JPG" alt="Image 2" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_3.jpeg" alt="Image 3" style="width: 10%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_4.jpeg" alt="Image 4" style="width: 47%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_1.jpg" alt="Image 5" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_6.jpeg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_8.jpeg" alt="Image 8" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_9.jpeg" alt="Image 9" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/BestOf2023_10.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+</div>
+
+
 ### 10/2023 First prize for Aref Kalantari at MRI Together Session
 European Society for Magnetic Resonance in Medicine and Biology 2023 in Basel, Switzerland
 <div style="white-space: nowrap;">
