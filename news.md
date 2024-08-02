@@ -18,9 +18,18 @@ layout: page
 
 ### First prize for Aref Kalantari 
 European Society for Magnetic Resonance in Medicine and Biology 2023 in Basel, Switzerland
-<div style="text-align: left;">
-  <img src="img/AK_ESMRMB_2023_1.jpg" alt="Cover" style="width: 300px; height: auto;"/>
+<div style="white-space: nowrap;">
+  <img src="img/AK_ESMRMB_2023_1.jpg" alt="Cover" style="width: 300px; height: auto; display: inline-block;"/>
+  <img src="img/AK_ESMRMB_2023_2.jpg" alt="Cover" style="width: 600px; height: auto; display: inline-block;"/>
 </div>
-<div style="text-align: right;">
-  <img src="img/AK_ESMRMB_2023_2.jpg" alt="Cover" style="width: 600px; height: auto;"/>
+
+
+### Invited talk at Charité Berlin
+For the seminar series of the Department of Experimental Neurology, Markus gave a presentation on "Demystifying astrogliosis after cortical stroke in mice using functional connectivity analysis". Markus together with Aref and Fatemeh enjoyed a fruitful discussion with our long-standing collaboration partner Prof. Philipp Boehm-Sturm and colleagues. 
+<div style="white-space: nowrap;">
+  <img src="img/MA_Berlin_Charite_2023_2.jpeg.jpg" alt="Cover" style="width: 300px; height: auto; display: inline-block;"/>
+  <img src="img/MA_Berlin_Charite_2023_1.jpg" alt="Cover" style="width: 600px; height: auto; display: inline-block;"/>
+  <img src="img/MA_Berlin_Charite_2023_3.jpg" alt="Cover" style="width: 600px; height: auto; display: inline-block;"/>
 </div>
+
+
