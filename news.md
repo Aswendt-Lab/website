@@ -13,7 +13,7 @@ layout: page
   <img src="/img/posts/BestOf2023_6.jpeg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="/img/posts/BestOf2023_8.jpeg" alt="Image 8" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="/img/posts/BestOf2023_9.jpeg" alt="Image 9" style="width: 18%; height: auto; margin-bottom: 10px;"/>
-  <img src="../img/posts/BestOf2023_10.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="/img/posts/BestOf2023_10.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
 </div>
 
 ### 10/2023 First prize for Aref Kalantari at MRI Together Session
