@@ -3,11 +3,6 @@ title: News
 layout: page
 ---
 
-<div style="text-align: center;">
-  <img src="img/CoverDecodeStroke.png" alt="Cover" style="width: 600px; height: auto;"/>
-</div>
-
-
 ### 10/2023 Inofficial best-of 2023
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="/img/posts/BestOf2023_5.jpeg" alt="Image 1" style="width: 18%; height: auto; margin-bottom: 10px;"/>
