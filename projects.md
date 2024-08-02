@@ -4,12 +4,22 @@ layout: page
 ---
 
 ## Spontaneous recovery after stroke
-Loss of function after stroke is caused by cell death and breakdown of the functional networks in the infarcted and connected brain regions. To some extent, the affected limb regains function, in a form of spontaneous recovery during the first 3 months after stroke. However, this recovery is generally incomplete and the underlying neural and molecular mechanisms are still unknown. In this project we are investigating brain/circuit activation patterns and analyse the transcriptome in the ipsi- and contralesional hemispheres of recovered vs. non-recovered mice after experimental stroke.
+Loss of function after stroke is caused by cell death and breakdown of the functional networks in the infarcted and connected brain regions. To some extent, the affected limb regains function, in a form of spontaneous recovery during the first 3 months after stroke. However, this recovery is generally incomplete and the underlying neural and molecular mechanisms are still unknown. In this project we are investigating brain/circuit activation patterns and analyse the transcriptome in the ipsi- and contralesional hemispheres of recovered vs. non-recovered mice after experimental stroke. 
+
+On a molecular level, we have identified stroke recovery genes with region- and time-specific changes in gene expression related to spontaneous recovery after cortical stroke [Götz et al. Genes 2023](https://doi.org/10.3390/genes14020454): 
+<div style="text-align: center;">
+  <img src="img/Goetz_RecoveryGenes.png" alt="Cover" style="width: auto; height: auto;"/>
+</div>
+
+On a network level, we have mapped the dynamic changes in the sensorimotor network related to recovery after cortical stroke using DTI and graph theory [Pallast et al. Neuroimage 2021](https://doi.org/10.3390/genes14020454](https://doi.org/10.1016/j.neuroimage.2020.116873)):
+<div style="text-align: center;">
+  <img src="img/Pallast_Neuroimage_2021.png" alt="Cover" style="width: auto; height: auto;"/>
+</div>
 
 ## Internal capsule stroke and spasticity after stroke in mice
 Spasticity is a common symptom after stroke, arising in about 30% of patients, and affecting the lower as well as upper limb. The spastic (abnormal) muscle tone appears in the first weeks after stroke onset and maladaptive processes lead to a manifestation of spasticity, which ultimately limits the success of rehabilitation. While previous studies investigated the abnormal intra-spinal processing, spasticity remains a result of damage to the primary motor regions. Therefore we are characterizing the cellular components and network changes which lead to spasticity after stroke to effectively develop opposing optogenetic and chemogentic stimulation paradigms.
 
-### Data management of large, multimodal animal data 
+## Data management of large, multimodal animal data 
 <img    src="img/datalad_logo_yw.svg"
             alt="aidalogo"
             style="width: 200px; height: auto; float: right; margin-right: 10px;" />
@@ -22,6 +32,7 @@ To obtain valid scientific results in pre-clinical research, standardization of 
             style="width: 200px; height: auto; float: right; margin-right: 10px;" />
 Working with in vivo and ex vivo imaging at different spatial resolutions requires a common atlas registration for cross-modality comparisons. For example, if we detect connectivity change in primary motor cortex with MRI, it will be of interest to investigate the same brain area with histology. In order to merge in vivo MRI with 2D histology, we have created software pipelines for automated processing of structural and functional mouse brain MRI (AIDAmri) and automated cell counting - optimised for mouse brain histology and immunostainings (AIDAhisto). These pipelines include accurate approaches to register whole brain (MRI) and single slices (histology) respectively with the Allen Mouse Brain Atlas. 
 With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of analysis tools for structural and functional MRI of the mouse brain. Please check out our different project repositories listed below!
+
 ### [AIDA*mri*](https://github.com/Aswendt-Lab/AIDAmri)
 AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diffusion-weighted and functional MRI data processing. It provides raw data conversion and batch processing, including bias field correction, brain extraction and atlas registration, while organizing data according to the Brain Imaging Data Structure (BIDS[^1]) format. AIDA*mri* is exclusively available as a Docker[^2] image to allow for cross-platform usage and easy installation.
 ### [AIDA*qc*](https://github.com/Aswendt-Lab/AIDAqc)
