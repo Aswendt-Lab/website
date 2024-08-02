@@ -3,7 +3,7 @@ title: Aswendt Lab
 theme: minima
 
 url: "https://aswendt-lab.github.io/"
-baseurl: "/aswendt-lab.github.io"
+baseurl: "/"
 repository: "Aswendt-Lab/aswendtlab.github.io"
 
 show_menu: true
