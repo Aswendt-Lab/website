@@ -7,9 +7,8 @@ layout: page
    <div class="post-preview">
        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-       {% assign content_parts = post.content | split: '<!--break-->' %}
-       {{ content_parts[0] }}
-       {% if content_parts.size > 1 %}
+       {{ post.content | split:'<!--break-->' | first }}
+       {% if post.content contains '<!--break-->' %}
            <a href="{{ post.url }}">
                read more
            </a>
