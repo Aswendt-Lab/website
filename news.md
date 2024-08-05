@@ -91,7 +91,6 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
 - **Jule Ullert** (Hochschule Bonn-Rhein-Sieg): _Histological characterization of experimental internal capsule strokes_
 - **Annika Vohn** (University of Cologne): _Characterization of secondary neurodegeneration in the spinal cord after cortical stroke_
 
-
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2022_2.jpg" alt="Image 2" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2022_13.jpg" alt="Image 3" style="width: 18%; height: auto; margin-bottom: 10px;"/>
@@ -115,8 +114,6 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
 ### Successfully completed bachelor thesis:
 - **Franziska Ziolkowski** (University of Düsseldorf, Germany): _Classification of motor deficits in beam walking using machine learning_ 
 
-
-
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2021_4.jpg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_1.jpg" alt="Image 3" style="width: 18%; height: auto; margin-bottom: 10px;"/>
@@ -134,3 +131,13 @@ See the post pitch here:
   <source src="https://raw.githubusercontent.com/Aswendt-Lab/website/main/videos/PosterPitch_MarkusAswendt_v3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+## 12/2020 Inofficial best of 2020
+### Successfully completed PhD thesis:
+- **Niklas Pallast** (University of Cologne, Germany): _A versatile registration and analysis pipeline for multimodal brain imaging data_
+
+### Successfully completed master thesis:
+- **Jan Götz** (UUniversity of Cologne, Germany) _Recovery-related genes in cortical strokes_
+
+### Successfully completed bachelor thesis:
+- **Sebastian Kloubert** (University of Düsseldorf, Germany): _Automated movement analysis of mouse beam walking using neural networks_ 
