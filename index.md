@@ -19,8 +19,9 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   <img src="img/dfg_logo_schriftzug_blau.jpg" alt="DFG" style="width: 150px; height: auto;"/>
   <img src="img/CRC1451_Logo.png" alt="CRC1451" style="width: 150px; height: auto;"/>
   <img src="img/FriebeLogo.png" alt="Friebe" style="width: 150px; height: auto;"/>
-  <img src="img/COMULISglobe.png" alt="COMULIS" style="width: 150px; height: auto;"/>
   <img src="img/logo_nfdi4.jpg" alt="COST" style="width: 100px; height: auto;"/>
+  <img src="img/COMULISglobe.png" alt="COMULIS" style="width: 150px; height: auto;"/>
+  <img src="img/Chan_Zuckerberg_Initiative_Logo.svg" alt="CZI" style="width: 100px; height: auto;"/>
 </div>
 
 
