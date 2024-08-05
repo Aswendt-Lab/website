@@ -35,7 +35,7 @@ In collaboration with [Maged Goubran](https://sunnybrook.ca/research/team/member
   <img src="img/Synopsis_Figure_COMULISglobe.jpg" alt="Cover" style="width: auto; height: 200px;"/>
 </div>
 
-## 03/2024 INCF Neuroinformatics workshop
+## 03/2023 INCF Neuroinformatics workshop
 We organized a practical guide to overcome the reproducibility crisis in small animal neuroimaging: workflows, tools, and repositories. Thanks to our excellent contributors, the workshop was a great success. 
 [GitHub Link to the workshop material:](https://github.com/grandjeanlab/INCF_preclinical/tree/main)
 
@@ -83,7 +83,15 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
   <img src="img/MA_Berlin_Charite_2023_1.jpg" alt="Cover" style="width: auto; height: 200px; display: inline-block;"/>
 </div>
 
-## 12/2022 Inofficial best-of 2022
+## 12/2022 Inofficial best of 2022
+### Successfully completed master thesis:
+- **Prisca Kuhnhäuser** (University of Cologne): _Identification and manipulation of spasticity-related extrapyramidal motor nuclei in mice_
+
+### Successfully completed bachelor thesis:
+- **Jule Ullert** (Hochschule Bonn-Rhein-Sieg): _Histological characterization of experimental internal capsule strokes_
+- **Annika Vohn** (University of Cologne): _Characterization of secondary neurodegeneration in the spinal cord after cortical stroke_
+
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2022_2.jpg" alt="Image 2" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2022_13.jpg" alt="Image 3" style="width: 18%; height: auto; margin-bottom: 10px;"/>
@@ -97,7 +105,18 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
   <img src="img/posts/BestOf2022_14.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
 </div>
 
-## 12/2021 Inofficial best-of 2021
+## 12/2021 Inofficial best of 2021
+### Successfully completed PhD thesis:
+- **Frederique Wieters** (University of Cologne, Germany): _Neural circuits of spasticity after experimental stroke_
+
+### Successfully completed master thesis:
+- **Sebastian Kloubert** (University of Düsseldorf, Germany) _Automated classification of sensorimotor deficit in stroke mice_
+
+### Successfully completed bachelor thesis:
+- **Franziska Ziolkowski** (University of Düsseldorf, Germany): _Classification of motor deficits in beam walking using machine learning_ 
+
+
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2021_4.jpg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_1.jpg" alt="Image 3" style="width: 18%; height: auto; margin-bottom: 10px;"/>
