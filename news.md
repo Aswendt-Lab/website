@@ -115,12 +115,15 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
 - **Franziska Ziolkowski** (University of Düsseldorf, Germany): _Classification of motor deficits in beam walking using machine learning_ 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/posts/BestOf2021_4.jpg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_1.jpg" alt="Image 3" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_2.jpg" alt="Image 4" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_5.jpg" alt="Image 8" style="width: 18%; height: auto; margin-bottom: 10px;"/>
   <img src="img/posts/BestOf2021_6.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2021_8.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2021_9.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2021_4.jpg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
 </div>
 
 ## 08/2020 First poster prize for Markus at EMIM 
