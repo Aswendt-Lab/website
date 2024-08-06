@@ -30,11 +30,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/charite_logo.svg" alt="Charité Berlin" style="width: 50px; height: auto;"/> 
-    <span>Prof. Dr. Philipp Boehm-Sturm (Charité Berlin, Experimental Neurology)</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="img/FZJ_logo.svg" alt="Forschungszentrum Jülich" style="width: 50px; height: auto;"/>
-    <span>Prof. Dr. Michael Hanke (Forschungszentrum Jülich, INM-7)</span>
+    <span>Prof. Philipp Boehm-Sturm (Charité, Experimental Neurology, Berlin, Germany)</span>
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/toronto_logo.png" alt="University of Toronto" style="width: 50px; height: auto;"/>
@@ -46,7 +42,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/Novartis_logo.png" alt="Novartis" style="width: 50px; height: auto;"/>
-    <span>Dr. Giovanna Ielacqua (Novartis Pharma AG, Novartis Institutes for Biomedical Research, Basel, Switzerland)</span>
+    <span>Dr. Giovanna Ielacqua (Novartis Institutes for Biomedical Research, Basel, Switzerland)</span>
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/Stanford_logo.svg" alt="Stanford University" style="width: 50px; height: auto;"/>
@@ -58,6 +54,6 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   </div>
   <div style="display: flex; align-items: center; gap: 10px;">
     <img src="img/UKK_logo.png" alt="Uniklinik Köln" style="width: 50px; height: auto;"/>
-    <span>Prof. Dr. Dr. Adele Rüger, Prof. Dr. Lukas J. Volz (University Hospital Cologne, Department of Neurology)</span>
+    <span>Prof. Adele Rüger, Prof. Lukas J. Volz (University Hospital Cologne, Department of Neurology, Cologne, Germany)</span>
   </div>
 </div>
