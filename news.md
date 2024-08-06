@@ -140,7 +140,11 @@ See the post pitch here:
 - **Niklas Pallast** (University of Cologne, Germany): _A versatile registration and analysis pipeline for multimodal brain imaging data_
 
 ### Successfully completed master thesis:
-- **Jan Götz** (UUniversity of Cologne, Germany) _Recovery-related genes in cortical strokes_
+- **Jan Götz** (University of Cologne, Germany) _Recovery-related genes in cortical strokes_
 
 ### Successfully completed bachelor thesis:
-- **Sebastian Kloubert** (University of Düsseldorf, Germany): _Automated movement analysis of mouse beam walking using neural networks_ 
+- **Sebastian Kloubert** (University of Düsseldorf, Germany): _Automated movement analysis of mouse beam walking using neural networks_
+
+## 12/2019 Inofficial best of 2019
+### Successfully completed bachelor thesis:
+- **Veronika Fritz** (University of Cologne, Germany) _Neural tracing in mice with cortical stroke_
