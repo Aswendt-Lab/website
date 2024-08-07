@@ -120,8 +120,8 @@ layout: page
 
 - <div style="display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Conference:</strong> DGKN</span>
-    <img src="img/Dgkn_logo.jpg alt="DGKN Logo" style="height: 40px;"/>
-  </div>  
+    <img src="img/Dgkn_logo.png" alt="EMIM Logo" style="height: 40px;"/>
+  </div>   
   
   **Date:** 10 March - 12 March 2022  
   **Title:** Transcranial direct current stimulation modulates stroke-induced secondary thalamic neurodegeneration in mice (talk)  
