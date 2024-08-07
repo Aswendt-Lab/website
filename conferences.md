@@ -138,7 +138,7 @@ layout: page
   **Date:** 3 November - 11 November 2021  
   **Title:** Reactive Astrocytes Prevent Maladaptive Plasticity after Ischemic Stroke (talk)  
   **Presenter:** Markus Aswendt  
-  **Location:** Location Unknown  
+  **Location:** online 
 
 - <div style="display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Conference:</strong> European Molecular Imaging Meeting</span>
@@ -148,7 +148,7 @@ layout: page
   **Date:** 2 September - 3 September 2021  
   **Title:** Reactive gliosis is a critical pathophysiological component in normalization of functional connectivity after stroke (talk)  
   **Presenter:** Markus Aswendt  
-  **Location:** Location Unknown  
+  **Location:** online 
 
 - <div style="display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Conference:</strong> European Molecular Imaging Meeting</span>
@@ -168,7 +168,7 @@ layout: page
   **Date:** 22 March - 22 March 2021  
   **Title:** Reactive astrocytes are necessary for spontaneous improvement of functional improvement and recovery after stroke (talk)  
   **Presenter:** Markus Aswendt  
-  **Location:** Location Unknown  
+  **Location:** online  
 
 ## 2020
 
@@ -180,7 +180,7 @@ layout: page
   **Date:** 24 August - 28 August 2020  
   **Title:** Enhanced transhemispheric connectivity after cortical stroke in mice (poster)  
   **Presenter:** Markus Aswendt  
-  **Location:** Location Unknown  
+  **Location:** online 
 
 ## 2019
 
