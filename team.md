@@ -75,7 +75,7 @@ layout: page
 
 ### Merve Pamuk
 <div class="clearfix team-member">
-    <img src="img/tba.jpg"
+    <img src="img/pamuk_merve.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
