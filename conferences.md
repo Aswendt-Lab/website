@@ -1,4 +1,4 @@
- ---
+---
 title: Conferences
 layout: page
 ---
