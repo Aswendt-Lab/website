@@ -55,6 +55,12 @@ layout: page
   **Presenter:** Markus Aswendt  
   **Location:** Barcelona, Spain  
 
+- **Conference:** DACH-ISMRM
+  **Date:** 4 September - 5 September 2024   
+  **Title:** Tract masks for refined analysis of diffusion properties in motor tracts related to functional recovery after stroke in mice (poster)  
+  **Presenter:** Aref Kalantari  
+  **Location:** Tübingen, Germany
+  
 - <div style="display: flex; justify-content: space-between; align-items: center;">
     <span><strong>Conference:</strong> European Molecular Imaging Meeting</span>
     <img src="img/ESMI_logo.png" alt="EMIM Logo" style="height: 40px;"/>
