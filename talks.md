@@ -3,6 +3,8 @@ title: Talks
 layout: page
 ---
 
+Complete list of talks by Markus Aswendt:
+
 ### Invited
 
 11/2024	Glowing mice – translational approaches to extract (artificial) biosignals from living mice
