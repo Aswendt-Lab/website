@@ -7,7 +7,7 @@ layout: page
 
 11/2024	Glowing mice – translational approaches to extract (artificial) biosignals from living mice
 Invited by: Dr. Ekaterina Kutafina
-Nacht der Biosignale, Cologne, Germany
+[Nacht der Biosignale](https://nacht-der-biosignale.de/teilnehmende-staedte/koeln), Cologne, Germany
 
 10/2024	Pre-processing pipeline and Q&A
 Invited by: Dr. Ileana Jelescu
@@ -15,11 +15,11 @@ Invited by: Dr. Ileana Jelescu
 
 09/2024	Motor recovery after stroke – a translational approach using neuroimaging 
 Invited by: Dr. Egor Dzyubenko
-BIO-ME Graduate School of Biomedical Science, University of Duisburg-Essen, Germany
+[BIO-ME Graduate School of Biomedical Science](https://www.uni-due.de/biome/), University of Duisburg-Essen, Germany
 
 11/2023	The role of astrogliosis in recovery after stroke - a functional connectivity study in mice
 Invited by: Dr. Chrystelle Po
-ICube Laboratory, University of Strasbourg, France
+[ICube Laboratory](https://icube.unistra.fr/en/), University of Strasbourg, France
 
 06/2023	Demystifying astrogliosis after cortical stroke in mice using functional connectivity analysis
 Invited by: Prof. Philipp Boehm-Sturm
@@ -27,7 +27,7 @@ CSB Seminar, Experimental Neurology, Charité Berlin, Germany
 
 03/2023	In vivo and ex vivo multimodal image registration: Novel solutions for old problems 
 Invited by: Dr. Algernon Bloom
-CRUK RadNet Session at EMIM 2023, Salzburg, Austria
+[CRUK RadNet](https://www.gla.ac.uk/schools/cancersciences/radnet/) Session at EMIM 2023, Salzburg, Austria
 	
 03/2022	Software tools for registration and analysis of multimodal, whole brain neuroimaging data
 Invited by: Prof. Claudia Kuntner-Hannes
