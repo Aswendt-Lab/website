@@ -35,9 +35,13 @@ With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of ana
 
 ### [AIDA*mri*](https://github.com/Aswendt-Lab/AIDAmri)
 AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diffusion-weighted and functional MRI data processing. It provides raw data conversion and batch processing, including bias field correction, brain extraction and atlas registration, while organizing data according to the Brain Imaging Data Structure (BIDS[^1]) format. AIDA*mri* is exclusively available as a Docker[^2] image to allow for cross-platform usage and easy installation.
+
 ### [AIDA*qc*](https://github.com/Aswendt-Lab/AIDAqc)
+
+<img src="img/AIDAqc_hqdefault.jpg" alt="Video Thumbnail" width="120" align="right" style="margin-right: 10px;">
+
 AIDA*qc* is an automated and simple Python tool for fast quality analysis of animal MRI. It is easily installable and provides a conda environment for fast and simple usage. Quality evaluation includes (temporal) signal-to-noise ratio ((t)SNR), motion artifacts, and spacial resolution homogeneity.
-[![Watch the video tutorial](https://img.youtube.com/vi/SP4sWW313DQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=SP4sWW313DQ)
+[Watch Video](https://www.youtube.com/watch?v=SP4sWW313DQ)
 
 
 ### [AIDA*histo*](https://github.com/Aswendt-Lab/AIDAhisto)
