@@ -42,12 +42,12 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 </div>
 
 
-## Our AIDA toolbox
-<div style="overflow: hidden;">
-  <img src="img/AIDA_Tools_Overview.png" alt="aidatools" style="width: 600px; height: auto; float: left; margin-right: 10px;" />
-  <img src="img/AIDA_Logo.png" alt="aidalogo" style="width: 200px; height: auto; float: left; margin-right: 10px;" />
-</div>
 
+## Our AIDA toolbox
+<div style="display: flex; justify-content: flex-start; margin-bottom: 20px;">
+  <img src="img/AIDA_Tools_Overview.png" alt="aidatools" style="width: 600px; height: auto; margin-right: 20px;" />
+  <img src="img/AIDA_Logo.png" alt="aidalogo" style="width: 200px; height: auto;" />
+</div>
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; padding-right: 20px;">
