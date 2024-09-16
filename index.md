@@ -15,7 +15,6 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 
 <div style="margin-top: 40px;"></div>
 
-
 ## Open positions and student projects available 
 <embed src="pdf/Bachelor_Master_AIDAqc_phantom.pdf" width="300" height="400" type="application/pdf">
 <embed src="pdf/PhD_CRC1451_C01.pdf" width="300" height="400" type="application/pdf">
@@ -23,6 +22,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 [Bachelor/Master Project](pdf/Bachelor_Master_AIDAqc_phantom.pdf)
 [PhD Project](pdf/PhD_CRC1451_C01.pdf)
 
+<div style="margin-top: 40px;"></div>
 
 ## Supported by
 <div style="display: flex; justify-content: center; align-items: center; padding: 10px; gap: 20px; flex-wrap: wrap;">
@@ -34,6 +34,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
   <img src="img/Chan_Zuckerberg_Initiative_Logo.svg" alt="CZI" style="width: 100px; height: auto;"/>
 </div>
 
+<div style="margin-top: 40px;"></div>
 
 ## Collaboration partners
 
