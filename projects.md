@@ -33,13 +33,13 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div>
-    <embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="500" height="300" type="application/pdf">
+    <embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="400" height="300" type="application/pdf">
     <br/>
     <a href="pdf/Poster_RDB_Aswendt_v1.pdf">[Database Poster]</a>
   </div>
   
   <div>
-    <embed src="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf" width="300" height="500" type="application/pdf">
+    <embed src="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf" width="400" height="500" type="application/pdf">
     <br/>
     <a href="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf">[RDM Poster]</a>
   </div>
@@ -60,7 +60,7 @@ With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of ana
 </div>
 
   <div>
-    <embed src="pdf/Neuroinformatics_Aswendt_2022.pdf" width="300" height="500" type="application/pdf" />
+    <embed src="pdf/Neuroinformatics_Aswendt_2022.pdf" width="400" height="500" type="application/pdf" />
     <br/>
     <a href="pdf/Neuroinformatics_Aswendt_2022.pdf">[AIDA Tools Poster]</a>
   </div>
@@ -70,7 +70,7 @@ With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of ana
 AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diffusion-weighted and functional MRI data processing. It provides raw data conversion and batch processing, including bias field correction, brain extraction and atlas registration, while organizing data according to the Brain Imaging Data Structure (BIDS[^1]) format. AIDA*mri* is exclusively available as a Docker[^2] image to allow for cross-platform usage and easy installation.
 
   <div>
-    <embed src="pdf/TOPIM2018_MA.pdf" width="300" height="500" type="application/pdf" />
+    <embed src="pdf/TOPIM2018_MA.pdf" width="400" height="500" type="application/pdf" />
     <br/>
     <a href="pdf/TOPIM2018_MA.pdf">[AIDA Tools Poster]</a>
   </div>
