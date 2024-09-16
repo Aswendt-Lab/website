@@ -27,23 +27,31 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 [Video tutorial](/videos/Database_Tutorial.mp4). Furthermore, we have established an efficient workflow to store and share the experimental data according to FAIR prinicples [Kalantari et al. Scientific Data 2023](https://doi.org/10.1038/s41597-023-02242-8).
 [Video tutorial](https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-023-02242-8/MediaObjects/41597_2023_2242_MOESM1_ESM.pdf)
 
-<embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="300" height="500" type="application/pdf">
+<embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="500" height="300" type="application/pdf">
 <embed src="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf" width="300" height="500" type="application/pdf">
 
 [Database Poster](pdf/Poster_RDB_Aswendt_v1.pdf)
-[Database Poster](pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf)
+[RDM Poster](pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf)
 
 
 ## Our AIDA toolbox
-<img    src="img/AIDA_Logo.png"
-            alt="aidalogo"
-            style="width: 200px; height: auto; float: right; margin-right: 10px;" />
+<div style="overflow: hidden;">
+  <img src="img/AIDA_Tools_Overview.png" alt="aidatools" style="width: 600px; height: auto; float: left; margin-right: 10px;" />
+  <img src="img/AIDA_Logo.png" alt="aidalogo" style="width: 200px; height: auto; float: left; margin-right: 10px;" />
+</div>
+
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1; padding-right: 20px;">
 Working with in vivo and ex vivo imaging at different spatial resolutions requires a common atlas registration for cross-modality comparisons. For example, if we detect connectivity change in primary motor cortex with MRI, it will be of interest to investigate the same brain area with histology. In order to merge in vivo MRI with 2D histology, we have created software pipelines for automated processing of structural and functional mouse brain MRI (AIDAmri) and automated cell counting - optimised for mouse brain histology and immunostainings (AIDAhisto). These pipelines include accurate approaches to register whole brain (MRI) and single slices (histology) respectively with the Allen Mouse Brain Atlas. 
 With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of analysis tools for structural and functional MRI of the mouse brain. Please check out our different project repositories listed below!
+</div>
 
-<embed src="pdf/Neuroinformatics_Aswendt_2022.pdf" width="300" height="500" type="application/pdf">
-
-[Database Poster](pdf/Neuroinformatics_Aswendt_2022.pdf)
+  <div>
+    <embed src="pdf/Neuroinformatics_Aswendt_2022.pdf" width="300" height="500" type="application/pdf" />
+    <br/>
+    <a href="pdf/Neuroinformatics_Aswendt_2022.pdf">[AIDA Tools Poster]</a>
+  </div>
+</div>
 
 ### [AIDA*mri*](https://github.com/Aswendt-Lab/AIDAmri)
 AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diffusion-weighted and functional MRI data processing. It provides raw data conversion and batch processing, including bias field correction, brain extraction and atlas registration, while organizing data according to the Brain Imaging Data Structure (BIDS[^1]) format. AIDA*mri* is exclusively available as a Docker[^2] image to allow for cross-platform usage and easy installation.
