@@ -70,7 +70,6 @@ AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diff
     <br/>
     <a href="pdf/TOPIM2018_MA.pdf">[AIDA Tools Poster]</a>
   </div>
-</div>
 
 
 
