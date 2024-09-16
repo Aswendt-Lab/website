@@ -16,8 +16,12 @@ On a network level, we have mapped the dynamic changes in the sensorimotor netwo
   <img src="img/Pallast_Neuroimage_2021.png" alt="Cover" style="width: auto; height: auto;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 ## Internal capsule stroke and spasticity after stroke in mice
 Spasticity is a common symptom after stroke, arising in about 30% of patients, and affecting the lower as well as upper limb. The spastic (abnormal) muscle tone appears in the first weeks after stroke onset and maladaptive processes lead to a manifestation of spasticity, which ultimately limits the success of rehabilitation. While previous studies investigated the abnormal intra-spinal processing, spasticity remains a result of damage to the primary motor regions. Therefore we are characterizing the cellular components and network changes which lead to spasticity after stroke to effectively develop opposing optogenetic and chemogentic stimulation paradigms.
+
+<div style="margin-top: 30px;"></div>
 
 ## Data management of large, multimodal animal data 
 <img    src="img/datalad_logo_yw.svg"
@@ -43,7 +47,7 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 
 
 
-## Our AIDA toolbox
+## The AIDA toolbox
 <div style="display: flex; justify-content: flex-start; margin-bottom: 20px;">
   <img src="img/AIDA_Tools_Overview.png" alt="aidatools" style="width: 600px; height: auto; margin-right: 20px;" />
   <img src="img/AIDA_Logo.png" alt="aidalogo" style="width: 200px; height: auto;" />
