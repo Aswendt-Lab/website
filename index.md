@@ -13,16 +13,17 @@ layout: page
 One-third of stroke patients suffer from long-term disabilities, and functional recovery is often incomplete. By integrating advanced neurotechniques, such as in vivo MRI, viral tracing, and light sheet microscopy, we aim to uncover the cellular and neural circuit mechanisms underlying motor recovery after experimental stroke. Our research explores the development of motor deficits, such as spastic muscle tone, and creates innovative neuromodulation and regeneration paradigms to enhance endogenous plasticity mechanisms and improve stroke recovery. We are committed to open science, FAIR data workflows, and standardization initiatives, ensuring our <a href="https://gin.g-node.org/Aswendt_Lab">research data</a> and <a href="https://github.com/orgs/Aswendt-Lab/repositories">software projects</a> are publicly accessible.
 </div>
 
+<div style="margin-top: 40px;"></div>
+
 
 ## Open positions and student projects available 
 <embed src="pdf/Bachelor_Master_AIDAqc_phantom.pdf" width="300" height="400" type="application/pdf">
 <embed src="pdf/PhD_CRC1451_C01.pdf" width="300" height="400" type="application/pdf">
 
-[MRI quality control](pdf/Bachelor_Master_AIDAqc_phantom.pdf)
-[PhD_CRC1451_C01](pdf/PhD_CRC1451_C01.pdf)
+[Bachelor/Master Project](pdf/Bachelor_Master_AIDAqc_phantom.pdf)
+[PhD Project](pdf/PhD_CRC1451_C01.pdf)
 
 
- 
 ## Supported by
 <div style="display: flex; justify-content: center; align-items: center; padding: 10px; gap: 20px; flex-wrap: wrap;">
   <img src="img/dfg_logo_schriftzug_blau.jpg" alt="DFG" style="width: 150px; height: auto;"/>
