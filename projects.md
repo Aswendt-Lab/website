@@ -35,17 +35,19 @@ To obtain valid scientific results in pre-clinical research, standardization of 
   </div>
   
   <div>
-    <embed src="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf" width="300" height="500" type="application/pdf">
+    <embed src="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf" width="300" height="500" type="application/pdf">
     <br/>
-    <a href="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf">[RDM Poster]</a>
+    <a href="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf">[RDM Poster]</a>
   </div>
 </div>
+
 
 ## Our AIDA toolbox
 <div style="overflow: hidden;">
   <img src="img/AIDA_Tools_Overview.png" alt="aidatools" style="width: 600px; height: auto; float: left; margin-right: 10px;" />
   <img src="img/AIDA_Logo.png" alt="aidalogo" style="width: 200px; height: auto; float: left; margin-right: 10px;" />
 </div>
+
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1; padding-right: 20px;">
