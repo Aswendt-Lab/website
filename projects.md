@@ -27,12 +27,19 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 [Video tutorial](/videos/Database_Tutorial.mp4). Furthermore, we have established an efficient workflow to store and share the experimental data according to FAIR prinicples [Kalantari et al. Scientific Data 2023](https://doi.org/10.1038/s41597-023-02242-8).
 [Video tutorial](https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-023-02242-8/MediaObjects/41597_2023_2242_MOESM1_ESM.pdf)
 
-<embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="500" height="300" type="application/pdf">
-<embed src="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf" width="300" height="500" type="application/pdf">
-
-[Database Poster](pdf/Poster_RDB_Aswendt_v1.pdf)
-[RDM Poster](pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf)
-
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div>
+    <embed src="pdf/Poster_RDB_Aswendt_v1.pdf" width="500" height="300" type="application/pdf">
+    <br/>
+    <a href="pdf/Poster_RDB_Aswendt_v1.pdf">[Database Poster]</a>
+  </div>
+  
+  <div>
+    <embed src="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf" width="300" height="500" type="application/pdf">
+    <br/>
+    <a href="pdf/Poster_RDM_Final_AKalantari_ESMRMB-Basel2023.pdf">[RDM Poster]</a>
+  </div>
+</div>
 
 ## Our AIDA toolbox
 <div style="overflow: hidden;">
