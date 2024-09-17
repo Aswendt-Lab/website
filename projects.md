@@ -13,7 +13,7 @@ On a molecular level, we have identified stroke recovery genes with region- and 
 
 On a network level, we have mapped the dynamic changes in the sensorimotor network related to recovery after cortical stroke using DTI and graph theory [Pallast et al. Neuroimage 2021](https://doi.org/10.3390/genes14020454](https://doi.org/10.1016/j.neuroimage.2020.116873)):
 <div style="text-align: center;">
-  <img src="img/Pallast_Neuroimage_2021.png" alt="Cover" style="width: auto; height: auto;"/>
+  <img src="img/Pallast_Neuroimage_2021.png" alt="Cover" style="width: 900px; height: auto;"/>
 </div>
 
 <div style="margin-top: 30px;"></div>
@@ -24,9 +24,11 @@ Spasticity is a common symptom after stroke, arising in about 30% of patients, a
 <div style="margin-top: 30px;"></div>
 
 ## Data management of large, multimodal animal data 
-<img    src="img/datalad_logo_yw.svg"
-            alt="aidalogo"
-            style="width: 200px; height: auto; float: right; margin-right: 10px;" />
+<img    src="img/DataladWorkflow.png"
+            alt="DataLadWorkflow"
+            style="width: auto; height: auto; float: right; margin-right: 10px;" />
+FAIR workflow for multimodal datasets using DataLad from [Kalantari et al. Scientific Data 2023](https://doi.org/10.1038/s41597-023-02242-8)
+
 To obtain valid scientific results in pre-clinical research, standardization of experimental protocols and data handling need to be set before starting the actual experiment. Efficient data management becomes more and more important with the increasing number and variety of experimental procedures. However, to date, preclinical research is still in a transition phase. While the recorded data type is predominantly electronic data, the documentation is still the lab notebook. We designed a database template which is useful for all labs working with laboratory animals and the adaption to specific research projects requires no prior scripting expertise [Pallast et al. Database 2018](https://doi.org/10.1093/database/bay124). The database works operating-system independent through the web browser and allows multiple user to work simultaneously. The data entry is monitored and restricted for particular tests according to the user management in order to keep for example users during the experiment blinded for the experimental group 
 [Video tutorial](/videos/Database_Tutorial.mp4). Furthermore, we have established an efficient workflow to store and share the experimental data according to FAIR prinicples [Kalantari et al. Scientific Data 2023](https://doi.org/10.1038/s41597-023-02242-8).
 [Video tutorial](https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-023-02242-8/MediaObjects/41597_2023_2242_MOESM1_ESM.pdf)
