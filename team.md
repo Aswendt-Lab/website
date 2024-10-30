@@ -64,6 +64,15 @@ layout: page
     <b>Bachelor thesis</b> on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
 </div>
 
+### Motahare Mousavi
+<div class="clearfix team-member">
+    <img src="img/Motahare_2024.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2024 – ongoing 
+    <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
+</div>
+
 ### Marko Schmelzer
 <div class="clearfix team-member">
     <img src="img/Marko_2022-12-14 09.27.52.jpg"
@@ -80,6 +89,15 @@ layout: page
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
     <b>MD thesis</b> on the internal capsule stroke model.
+</div>
+
+### Irem Dilara Sen
+<div class="clearfix team-member">
+    <img src="img/Irem_2024.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2024 – ongoing 
+    <b>Master thesis</b> on internal capsule strokes.
 </div>
 
 ### Franziska Ziolkowski
