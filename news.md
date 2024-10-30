@@ -12,7 +12,7 @@ Markus gave his introductory lecture and celebrated the final step of the habili
 ## 10/2024 Markus and Aref attend ESMRMB conference in Barcelona
 Markus contributed an invited talk at the preclinical MRI pre-congress and a lightning talk with poster presentation about diffusion tract masks. Aref presented a poster on recurrence plot. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/Habilitation_10_2024.jpeg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/ESMRMB_2024_PreclinicalTalk.jpeg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
   <img src="img/ESMRMB_2024_PosterPresentation.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
   <img src="img/ESMRMB_2024_LightningTalk.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
   <img src="img/ESMRMB_Food.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
