@@ -11,6 +11,13 @@ Markus gave his introductory lecture and celebrated the final step of the habili
 
 <div style="margin-top: 100px;"></div>
 
+## 10/2024 Invited lecture
+Markus gave a lecture at the retreat of the <a href="https://www.uni-due.de/biome/">BIOME graduate school </a> (University Duisburg-Essen). 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/BioMe_Retreat_1.jpeg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/BioMe_Retreat_2.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
 ## 10/2024 Markus and Aref attend ESMRMB conference in Barcelona
 Markus contributed an invited talk at the preclinical MRI pre-congress and a lightning talk with poster presentation about diffusion tract masks. Aref presented a poster on recurrence plot. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
