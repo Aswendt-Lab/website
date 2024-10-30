@@ -9,6 +9,8 @@ Markus gave his introductory lecture and celebrated the final step of the habili
   <img src="img/AswendtLab_Lamp.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 ## 10/2024 Markus and Aref attend ESMRMB conference in Barcelona
 Markus contributed an invited talk at the preclinical MRI pre-congress and a lightning talk with poster presentation about diffusion tract masks. Aref presented a poster on recurrence plot. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -18,8 +20,12 @@ Markus contributed an invited talk at the preclinical MRI pre-congress and a lig
   <img src="img/ESMRMB_Food.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 ## 01/2024 NFDI4HEALTH Local data hub application successfull
 Markus together with Anna Grönke (University Hospital Cologne, MeDIC) Oya Beyan and Ekaterina Kutafina (University of Cologne, Biomedical Informatics) receive funding to establish a translational stroke neuroimaging data hub at the University Hospital Cologne. 
+
+<div style="margin-top: 30px;"></div>
 
 ## 03/2024 AMIRE Session at EMIM 2024
 The <a href="https://github.com/Aswendt-Lab/MRI_Standardization_AIDAqc">AMIRE project</a> was initiated in 2023 by Markus Aswendt and Giovanna Ielacqua (Max Delbrück Center Berlin), both EMIM Study group: Standardization, as a collaborative effort to improve quality control, quality assurance procedures, standardization, and reproducibility in small animal MRI. 
@@ -30,6 +36,8 @@ In this first dedicated session, we have introduced the project and reported on 
   <img src="img/AMIRE_2024_3.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
   <img src="img/AMIRE_2024_2.jpeg" alt="Image 3" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
+
+<div style="margin-top: 30px;"></div>
 
 ## 12/2023 Inofficial best-of 2023
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -44,11 +52,15 @@ In this first dedicated session, we have introduced the project and reported on 
   <img src="img/posts/BestOf2023_10.jpg" alt="Image 10" style="width: 18%; height: auto; margin-bottom: 10px;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 ## 10/2023 COMULISglobe global showcase project receives funding
 In collaboration with [Maged Goubran](https://sunnybrook.ca/research/team/member.asp?m=894&page=528) (Toronto, Canada) and [Christoph Leuze](https://profiles.stanford.edu/christoph-leuze) (Stanford, USA), we receive funding from the Chan Zuckerber Foundation and the COMULISglobe project to "Demystifiy white matter plasticity by cross-connectome mapping with in vivo diffusion imaging and light sheet microscopy". 
 <div style="text-align: center;">
   <img src="img/Synopsis_Figure_COMULISglobe.jpg" alt="Cover" style="width: auto; height: 200px;"/>
 </div>
+
+<div style="margin-top: 30px;"></div>
 
 ## 03/2023 INCF Neuroinformatics workshop
 We organized a practical guide to overcome the reproducibility crisis in small animal neuroimaging: workflows, tools, and repositories. Thanks to our excellent contributors, the workshop was a great success. 
@@ -79,7 +91,7 @@ We organized a practical guide to overcome the reproducibility crisis in small a
   - DataLad developer
   - [Website](https://www.psychoinformatics.de/software.html)
 
-
+<div style="margin-top: 30px;"></div>
 
 ## 10/2023 First prize for Aref Kalantari at MRI Together Session
 European Society for Magnetic Resonance in Medicine and Biology 2023 in Basel, Switzerland
@@ -89,6 +101,7 @@ European Society for Magnetic Resonance in Medicine and Biology 2023 in Basel, S
   <img src="img/AK_ESMRMB_2023_2.jpg" alt="Cover" style="width: auto; height: 200px; display: inline-block;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
 
 ## 07/2023 Invited talk at Charité Berlin
 For the seminar series of the Department of Experimental Neurology, Markus gave a presentation on "Demystifying astrogliosis after cortical stroke in mice using functional connectivity analysis". Markus together with Aref and Fatemeh enjoyed a fruitful discussion with our long-standing collaboration partner Prof. Philipp Boehm-Sturm and colleagues. 
@@ -97,6 +110,8 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
   <img src="img/MA_Berlin_Charite_2023_3.jpeg" alt="Cover" style="width: auto; height: 200px; display: inline-block;"/>
   <img src="img/MA_Berlin_Charite_2023_1.jpg" alt="Cover" style="width: auto; height: 200px; display: inline-block;"/>
 </div>
+
+<div style="margin-top: 30px;"></div>
 
 ## 12/2022 Inofficial best of 2022
 ### Successfully completed master thesis:
@@ -141,6 +156,8 @@ For the seminar series of the Department of Experimental Neurology, Markus gave 
   <img src="img/posts/BestOf2021_4.jpg" alt="Image 6" style="width: 18%; height: auto; margin-bottom: 10px;"/>
 </div>
 
+<div style="margin-top: 30px;"></div>
+
 ## 08/2020 First poster prize for Markus at EMIM 
 Enhanced transhemispheric connectivity after cortical stroke in mice. 
 See the post pitch here: 
@@ -149,6 +166,8 @@ See the post pitch here:
   <source src="https://raw.githubusercontent.com/Aswendt-Lab/website/main/videos/PosterPitch_MarkusAswendt_v3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<div style="margin-top: 30px;"></div>
 
 ## 12/2020 Inofficial best of 2020
 ### Successfully completed PhD thesis:
