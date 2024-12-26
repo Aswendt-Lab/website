@@ -3,6 +3,16 @@ title: News
 layout: page
 ---
 
+## 12/2024 SAMS & Red Hot 19F meeting
+We enjoyed the special small animal imaging meeting, this time organized by the Functional Imaging Laboratory at the German Primate Center (DPZ)
+in Goettingen. Aref won a poster prize and gave a very well responded talk about the AIDAqc pipeline. 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/SAMS_2024_DPZ.jpeg" alt="Image 1" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/SAMS_2024_ArefTalk.jpg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/SAMS_ArefPoster.jpeg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/SAMS_2924_Pprize.jpg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+</div>
+
 ## 11/2024 ISN (Neuroprotection & Neurorepair Meeting) Potsdam
 Markus contributed a talk about the new internal capsule stroke module, Aref presented the diffusion tract mask project as talk and the good/poor recovery classification as poster. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
