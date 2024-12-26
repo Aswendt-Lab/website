@@ -2,6 +2,16 @@
 title: News
 layout: page
 ---
+
+## 11/2024 ISN (Neuroprotection & Neurorepair Meeting) Potsdam
+Markus contributed a talk about the new internal capsule stroke module, Aref presented the diffusion tract mask project as talk and the good/poor recovery classification as poster. 
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/Habilitation_10_2024.jpg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/AswendtLab_Lamp.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 10/2024 Introductory lecture
 Markus gave his introductory lecture and celebrated the final step of the habilitation to become a Privatdozent in Experimental Neurology. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
