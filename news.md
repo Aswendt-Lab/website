@@ -6,8 +6,10 @@ layout: page
 ## 11/2024 ISN (Neuroprotection & Neurorepair Meeting) Potsdam
 Markus contributed a talk about the new internal capsule stroke module, Aref presented the diffusion tract mask project as talk and the good/poor recovery classification as poster. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/Habilitation_10_2024.jpg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
-  <img src="img/AswendtLab_Lamp.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/ISN_2024_Group2.jpeg" alt="Image 1" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/ISN_2024_MarkusTalk.jpeg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/ISN_2024_ArefTalk.jpeg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
+  <img src="img/ISN_2024_Group1.jpeg" alt="Image 2" style="width: auto%; height: 180px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
