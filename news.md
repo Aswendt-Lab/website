@@ -3,6 +3,15 @@ title: News
 layout: page
 ---
 
+## 12/2024 Inofficial best-of 2024
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/posts/BestOf2024_5.jpg" alt="Image 1" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2024_2.jpg" alt="Image 5" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2024_1.jpeg" alt="Image 2" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2024_7.jpg" alt="Image 3" style="width: 10%; height: auto; margin-bottom: 10px;"/>
+  <img src="img/posts/BestOf2024_11.jpg" alt="Image 5" style="width: 18%; height: auto; margin-bottom: 10px;"/>
+</div>
+
 ## 12/2024 SAMS & Red Hot 19F meeting
 We enjoyed the special small animal imaging meeting, this time organized by the Functional Imaging Laboratory at the German Primate Center (DPZ)
 in Goettingen. Aref won a poster prize and gave a very well responded talk about the AIDAqc pipeline. 
