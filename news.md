@@ -3,6 +3,9 @@ title: News
 layout: page
 ---
 
+## 04/2025 Paper alert
+Aref's next publication is out! We provide evidence of proportional recovery in mice following a pronounced recovery rate. [Link](https://doi.org/10.1016/j.expneurol.2025.115180). Featured as <a href="https://www.crc1451.uni-koeln.de/wp-content/uploads/2025/05/CRC1451_Kalantari_PotM_04_2025_C01.pdf">CRC1451 Paper of the month </a> April 2025.  
+
 ## 03/2025 Invited talk
 Markus contributed an invited talk at the <a href="https://www.eurobioimaging.eu/our-events/image-data-events/image-data-community-days/">EuroBioImaging </a> Image Data Community Days.  
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
