@@ -1,6 +1,8 @@
-<img width="919" alt="image" src="https://github.com/user-attachments/assets/ad67e9ce-f8c1-4a5f-830b-523b2bf08a5a" />---
+---
 title: Talks
 layout: page
+---
+
 ---
 
 Complete list of talks by Markus Aswendt:
