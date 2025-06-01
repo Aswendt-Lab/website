@@ -3,6 +3,11 @@ title: News
 layout: page
 ---
 
+## 03/2025 20th ESMI Annual Meeting
+Fatemeh contributed a talk (the first at an international conference!); Markus presented the diffusion tract masks approach at <a href="https://e-smi.eu/meetings/emim/past-meetings/2025-bilbao/">ESMI Meeting </a> (Bilbao, Spain). 
+
+<div style="margin-top: 100px;"></div>
+
 ## 12/2024 Inofficial best-of 2024
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/posts/BestOf2024_5.jpg" alt="Image 1" style="width: 18%; height: auto; margin-bottom: 10px;"/>
