@@ -7,10 +7,9 @@ Complete list of talks by Markus Aswendt:
 
 ### Invited
 
-04/2025 Optimizing preclinical MRI: Eﬀective removal of low-quality outliers from large datasets
+04/2025 Optimizing preclinical MRI: Eﬀective removal of low-quality outliers from large datasets
 Invited by: Dr. Dario Longo
 [EuroBioImaging Community Days](https://www.eurobioimaging.eu/our-events/image-data-events/image-data-community-days/), virtual
-
 
 11/2024	Glowing mice – translational approaches to extract (artificial) biosignals from living mice
 Invited by: Dr. Ekaterina Kutafina
