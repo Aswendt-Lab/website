@@ -11,21 +11,21 @@ Complete list of talks by Markus Aswendt:
 
 | Date     | Title | Details |
 |----------|-------|---------|
-| 10/2024  | Pre-processing pipeline and Q&A | *Invited by:* Dr. Ileana Jelescu <br> *40th Annual Scientific Meeting of ESMRMB, Barcelona, Spain* |
-| 09/2024  | Motor recovery after stroke – a translational approach using neuroimaging | *Invited by:* Dr. Egor Dzyubenko <br> *[BIO-ME Graduate School of Biomedical Science](https://www.uni-due.de/biome/), University of Duisburg-Essen, Germany* |
+| 09/2025  | Data without borders: managing multimodal stroke datasets to combine brain, bench and byte | *Invited by:* Dr. Margit Wagenblast and Dr. Boris Brill,  *Models and Insights in Translational Research Symposium, Goethe University, Frankfurt, Germany* |
+| 09/2024  | Motor recovery after stroke – a translational approach using neuroimaging | *Invited by:* Dr. Egor Dzyubenko  *[BIO-ME Graduate School of Biomedical Science](https://www.uni-due.de/biome/), University of Duisburg-Essen, Germany* |
 | 11/2023  | The role of astrogliosis in recovery after stroke - a functional connectivity study in mice | *Invited by:* Dr. Chrystelle Po <br> *[ICube Laboratory](https://icube.unistra.fr/en/), University of Strasbourg, France* |
 | 06/2023  | Demystifying astrogliosis after cortical stroke in mice using functional connectivity analysis | *Invited by:* Prof. Philipp Boehm-Sturm <br> *CSB Seminar, Experimental Neurology, Charité Berlin, Germany* |
-| 03/2023  | In vivo and ex vivo multimodal image registration: Novel solutions for old problems | *Invited by:* Dr. Algernon Bloom <br> *[CRUK RadNet](https://www.gla.ac.uk/schools/cancersciences/radnet/) Session at EMIM 2023, Salzburg, Austria* |
-| 03/2022  | Software tools for registration and analysis of multimodal, whole brain neuroimaging data | *Invited by:* Prof. Claudia Kuntner-Hannes <br> *COMULIS Session at EMIM 2022, Thessaloniki, Greece* |
-| 09/2021  | Correlated Multimodal Imaging | *Invited by:* Prof. Milos Pekny <br> *COMULIS Conference, virtually hosted in Gothenburg, Sweden* |
 
 ### Conference talks
 
 | Date     | Title | Details |
 |----------|-------|---------|
 | 11/2024  | Characterization of motor deficits in a mouse model of internal capsule stroke. | *Neuroprotection & Neurorepair, Potsdam, Germany.* |
+| 10/2024  | Pre-processing pipeline and Q&A | *40th Annual Scientific Meeting of ESMRMB, Barcelona, Spain* |
+| 03/2023  | In vivo and ex vivo multimodal image registration: Novel solutions for old problems | *Invited by:* Dr. Algernon Bloom <br> *[CRUK RadNet](https://www.gla.ac.uk/schools/cancersciences/radnet/) Session at European Molecular Imaging Meeting, Salzburg, Austria* |
 | 03/2022  | Software tools for registration and analysis of multimodal, whole brain neuroimaging data. | *European Molecular Imaging Meeting, Thessaloniki, Greece.* |
 | 03/2022  | Standardisation of MRI instrumentation and protocols. | *European Molecular Imaging Meeting, Thessaloniki, Greece.* |
+| 03/2022  | Software tools for registration and analysis of multimodal, whole brain neuroimaging data | *Invited by:* Prof. Claudia Kuntner-Hannes <br> *COMULIS Session at EMIM 2022, Thessaloniki, Greece* |
 | 09/2021  | Reactive gliosis is a critical pathophysiological component in normalization of functional connectivity after stroke. | *COMULIS - EU COST Network Meeting (virtual)* |
 | 06/2014  | Validation of novel bimodal nanoparticles for MRI/OI-based tracking of neural stem cells. | *European Molecular Imaging Meeting, Antwerp, Belgium.* |
 | 06/2014  | Two-color bioluminescence for sensitive and quantitative discrimination of cell grafts in the mouse brain. | *European Molecular Imaging Meeting, Antwerp, Belgium.* |
