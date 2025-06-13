@@ -12,7 +12,7 @@ Complete list of talks by Markus Aswendt:
 | Date     | Title | Details |
 |----------|-------|---------|
 | 09/2025  | Data without borders: managing multimodal stroke datasets to combine brain, bench and byte | *Invited by:* Dr. Margit Wagenblast and Dr. Boris Brill,  *Models and Insights in Translational Research Symposium, Goethe University, Frankfurt, Germany* |
-| 04/2025  | Optimizing preclinical MRI: Effective removal of low-quality outliers from large datasets | *Invited by:* Dr. Ekaterina Kutafina  *[EuroBioImaging Community Days]([https://www.eurobioimaging.eu/our-events/image-data-events/image-data-community-days/], online* |
+| 04/2025  | Optimizing preclinical MRI: Effective removal of low-quality outliers from large datasets | *Invited by:* Dr. Dario Longo  *[EuroBioImaging Community Days](https://www.eurobioimaging.eu/our-events/image-data-events/image-data-community-days/), online* |
 | 11/2024  | Glowing mice - translational approaches to extract (artificial) biosignals from living mice | *Invited by:* Dr. Ekaterina Kutafina  *[Nacht der Biosignale - Public Seminar Series](https://nacht-der-biosignale.de), online* |
 | 09/2024  | Motor recovery after stroke – a translational approach using neuroimaging | *Invited by:* Dr. Egor Dzyubenko  *[BIO-ME Graduate School of Biomedical Science](https://www.uni-due.de/biome/), University of Duisburg-Essen, Germany* |
 | 11/2023  | The role of astrogliosis in recovery after stroke - a functional connectivity study in mice | *Invited by:* Dr. Chrystelle Po <br> *[ICube Laboratory](https://icube.unistra.fr/en/), University of Strasbourg, France* |
