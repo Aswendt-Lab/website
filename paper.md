@@ -3,6 +3,16 @@ title: Paper
 layout: page
 ---
 
+### 2025
+- Hooper SL, Guschlbauer C, Wieters F, Aswendt M, Büschges A. [Passive responses in mouse hind leg joints correlate with joint walking angle and, in most cases, act to extend the joints](https://doi.org/10.1016/j.cub.2024.12.048)  
+**Current Biology** 2025 Apr 7;35(7):1459-1469.
+
+- Kalantari A, Hambrock C, Grefkes C, Fink GR, Aswendt M. [Proportional recovery in mice with cortical stroke](https://doi.org/10.1016/j.expneurol.2025.115180)  
+**Experimenta Neurology** 2025 Feb 2;386.  
+
+- Mahani F, Kalantari A, Diedenhofen M, Green C, Wiedermann D, Fink GR, Hoehn M, Aswendt M. [Dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice](https://doi.org/10.1101/2025.03.27.644898)  
+**bioRxiv** 2025.
+
 ### 2024
 - Kalantari A, Hambrock C, Grefkes C, Fink GR, Aswendt M. [Proportional recovery in mice with cortical stroke](https://doi.org/10.1101/2024.10.11.614428)  
 **bioRxiv** 2024.10.11.614428.
