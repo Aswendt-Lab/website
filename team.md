@@ -37,6 +37,15 @@ layout: page
     Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
 </div>
 
+### Julian Cramer
+<div class="clearfix team-member">
+    <img src="img/Julian_Cramer.png"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2021 – ongoing
+    <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
+</div>
+
 ### Aref Kalantari
 <div class="clearfix team-member">
     <img src="img/Aref_Kalantari.jpeg"
@@ -73,33 +82,6 @@ layout: page
     <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
 </div>
 
-### Marko Schmelzer
-<div class="clearfix team-member">
-    <img src="img/Marko_2022-12-14 09.27.52.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing
-    <b>Bachelor thesis</b> on histological characterization of white matter changes in major.
-</div>
-
-### Merve Pamuk
-<div class="clearfix team-member">
-    <img src="img/pamuk_merve.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2024 – ongoing 
-    <b>MD thesis</b> on the internal capsule stroke model.
-</div>
-
-### Irem Dilara Sen
-<div class="clearfix team-member">
-    <img src="img/Irem_2024.jpg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2024 – ongoing 
-    <b>Master thesis</b> on internal capsule strokes.
-</div>
-
 ### Franziska Ziolkowski
 <div class="clearfix team-member">
     <img src="img/Franziska_2022-12-14 09.30.06.jpg"
@@ -113,9 +95,17 @@ layout: page
 ## Alumni
 
 <div>
+     <div class="alumni-entry">
+        <b>Irem Dilara Sen</b> <span class="year">(2024-2025)</span><br>
+        Master thesis (Bremen, Neuroscience): Long-term cognitive and motor deficits after internal capsule stroke in mice<br>
+    </div>
+    <div class="alumni-entry">
+        <b>Marko Schmelzer</b> <span class="year">(2025)</span><br>
+        Bachelor thesis (Cologne, Biology): Histological characterization of stroke induced changes in the white matter<br>
+    </div>
     <div class="alumni-entry">
         <b>Carolin Hambrock</b> <span class="year">(2023-2024)</span><br>
-        Master thesis (Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
+        Master thesis (Cologne, Neuroscience): Spontaneous recovery after ischemic stroke: effects of stroke location and reactive astrocytes on thalamic secondary neurodegeneration in mice<br>
     </div>
     <div class="alumni-entry">
         <b>Thomas Kühnel</b> <span class="year">(2023)</span><br>
