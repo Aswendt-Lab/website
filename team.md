@@ -213,5 +213,4 @@ layout: page
         Next position: Medical science Liaison Manager und CIDP (<a href="https://www.argenx.de/" title="Argenx">Argenx</a>)
         </div>
     </div>
-</div>
 </details>
