@@ -91,9 +91,8 @@ layout: page
     <b>Master thesis</b> on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
 </div>
 
-
-## Alumni
-
+<details>
+<summary><strong>Alumni</strong></summary>
 <div>
      <div class="alumni-entry">
         <b>Irem Dilara Sen</b> <span class="year">(2024-2025)</span><br>
@@ -215,3 +214,4 @@ layout: page
         </div>
     </div>
 </div>
+</details>
