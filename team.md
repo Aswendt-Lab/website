@@ -42,7 +42,7 @@ layout: page
     <img src="img/Julian_Cramer.png"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
-    2021 – ongoing
+    2025 – ongoing
     <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
 </div>
 
