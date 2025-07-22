@@ -19,10 +19,8 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 
 ## Open positions and student projects available 
 <embed src="pdf/Bachelor_Master_AIDAqc_phantom.pdf" width="300" height="400" type="application/pdf">
-<embed src="pdf/PhD_CRC1451_C01.pdf" width="300" height="400" type="application/pdf">
 
 [Bachelor/Master Project](pdf/Bachelor_Master_AIDAqc_phantom.pdf)
-[PhD Project](pdf/PhD_CRC1451_C01.pdf)
 
 <div style="margin-top: 30px;"></div>
 
