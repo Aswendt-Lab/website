@@ -3,21 +3,34 @@ title: Imprint
 layout: page
 ---
 
-Official website of the Aswendt Lab.
+# Legarl Notice (Impressum) <br>
+Website of the Aswendt Lab <br>
+Information according to [§ 5 TMG](https://www.telemediengesetz.de/§-5-tmg-allgemeine-informationspflichten/) 
 
-## Provider
-Aswendt Lab at the University Hospital Cologne
+## Website Operator
+Prof. Dr. Markus Aswendt <br>
+Experimental Neurology Section <br>
+Department of Neurology <br>
+University Hospital Frankfurtm <br>
+Theodor-Stern-Kai 7 <br>
+Frankfurt am Main, Germany
 
-## Represented by 
-PD Dr. Markus Aswendt  
-Group Leader  
+## Contact 
+E-mail: aswendtlab[at]gmail.com
 
-## Contact
-Department of Neurology  
-University Hospital Cologne  
-Kerpener Str. 62  
-50937 Cologne, Germany  
-+49 221 478-86416  
-markus.aswendt[at|uk-koeln.de
+## Responsible for the content according to § 55 Abs. 2 RStV:
+Prof. Dr. Markus Aswendt
+[Address as above]
 
+## Disclaimer
+This website is maintained by members of the Aswendt Lab at Goethe-University and University Hospital Frankfurt.
+The content solely reflects the views of the authors and does not necessarily represent the official position of the Goethe-University and the University Hospital Frankfurt.
 
+Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content.
+
+## Copyright Notice
+All content and materials on this website are protected by copyright. Any use beyond the limits of copyright law requires prior written consent from the author(s) or rights holder(s).
+
+## University Legal Notice
+This site is not part of the official web presence of Goethe-University and University Hospital Frankfurt.
+The official imprint can be found here: [Goethe-University](https://www.uni-frankfurt.de/impressum?) and [University Hospital Frankfurt](https://www.unimedizin-ffm.de/impressum).
