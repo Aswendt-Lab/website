@@ -18,9 +18,7 @@ One-third of stroke patients suffer from long-term disabilities, and functional 
 <div style="margin-top: 30px;"></div>
 
 ## Open positions and student projects available 
-<embed src="pdf/PhD_Stroke_Research_AswendtLab_2025.pdf" width="300" height="400" type="application/pdf">
-
-[PhD Project](pdf/PhD_Stroke_Research_AswendtLab_2025.pdf)
+We offer projects for Bachelor and Master students with a strong interest in neuroscience, bioengineering, and MR physics. 
 
 <div style="margin-top: 30px;"></div>
 
