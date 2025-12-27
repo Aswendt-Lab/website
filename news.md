@@ -3,6 +3,18 @@ title: News
 layout: page
 ---
 
+## 12/2025 PhD (the 3rd)
+Aref received the PhD with highest praise, congratulations! 3.5 years of data curation, coding, discussion, learning, and fun (in variable order) come to an end. Exceptional work and output: 3 first author publications, 2 co-author and many more in preparation.  
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/ArefPhD_1.JPG" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/ArefPhD_2.JPG" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/ArefPhD_3.jpg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 04/2025 Paper alert
 Aref's next publication is out! We provide evidence of proportional recovery in mice following a pronounced recovery rate. [Link](https://doi.org/10.1016/j.expneurol.2025.115180). Featured as <a href="https://www.crc1451.uni-koeln.de/wp-content/uploads/2025/05/CRC1451_Kalantari_PotM_04_2025_C01.pdf">CRC1451 Paper of the month </a> April 2025.  
 
