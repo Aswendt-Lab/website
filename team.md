@@ -46,15 +46,6 @@ layout: page
     <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
 </div>
 
-### Aref Kalantari
-<div class="clearfix team-member">
-    <img src="img/Aref_Kalantari.jpeg"
-         alt="Testimage"
-         style="width: 10%; height: auto; float: left;" />
-    2021 – ongoing
-    <b>PhD thesis</b> on software to promote FAIR and quality control principles in small animal MRI.
-</div>
-
 ### Fatemeh Mahani
 <div class="clearfix team-member">
     <img src="img/FatemehMahani.jpg"
@@ -80,6 +71,35 @@ layout: page
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
     <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
+</div>
+
+
+### Parvathi Satheesh
+<div class="clearfix team-member">
+    <img src="img/Parvathi.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing
+    <b>Research assistant</b> responsible for molecular biology, gene expression, and RNA sequencing experiments.
+</div>
+
+
+### Esma Secen
+<div class="clearfix team-member">
+    <img src="img/Esma.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing
+    <b>PhD thesis</b> on neuromodulation of descending motor tracts to improve functional recovery after stroke.
+</div>
+
+### Agnes Rudowski
+<div class="clearfix team-member">
+    <img src="img/Agnes.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing 
+    <b>Technician</b> responsible for animal housing, histology, and keeping the lab organized.
 </div>
 
 ### Franziska Ziolkowski
