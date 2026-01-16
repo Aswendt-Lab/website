@@ -19,7 +19,9 @@ layout: page
         margin-right: 10px;
     }
     .alumni-entry {
-        margin-bottom: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
     }
     .alumni-entry b {
         display: inline-block;
@@ -126,7 +128,7 @@ layout: page
     <div class="alumni-entry">
         <b>Aref Kalantari</b> <span class="year">(2021-2025)</span><br>
         PhD thesis (Cologne, Neuroscience): A unified framework for multimodla animal studies: data management, MRI quality control, and proportional recovery in mice<br>
-        Next position: Postdoc (<a href="https://www.uniklinik-freiburg.de/imbi-en/research-data-management.html" title="Research Data Management group led by Dr. Klaus Kaiser"></a>, University Hospital Freiburg)
+        Next position: Postdoc (<a href="https://www.uniklinik-freiburg.de/imbi-en/research-data-management.html" title="Research Data Management group led by Dr. Klaus Kaiser">Research Data Management group led by Dr. Klaus Kaiser</a>, University Hospital Freiburg)
     </div> 
     <div class="alumni-entry">
         <b>Irem Dilara Sen</b> <span class="year">(2024-2025)</span><br>
