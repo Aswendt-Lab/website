@@ -93,6 +93,15 @@ layout: page
     <b>PhD thesis</b> on neuromodulation of descending motor tracts to improve functional recovery after stroke.
 </div>
 
+### Neda Rahimiverki
+<div class="clearfix team-member">
+    <img src="img/Neda.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing 
+    <b>Master thesis</b> on the application of TMS after stroke in mice.
+</div>
+
 ### Agnes Rudowski
 <div class="clearfix team-member">
     <img src="img/Agnes.jpg"
@@ -114,7 +123,12 @@ layout: page
 <details>
 <summary><strong>Alumni</strong></summary>
 <div>
-     <div class="alumni-entry">
+    <div class="alumni-entry">
+        <b>Aref Kalantari</b> <span class="year">(2021-2025)</span><br>
+        PhD thesis (Cologne, Neuroscience): A unified framework for multimodla animal studies: data management, MRI quality control, and proportional recovery in mice<br>
+        Next position: Postdoc (<a href="https://www.uniklinik-freiburg.de/imbi-en/research-data-management.html" title="Research Data Management group led by Dr. Klaus Kaiser"></a>, University Hospital Freiburg)
+    </div> 
+    <div class="alumni-entry">
         <b>Irem Dilara Sen</b> <span class="year">(2024-2025)</span><br>
         Master thesis (Bremen, Neuroscience): Long-term cognitive and motor deficits after internal capsule stroke in mice<br>
     </div>
