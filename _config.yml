@@ -7,7 +7,7 @@ baseurl: "/"
 repository: "Aswendt-Lab/aswendtlab.github.io"
 
 show_menu: true
-show_footer: true
+show_footer: false
 google_analytics: true
 
 docs_list_title: List of Contents
