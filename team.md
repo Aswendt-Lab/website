@@ -90,7 +90,7 @@ layout: page
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing 
-    <b>Bachelor thesis</b> on the role of histological characterization of tDCS-induced white matter changes.
+    <b>Bachelor thesis</b> on the histological characterization of tDCS-induced white matter changes.
 </div>
 
 ### Parvathi Satheesh
