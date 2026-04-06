@@ -15,6 +15,22 @@ Aref received the PhD with highest praise, congratulations! 3.5 years of data cu
 
 <div style="margin-top: 100px;"></div>
 
+## 10/2025 We move to Frankfurt!
+Happy to announce the next chapter! Aswendt Lab moves to Goethe University Frankfurt, Markus starts W2 Professorship on [Experimental Stroke and Neuromodulation](https://www.unimedizin-ffm.de/einrichtungen/kliniken/zentrum-der-neurologie-und-neurochirurgie/klinik-fuer-neurologie-alt/forschung/bewegungsstoerungen-und-neurodegeneration-1).
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/Move.jpeg" alt="Image 1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Move1.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Move2.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Move3.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Move4.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Frankfurt_W2_ZNN.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/Histo.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/NeuroCenter.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/FFM.jpeg" alt="Image 2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 04/2025 Paper alert
 Aref's next publication is out! We provide evidence of proportional recovery in mice following a pronounced recovery rate. [Link](https://doi.org/10.1016/j.expneurol.2025.115180). Featured as <a href="https://www.crc1451.uni-koeln.de/wp-content/uploads/2025/05/CRC1451_Kalantari_PotM_04_2025_C01.pdf">CRC1451 Paper of the month </a> April 2025.  
 
