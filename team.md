@@ -75,6 +75,23 @@ layout: page
     <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
 </div>
 
+### Florian Pietsch
+<div class="clearfix team-member">
+    <img src="img/Florian_Pietsch_2026.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2024 – ongoing 
+    <b>Bachelor thesis</b> on behavioral phenotyping of motor deficits after internal capsule stroke.
+</div>
+
+### Alina Rimscha
+<div class="clearfix team-member">
+    <img src="img/Alina_Rimscha_2026.jpg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing 
+    <b>Bachelor thesis</b> on the role of histological characterization of tDCS-induced white matter changes.
+</div>
 
 ### Parvathi Satheesh
 <div class="clearfix team-member">
