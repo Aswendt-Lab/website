@@ -3,6 +3,18 @@ title: News
 layout: page
 ---
 
+## 04/2026 COBIC Scientific Opening Symposium
+On 20–21 April 2026, we celebrated the opening of CoBIC with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting questions in brain research. Of course, the Aswendt Lab team was also there to celebrate, connect, and get a first glimpse into the future of CoBIC.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_1.JPG" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_2.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_3.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 12/2025 PhD (the 3rd)
 Aref received the PhD with highest praise, congratulations! 3.5 years of data curation, coding, discussion, learning, and fun (in variable order) come to an end. Exceptional work and output: 3 first author publications, 2 co-author and many more in preparation.  
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
