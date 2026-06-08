@@ -18,6 +18,15 @@ On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with
 Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
+## 03/2026 EMIM 2026 in Ljubljana
+Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/EMIM_2026_Fatemeh.jpeg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
 
@@ -31,6 +40,7 @@ Fatemeh's paper on dynamic structural connectivity changes in cortical and corti
 </div>
 
 <div style="margin-top: 100px;"></div>
+
 
 ## 12/2025 PhD (the 3rd)
 Aref received the PhD with highest praise, congratulations! 3.5 years of data curation, coding, discussion, learning, and fun (in variable order) come to an end. Exceptional work and output: 3 first author publications, 2 co-author and many more in preparation.  
