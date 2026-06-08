@@ -23,6 +23,15 @@ Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, p
 
 <div style="margin-top: 100px;"></div>
 
+## 03/2026 EMIM 2026 in Ljubljana
+Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/EMIM_2026_Fatemeh.jpeg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 02/2026 Paper alert
 Fatemeh's paper on dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice is out! The study investigates longitudinal structural connectivity changes after stroke in mice. [Link](https://journals.lww.com/nrronline/abstract/9900/dynamic_structural_connectivity_changes_in.1221.aspx).
 
