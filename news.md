@@ -4,16 +4,34 @@ layout: page
 ---
 
 ## 04/2026 CoBIC Scientific Opening Symposium
-On 20–21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting questions in brain research. Of course, the Aswendt Lab team was also there to celebrate, connect, and get a first glimpse into the future of CoBIC.
+On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting research topics.
+
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_1.JPG" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
   <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_2.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
-  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_3.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_3.JPG" alt="Image 3" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
 
+## 03/2026 EMIM 2026 in Ljubljana
+Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
 <div style="margin-top: 100px;"></div>
+
+## 02/2026 Paper alert
+Fatemeh's paper on dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice is out! The study investigates longitudinal structural connectivity changes after stroke in mice. [Link](https://journals.lww.com/nrronline/abstract/9900/dynamic_structural_connectivity_changes_in.1221.aspx).
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/Mahani2026_SC_GraphicalAbstract.png" alt="Graphical abstract of Mahani et al. 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 
 ## 12/2025 PhD (the 3rd)
 Aref received the PhD with highest praise, congratulations! 3.5 years of data curation, coding, discussion, learning, and fun (in variable order) come to an end. Exceptional work and output: 3 first author publications, 2 co-author and many more in preparation.  
