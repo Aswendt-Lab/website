@@ -11,6 +11,7 @@ Complete list of talks by Markus Aswendt:
 
 | Date     | Title | Details |
 |----------|-------|---------|
+| 04/2026  | Functional hyperconnectivity related to brain disease: maladaptive process or element of resilience? | *Invited by:* Prof. Lothar Willmitzer, Ernst Strüngmann Institute (ESI), Frankfurt, Germany |
 | 09/2025  | Data without borders: managing multimodal stroke datasets to combine brain, bench and byte | *Invited by:* Dr. Margit Wagenblast and Dr. Boris Brill,  *Models and Insights in Translational Research Symposium, Goethe University, Frankfurt, Germany* |
 | 04/2025  | Optimizing preclinical MRI: Effective removal of low-quality outliers from large datasets | *Invited by:* Dr. Dario Longo  *[EuroBioImaging Community Days](https://www.eurobioimaging.eu/our-events/image-data-events/image-data-community-days/), online ([recording available](https://youtu.be/3M6WoQROL6k?feature=shared))* |
 | 11/2024  | Glowing mice - translational approaches to extract (artificial) biosignals from living mice | *Invited by:* Dr. Ekaterina Kutafina  *[Nacht der Biosignale - Public Seminar Series](https://nacht-der-biosignale.de), online* |
