@@ -3,8 +3,8 @@ title: News
 layout: page
 ---
 
-## 04/2026 COBIC Scientific Opening Symposium
-On 20–21 April 2026, we celebrated the opening of CoBIC with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting questions in brain research. Of course, the Aswendt Lab team was also there to celebrate, connect, and get a first glimpse into the future of CoBIC.
+## 04/2026 CoBIC Scientific Opening Symposium
+On 20–21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting questions in brain research. Of course, the Aswendt Lab team was also there to celebrate, connect, and get a first glimpse into the future of CoBIC.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_1.JPG" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
   <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_2.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
