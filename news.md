@@ -2,6 +2,15 @@
 title: News
 layout: page
 ---
+## 05/2026 RMN2 Biennial Meeting Oberwesel
+Members of the Aswendt Lab participated in the RMN² Retreat 2026, bringing together researchers from across the Rhine-Main Neuroscience Network for scientific exchange and networking-an excellent platform in brain research. We greatly appreciated the opportunity to connect with new colleagues, exchange ideas, and foster novel collaborations. Stay tuned for future developments arising from these exciting interactions!
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/85539e40-4ba1-4607-8b8a-6e330bf6138f" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/991bebb9-1c44-49f2-8c32-b8798a48c5c0" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/3141049e-8946-482b-bf12-660e8a5e4bca" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/6446cec8-5fd8-4aa9-97f1-dae9f13f7fc9" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+</div>
 
 ## 04/2026 CoBIC Scientific Opening Symposium
 On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting research topics.
