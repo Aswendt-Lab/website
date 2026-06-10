@@ -18,7 +18,7 @@ On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with
 Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
