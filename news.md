@@ -23,6 +23,18 @@ On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with
 
 <div style="margin-top: 100px;"></div>
 
+## 03/2026 6th CRC 1451 Annual Retreat 
+Julian, Motahare and Markus participated in the [CRC1451](https://www.crc1451.uni-koeln.de) retreat. Julian and Motahare presented an updated poster. Markus contributed an update talk about projet C01. It was great to meet all the motor control enthusiasts, discuss ongoing projects and explore new opportunities for collaboration. 
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="img/CRC1451_Retreat_2026_1.jpeg" alt="CRC1451_Retreat_2026_1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CRC1451_Retreat_2026_2.jpeg" alt="CRC1451_Retreat_2026_2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CRC1451_Retreat_2026_3.jpeg" alt="CRC1451_Retreat_2026_3" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
+
 ## 03/2026 EMIM 2026 in Ljubljana
 Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
 
