@@ -16,9 +16,9 @@ Members of the Aswendt Lab participated in the RMN² Retreat 2026, bringing toge
 On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with a lively scientific symposium. The program featured many interesting presentations and inspiring discussions around exciting research topics.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_1.JPG" alt="Image 1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
-  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_2.JPG" alt="Image 2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
-  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_3.JPG" alt="Image 3" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_1.JPG" alt="Image 1" style="width: auto%; height: 250px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_2.JPG" alt="Image 2" style="width: auto%; height: 250px; margin-bottom: 10px;"/>
+  <img src="img/CoBIC_Symposium/CoBIC_symposium_2026_3.JPG" alt="Image 3" style="width: auto%; height: 250px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
@@ -27,9 +27,9 @@ On 20-21 April 2026, we celebrated the opening of [CoBIC](https://cobic.de) with
 Julian, Motahare and Markus participated in the [CRC1451](https://www.crc1451.uni-koeln.de) retreat. Julian and Motahare presented an updated poster. Markus contributed an update talk about projet C01. It was great to meet all the motor control enthusiasts, discuss ongoing projects and explore new opportunities for collaboration. 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/CRC1451_Retreat_2026_1.jpeg" alt="CRC1451_Retreat_2026_1" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
-  <img src="img/CRC1451_Retreat_2026_2.jpeg" alt="CRC1451_Retreat_2026_2" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
-  <img src="img/CRC1451_Retreat_2026_3.jpeg" alt="CRC1451_Retreat_2026_3" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/CRC1451_Retreat_2026_1.jpeg" alt="CRC1451_Retreat_2026_1" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/CRC1451_Retreat_2026_2.jpeg" alt="CRC1451_Retreat_2026_2" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
+  <img src="img/CRC1451_Retreat_2026_3.jpeg" alt="CRC1451_Retreat_2026_3" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
@@ -39,7 +39,7 @@ Julian, Motahare and Markus participated in the [CRC1451](https://www.crc1451.un
 Fatemeh contributed a poster presentation at EMIM 2026 in Ljubljana, Slovenia, presenting her work on dynamic functional connectivity changes in cortical and cortico-striatal strokes in mice.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 300px; margin-bottom: 10px;"/>
+  <img src="img/EMIM_2026_Fatemeh.jpg" alt="Fatemeh at EMIM 2026" style="width: auto%; height: 200px; margin-bottom: 10px;"/>
 </div>
 
 <div style="margin-top: 100px;"></div>
