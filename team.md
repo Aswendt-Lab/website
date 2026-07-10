@@ -31,6 +31,14 @@ layout: page
     }
 </style>
 
+
+
+<div class="clearfix team-member">
+    <img src="img/team_2026.jpg"
+         alt="Team"
+         style="width: 100%; height: auto; float: middle;" />
+
+
 ### Markus Aswendt
 <div class="clearfix team-member">
     <img src="img/aswendt_markus_MFK_5702_corrected_small.JPG"
