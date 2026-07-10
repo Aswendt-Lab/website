@@ -32,12 +32,11 @@ layout: page
 </style>
 
 
-
-<div class="clearfix team-member">
+<div class="team-member" style="text-align: center;">
     <img src="img/team_2026.jpg"
          alt="Team"
-         style="width: 100%; height: auto; float: middle;" />
-
+         style="width: 100%; height: auto;" />
+</div>
 
 ### Markus Aswendt
 <div class="clearfix team-member">
