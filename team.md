@@ -33,7 +33,7 @@ layout: page
 
 
 <div class="team-member" style="text-align: center;">
-    <img src="img/team_2026.jpg"
+    <img src="img/team_.jpg"
          alt="Team"
          style="width: 100%; height: auto;" />
 </div>
