@@ -33,14 +33,14 @@ layout: page
 
 
 <div class="team-member" style="text-align: center;">
-    <img src="img/team_2026.jpg"
+    <img src="img/team_2026-rund.png"
          alt="Team"
          style="width: 100%; height: auto;" />
 </div>
 
 ### Markus Aswendt
 <div class="clearfix team-member">
-    <img src="img/aswendt_markus_MFK_5702_corrected_small.JPG"
+    <img src="img/MA-500.jpg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
