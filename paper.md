@@ -4,7 +4,7 @@ layout: page
 ---
 ### Publications summary with citations
 Data collected from [OpenAlex](https://openalex.org) with impact factors from [SCImago](https://www.scimagojr.com), retrieved (2026-08-12).
-<a href="pdf/2026-08-13-ReportCitations.pdf">Open the PDF</a>.</p>
+<a href="pdf/2026-08-13-ReportCitations.pdf">Open the PDF</a>.
 
 ### 2026
 - Mahani F, Kalantari A, Diedenhofen M, Green C, Wiedermann D, Fink GR, Hoehn M, Aswendt M. [Dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice.](https://doi.org/10.4103/nrr.nrr-d-25-00491)
