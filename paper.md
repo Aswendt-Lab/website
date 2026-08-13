@@ -2,6 +2,9 @@
 title: Paper
 layout: page
 ---
+### Publications summary with citations
+Data collected from [OpenAlex](https://openalex.org) with impact factors from [SCImago](https://www.scimagojr.com), retrieved (2026-08-12).
+<a href="pdf/2026-08-13-ReportCitations.pdf">Open the PDF</a>.</p>
 
 ### 2025
 - Hooper SL, Guschlbauer C, Wieters F, Aswendt M, Büschges A. [Passive responses in mouse hind leg joints correlate with joint walking angle and, in most cases, act to extend the joints](https://doi.org/10.1016/j.cub.2024.12.048)  
