@@ -6,6 +6,15 @@ layout: page
 Data collected from [OpenAlex](https://openalex.org) with impact factors from [SCImago](https://www.scimagojr.com), retrieved (2026-08-12).
 <a href="pdf/2026-08-13-ReportCitations.pdf">Open the PDF</a>.</p>
 
+### 2026
+- Mahani F, Kalantari A, Diedenhofen M, Green C, Wiedermann D, Fink GR, Hoehn M, Aswendt M. [Dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice.](https://doi.org/10.4103/nrr.nrr-d-25-00491)
+**Neural Regeneration Research** 2026 Oct 10;21(10)
+- Elwes M, Jaberansary M, Aswendt M, Beyan O, Kutafina E, Tang FK. [Privacy preserving reproducibility by integrating dataset versioning in federated learning frameworks](https://doi.org/10.1186/s12911-026-03553-7)
+**BMC Med Inform Decis Mak** 2026;26(185).  
+- Blaschke S, Backes H, Vlachakis S, Rautenberg N, Wiedermann D, Aswendt M, Fink GR, Schroeter M, Rüger MA. [Subacute cathodal transcranial direct current stimulation rescues secondary thalamic neurodegeneration after cortical stroke in mice](https://doi.org/10.1016/j.expneurol.2025.115604)
+**Exp Neurology** 2026;398(115604) 
+
+
 ### 2025
 - Hooper SL, Guschlbauer C, Wieters F, Aswendt M, Büschges A. [Passive responses in mouse hind leg joints correlate with joint walking angle and, in most cases, act to extend the joints](https://doi.org/10.1016/j.cub.2024.12.048)  
 **Current Biology** 2025 Apr 7;35(7):1459-1469.
