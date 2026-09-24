@@ -48,11 +48,20 @@ layout: page
 
 ### Julian Cramer
 <div class="clearfix team-member">
-    <img src="img/Julian_Cramer.png"
+    <img src="img/Julian_Cramer.jpeg"
          alt="Testimage"
          style="width: 10%; height: auto; float: left;" />
     2025 – ongoing
     <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
+</div>
+
+### Christoph Hoeren
+<div class="clearfix team-member">
+    <img src="img/Christoph_Hoeren_.jpeg"
+         alt="Testimage"
+         style="width: 10%; height: auto; float: left;" />
+    2026 – ongoing
+    <b>Bachelor thesis</b> on histological analysis of white matter plasticity after internal capsule stroke and tDCS.
 </div>
 
 ### Fatemeh Mahani
