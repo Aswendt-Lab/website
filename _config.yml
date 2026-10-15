@@ -1,22 +1,14 @@
 title: Aswendt Lab
-#description: Website of the Aswendt Laboratory, Neurology, University Cologne, Germany.
+description: Understanding and improving recovery after stroke through neuroimaging, neuroengineering, and open science. Aswendt Lab, Frankfurt, Germany.
 theme: minima
 
-url: "https://aswendtlab.github.io/"
-baseurl: "/"
-repository: "Aswendt-Lab/aswendtlab.github.io"
+url: "https://aswendt-lab.github.io"
+baseurl: "/website"
+repository: "Aswendt-Lab/website"
 
 show_menu: true
 show_footer: false
-google_analytics: true
-
-docs_list_title: List of Contents
-docs:
-  - title: Home
-    url: 
-  
-  - title: Projects
-    url: Projects.html
+# Add a valid analytics tracking ID only when analytics is configured.
 
 plugins:
   - jekyll-feed
@@ -28,15 +20,14 @@ minima:
     - { platform: youtube, user_url: "https://www.youtube.com/@aswendtlab1639" }
 
 header_pages:
-  - news.md
   - projects.md
-  - talks.md
-  - conferences.md
+  - software.md
   - paper.md
   - team.md
+  - news.md
+  - opportunities.md
   - contact.md
-  - imprint.md
-  
+
 github:
   is_project_page: false
 

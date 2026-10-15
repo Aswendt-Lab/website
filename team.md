@@ -34,14 +34,14 @@ layout: page
 
 <div class="team-member" style="text-align: center;">
     <img src="img/team_2026-rund.png"
-         alt="Team"
+         alt="Aswendt Lab team, 2026"
          style="width: 100%; height: auto;" />
 </div>
 
 ### Markus Aswendt
 <div class="clearfix team-member">
     <img src="img/MA-500.jpg"
-         alt="Testimage"
+         alt="Portrait of Markus Aswendt"
          style="width: 10%; height: auto; float: left;" />
     Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
 </div>
@@ -49,7 +49,7 @@ layout: page
 ### Julian Cramer
 <div class="clearfix team-member">
     <img src="img/Julian_Cramer.jpeg"
-         alt="Testimage"
+         alt="Portrait of Julian Cramer"
          style="width: 10%; height: auto; float: left;" />
     2025 – ongoing
     <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
@@ -58,7 +58,7 @@ layout: page
 ### Christoph Hoeren
 <div class="clearfix team-member">
     <img src="img/Christoph_Hoeren_.jpeg"
-         alt="Testimage"
+         alt="Portrait of Christoph Hoeren"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing
     <b>Bachelor thesis</b> on histological analysis of white matter plasticity after internal capsule stroke and tDCS.
@@ -67,7 +67,7 @@ layout: page
 ### Fatemeh Mahani
 <div class="clearfix team-member">
     <img src="img/FatemehMahani.jpg"
-         alt="Testimage"
+         alt="Portrait of Fatemeh Mahani"
          style="width: 10%; height: auto; float: left;" />
     2022 – ongoing
     <b>PhD thesis</b> on structure-function coupling in relation to timing and stroke lesion size and location.
@@ -76,7 +76,7 @@ layout: page
 ### Daniel Mertens
 <div class="clearfix team-member">
     <img src="img/Daniel_Mertens_2023.jpg"
-         alt="Testimage"
+         alt="Portrait of Daniel Mertens"
          style="width: 10%; height: auto; float: left;" />
     2023 – ongoing
     <b>Bachelor thesis</b> on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
@@ -85,7 +85,7 @@ layout: page
 ### Motahare Mousavi
 <div class="clearfix team-member">
     <img src="img/Motahare_2024.jpg"
-         alt="Testimage"
+         alt="Portrait of Motahare Mousavi"
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
     <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
@@ -94,7 +94,7 @@ layout: page
 ### Florian Pietsch
 <div class="clearfix team-member">
     <img src="img/Florian_Pietsch_2026.jpg"
-         alt="Testimage"
+         alt="Portrait of Florian Pietsch"
          style="width: 10%; height: auto; float: left;" />
     2024 – ongoing 
     <b>Bachelor thesis</b> on behavioral phenotyping of motor deficits after internal capsule stroke.
@@ -103,7 +103,7 @@ layout: page
 ### Alina Rimscha
 <div class="clearfix team-member">
     <img src="img/Alina_Rimscha_2026.jpg"
-         alt="Testimage"
+         alt="Portrait of Alina Rimscha"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing 
     <b>Bachelor thesis</b> on the histological characterization of tDCS-induced white matter changes.
@@ -112,7 +112,7 @@ layout: page
 ### Parvathi Satheesh
 <div class="clearfix team-member">
     <img src="img/Parvathi.jpg"
-         alt="Testimage"
+         alt="Portrait of Parvathi Satheesh"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing
     <b>Research assistant</b> responsible for molecular biology, gene expression, and RNA sequencing experiments.
@@ -122,7 +122,7 @@ layout: page
 ### Esma Secen
 <div class="clearfix team-member">
     <img src="img/Esma.jpg"
-         alt="Testimage"
+         alt="Portrait of Esma Secen"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing
     <b>PhD thesis</b> on neuromodulation of descending motor tracts to improve functional recovery after stroke.
@@ -131,7 +131,7 @@ layout: page
 ### Neda Rahimiverki
 <div class="clearfix team-member">
     <img src="img/Neda.jpg"
-         alt="Testimage"
+         alt="Portrait of Neda Rahimiverki"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing 
     <b>Master thesis</b> on the application of TMS after stroke in mice.
@@ -140,7 +140,7 @@ layout: page
 ### Agnes Rudowski
 <div class="clearfix team-member">
     <img src="img/Agnes.jpg"
-         alt="Testimage"
+         alt="Portrait of Agnes Rudowski"
          style="width: 10%; height: auto; float: left;" />
     2026 – ongoing 
     <b>Technician</b> responsible for animal housing, histology, and keeping the lab organized.
@@ -149,7 +149,7 @@ layout: page
 ### Franziska Ziolkowski
 <div class="clearfix team-member">
     <img src="img/Franziska_2022-12-14 09.30.06.jpg"
-         alt="Testimage"
+         alt="Portrait of Franziska Ziolkowski"
          style="width: 10%; height: auto; float: left;" />
     2023 – ongoing 
     <b>Master thesis</b> on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.

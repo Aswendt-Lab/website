@@ -3,7 +3,7 @@ title: Imprint
 layout: page
 ---
 
-# Legarl Notice (Impressum) <br>
+# Legal Notice (Impressum) <br>
 Website of the Aswendt Lab <br>
 Information according to [§ 5 TMG](https://www.telemediengesetz.de/§-5-tmg-allgemeine-informationspflichten/) 
 
@@ -11,7 +11,7 @@ Information according to [§ 5 TMG](https://www.telemediengesetz.de/§-5-tmg-all
 Prof. Dr. Markus Aswendt <br>
 Experimental Neurology Section <br>
 Department of Neurology <br>
-University Hospital Frankfurtm <br>
+University Hospital Frankfurt <br>
 Theodor-Stern-Kai 7 <br>
 Frankfurt am Main, Germany
 

@@ -1,0 +1,29 @@
+---
+- image: "/img/charite_logo.svg"
+  institution: Charité Berlin
+  names: Prof. Philipp Boehm-Sturm
+  details: Experimental Neurology · Berlin, Germany
+- image: "/img/toronto_logo.png"
+  institution: University of Toronto
+  names: Prof. Maged Goubran
+  details: Medical Biophysics · Toronto, Canada
+- image: "/img/fz_logo.png"
+  institution: Research Center Jülich
+  names: Prof. Michael Hanke
+  details: INM-7 · Jülich, Germany
+- image: "/img/Novartis_logo.png"
+  institution: Novartis
+  names: Dr. Giovanna Ielacqua
+  details: Novartis Institutes for Biomedical Research · Basel, Switzerland
+- image: "/img/Stanford_logo.svg"
+  institution: Stanford University
+  names: Dr. Christoph Leuze
+  details: School of Medicine, Radiology · Stanford, USA
+- image: "/img/Gothenburg_logo.png"
+  institution: University of Gothenburg
+  names: Prof. Milos Pekny & Prof. Marcela Pekna
+  details: Clinical Neurosciences · Gothenburg, Sweden
+- image: "/img/UKK_logo.png"
+  institution: University Hospital Cologne
+  names: Prof. Adele Rüger & Prof. Lukas J. Volz
+  details: Department of Neurology · Cologne, Germany

@@ -1,5 +1,5 @@
 ---
-title: Paper
+title: Publications
 layout: page
 ---
 ### Publications summary with citations
@@ -20,7 +20,7 @@ Data collected from [OpenAlex](https://openalex.org) with impact factors from [S
 **Current Biology** 2025 Apr 7;35(7):1459-1469.
 
 - Kalantari A, Hambrock C, Grefkes C, Fink GR, Aswendt M. [Proportional recovery in mice with cortical stroke](https://doi.org/10.1016/j.expneurol.2025.115180)  
-**Experimenta Neurology** 2025 Feb 2;386.  
+**Experimental Neurology** 2025 Feb 2;386.
 
 - Mahani F, Kalantari A, Diedenhofen M, Green C, Wiedermann D, Fink GR, Hoehn M, Aswendt M. [Dynamic structural connectivity changes in cortical and cortico-striatal strokes in mice](https://doi.org/10.1101/2025.03.27.644898)  
 **bioRxiv** 2025.
