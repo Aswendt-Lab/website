@@ -156,3 +156,12 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 
 .team-close { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; border: 1px solid var(--border); border-radius: 50%; background: #101619; color: #fff; font: inherit; cursor: pointer; }
 .team-biography h3 { padding-right: 30px; }
+
+.news-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 16px; margin: 24px 0 36px; }
+.news-gallery--1 { grid-template-columns: 1fr; max-width: 720px; }
+.news-gallery--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.news-gallery--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.post-content .news-gallery img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; margin: 0; border-radius: 8px; background: #0b1013; }
+.post-content .news-gallery--1 img { aspect-ratio: auto; max-height: 520px; }
+@media (max-width: 800px) { .news-gallery:not(.news-gallery--1) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
+@media (max-width: 480px) { .news-gallery:not(.news-gallery--1) { gap: 8px; } }
