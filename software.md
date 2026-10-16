@@ -5,7 +5,7 @@ layout: page
 
 Open tools for preclinical imaging, atlas registration, quality control, and reproducible research.
 
-[Browse all repositories](https://github.com/Aswendt-Lab) · [Explore shared datasets](https://gin.g-node.org/Aswendt_Lab) · [Get support]({{ '/contact.html' | relative_url }})
+[Browse all repositories](https://github.com/Aswendt-Lab) · [Explore shared datasets](https://gin.g-node.org/Aswendt_Lab) · [Open office hour on Zoom](https://uni-frankfurt.zoom-x.de/j/63112745009?pwd=JBTjMVbuaTw9cZvFnppTwCPjGdQEyx.1) — Thursdays, 15:00 Europe/Berlin
 
 {% include tools-feature.html %}
 
