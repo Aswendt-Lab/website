@@ -3,11 +3,12 @@
   <p class="tools-intro">From MRI processing and quality control to atlas registration and connectivity analysis. Explore our tools, watch the animation, and find the code on GitHub.</p>
   <div class="tools-showcase">
     <figure class="tools-video">
-      <video controls loop muted playsinline preload="none" poster="{{ '/img/AIDA-Tools-Illustration.jpg' | relative_url }}" aria-label="AIDA tools animation" aria-describedby="tools-video-caption">
-        <source src="{{ '/img/AIDA-Tools-Animation.mp4' | relative_url }}" type="video/mp4">
-        <p><a href="{{ '/img/AIDA-Tools-Animation.mp4' | relative_url }}">Watch the AIDA tools animation (MP4)</a></p>
-      </video>
-      <figcaption id="tools-video-caption">AIDA brings together tools for mouse brain MRI, histology, quality control, and connectivity analysis. <a href="{{ '/img/AIDA-Tools-Animation.mp4' | relative_url }}">Open animation ↗</a></figcaption>
+      <picture class="tools-animation">
+        <source media="(prefers-reduced-motion: reduce)" srcset="{{ '/img/AIDA-Tools-Illustration.jpg' | relative_url }}">
+        <img src="{{ '/img/AIDA-Tools-Animation.gif' | relative_url }}" data-animation-src="{{ '/img/AIDA-Tools-Animation.gif' | relative_url }}" data-poster-src="{{ '/img/AIDA-Tools-Illustration.jpg' | relative_url }}" alt="Animated AIDA illustration with a mouse, brain imaging, and the AIDA logo" width="960" height="540" loading="lazy" decoding="async">
+      </picture>
+      <button class="animation-toggle" type="button" aria-pressed="false" hidden>Pause animation</button>
+      <figcaption id="tools-video-caption">AIDA brings together tools for mouse brain MRI, histology, quality control, and connectivity analysis. <a href="{{ '/img/AIDA-Tools-Animation.gif' | relative_url }}">Open GIF ↗</a></figcaption>
     </figure>
     <aside class="github-preview" aria-label="AIDA repositories on GitHub">
       <div class="github-preview-header"><span class="github-symbol" aria-hidden="true">&lt;/&gt;</span><a href="https://github.com/Aswendt-Lab">GitHub · Aswendt-Lab ↗</a></div>
@@ -23,3 +24,5 @@
     </aside>
   </div>
 </section>
+
+<script src="{{ '/assets/animation.js' | relative_url }}" defer></script>

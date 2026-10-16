@@ -1,0 +1,61 @@
+---
+- name: Markus Aswendt
+  image: "/img/MA-500.jpg"
+  biography: Markus is an expert in MR neuroimaging and its application to investigate
+    mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience
+    and has worked in international labs and funding consortia. Markus is also the
+    head of the central core facility Neuro-MRI of the University of Cologne.
+- name: Julian Cramer
+  image: "/img/Julian_Cramer.jpeg"
+  biography: |-
+    2025 – ongoing
+        <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
+- name: Christoph Hoeren
+  image: "/img/Christoph_Hoeren_.jpeg"
+  biography: |-
+    2026 – ongoing
+        <b>Bachelor thesis</b> on histological analysis of white matter plasticity after internal capsule stroke and tDCS.
+- name: Fatemeh Mahani
+  image: "/img/FatemehMahani.jpg"
+  biography: |-
+    2022 – ongoing
+        <b>PhD thesis</b> on structure-function coupling in relation to timing and stroke lesion size and location.
+- name: Daniel Mertens
+  image: "/img/Daniel_Mertens_2023.jpg"
+  biography: |-
+    2023 – ongoing
+        <b>Bachelor thesis</b> on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
+- name: Motahare Mousavi
+  image: "/img/Motahare_2024.jpg"
+  biography: "2024 – ongoing \n    <b>MD thesis</b> on the role of astrogliosis in
+    secondary neurodegeneration after stroke."
+- name: Florian Pietsch
+  image: "/img/Florian_Pietsch_2026.jpg"
+  biography: "2024 – ongoing \n    <b>Bachelor thesis</b> on behavioral phenotyping
+    of motor deficits after internal capsule stroke."
+- name: Alina Rimscha
+  image: "/img/Alina_Rimscha_2026.jpg"
+  biography: "2026 – ongoing \n    <b>Bachelor thesis</b> on the histological characterization
+    of tDCS-induced white matter changes."
+- name: Parvathi Satheesh
+  image: "/img/Parvathi.jpg"
+  biography: |-
+    2026 – ongoing
+        <b>Research assistant</b> responsible for molecular biology, gene expression, and RNA sequencing experiments.
+- name: Esma Secen
+  image: "/img/Esma.jpg"
+  biography: |-
+    2026 – ongoing
+        <b>PhD thesis</b> on neuromodulation of descending motor tracts to improve functional recovery after stroke.
+- name: Neda Rahimiverki
+  image: "/img/Neda.jpg"
+  biography: "2026 – ongoing \n    <b>Master thesis</b> on the application of TMS
+    after stroke in mice."
+- name: Agnes Rudowski
+  image: "/img/Agnes.jpg"
+  biography: "2026 – ongoing \n    <b>Technician</b> responsible for animal housing,
+    histology, and keeping the lab organized."
+- name: Franziska Ziolkowski
+  image: "/img/Franziska_2022-12-14 09.30.06.jpg"
+  biography: "2023 – ongoing \n    <b>Master thesis</b> on recurrence plot quantification
+    of dynamic functional connectivity changes after stroke related to motor recovery."

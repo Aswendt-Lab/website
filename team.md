@@ -2,158 +2,24 @@
 title: Team
 layout: page
 ---
-<style>
-    h3 {
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    .clearfix::after {
-        content: ""; 
-        clear: both; 
-        display: table;
-    }
-    .team-member {
-        margin-bottom: 5px;
-    }
-    .team-member img {
-        margin-right: 10px;
-    }
-    .alumni-entry {
-    margin-bottom: 25px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-    }
-    .alumni-entry b {
-        display: inline-block;
-    }
-    .alumni-entry .year {
-        display: inline;
-    }
-</style>
 
+<figure class="team-group"><img src="{{ '/img/team_2026-rund.png' | relative_url }}" alt="Aswendt Lab team, 2026" width="1120" loading="eager"></figure>
 
-<div class="team-member" style="text-align: center;">
-    <img src="img/team_2026-rund.png"
-         alt="Aswendt Lab team, 2026"
-         style="width: 100%; height: auto;" />
+## Meet the team
+
+<p class="team-instructions">Hover over a portrait to meet our researchers. Tap a portrait or use the keyboard to show their details.</p>
+<div class="team-grid">
+{% for member in site.data.team %}
+  <details class="team-tile">
+    <summary>
+      <img src="{{ member.image | relative_url }}" alt="Portrait of {{ member.name | escape }}" loading="lazy" decoding="async" width="400" height="500">
+      <span class="team-name">{{ member.name | escape }}</span>
+    </summary>
+    <div class="team-biography"><button class="team-close" type="button" aria-label="Close details for {{ member.name | escape }}">×</button><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
+  </details>
+{% endfor %}
 </div>
-
-### Markus Aswendt
-<div class="clearfix team-member">
-    <img src="img/MA-500.jpg"
-         alt="Portrait of Markus Aswendt"
-         style="width: 10%; height: auto; float: left;" />
-    Markus is an expert in MR neuroimaging and its application to investigate mechanisms of spontaneous recovery after stroke in mice. He holds a PhD in neuroscience and has worked in international labs and funding consortia. Markus is also the head of the central core facility Neuro-MRI of the University of Cologne.
-</div>
-
-### Julian Cramer
-<div class="clearfix team-member">
-    <img src="img/Julian_Cramer.jpeg"
-         alt="Portrait of Julian Cramer"
-         style="width: 10%; height: auto; float: left;" />
-    2025 – ongoing
-    <b>PhD thesis</b> on diffusion changes in the internal capsule related to recovery after stroke.
-</div>
-
-### Christoph Hoeren
-<div class="clearfix team-member">
-    <img src="img/Christoph_Hoeren_.jpeg"
-         alt="Portrait of Christoph Hoeren"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing
-    <b>Bachelor thesis</b> on histological analysis of white matter plasticity after internal capsule stroke and tDCS.
-</div>
-
-### Fatemeh Mahani
-<div class="clearfix team-member">
-    <img src="img/FatemehMahani.jpg"
-         alt="Portrait of Fatemeh Mahani"
-         style="width: 10%; height: auto; float: left;" />
-    2022 – ongoing
-    <b>PhD thesis</b> on structure-function coupling in relation to timing and stroke lesion size and location.
-</div>
-
-### Daniel Mertens
-<div class="clearfix team-member">
-    <img src="img/Daniel_Mertens_2023.jpg"
-         alt="Portrait of Daniel Mertens"
-         style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing
-    <b>Bachelor thesis</b> on expanding AIDAmri for rat brain MRI and the Sigma rat atlas.
-</div>
-
-### Motahare Mousavi
-<div class="clearfix team-member">
-    <img src="img/Motahare_2024.jpg"
-         alt="Portrait of Motahare Mousavi"
-         style="width: 10%; height: auto; float: left;" />
-    2024 – ongoing 
-    <b>MD thesis</b> on the role of astrogliosis in secondary neurodegeneration after stroke.
-</div>
-
-### Florian Pietsch
-<div class="clearfix team-member">
-    <img src="img/Florian_Pietsch_2026.jpg"
-         alt="Portrait of Florian Pietsch"
-         style="width: 10%; height: auto; float: left;" />
-    2024 – ongoing 
-    <b>Bachelor thesis</b> on behavioral phenotyping of motor deficits after internal capsule stroke.
-</div>
-
-### Alina Rimscha
-<div class="clearfix team-member">
-    <img src="img/Alina_Rimscha_2026.jpg"
-         alt="Portrait of Alina Rimscha"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing 
-    <b>Bachelor thesis</b> on the histological characterization of tDCS-induced white matter changes.
-</div>
-
-### Parvathi Satheesh
-<div class="clearfix team-member">
-    <img src="img/Parvathi.jpg"
-         alt="Portrait of Parvathi Satheesh"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing
-    <b>Research assistant</b> responsible for molecular biology, gene expression, and RNA sequencing experiments.
-</div>
-
-
-### Esma Secen
-<div class="clearfix team-member">
-    <img src="img/Esma.jpg"
-         alt="Portrait of Esma Secen"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing
-    <b>PhD thesis</b> on neuromodulation of descending motor tracts to improve functional recovery after stroke.
-</div>
-
-### Neda Rahimiverki
-<div class="clearfix team-member">
-    <img src="img/Neda.jpg"
-         alt="Portrait of Neda Rahimiverki"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing 
-    <b>Master thesis</b> on the application of TMS after stroke in mice.
-</div>
-
-### Agnes Rudowski
-<div class="clearfix team-member">
-    <img src="img/Agnes.jpg"
-         alt="Portrait of Agnes Rudowski"
-         style="width: 10%; height: auto; float: left;" />
-    2026 – ongoing 
-    <b>Technician</b> responsible for animal housing, histology, and keeping the lab organized.
-</div>
-
-### Franziska Ziolkowski
-<div class="clearfix team-member">
-    <img src="img/Franziska_2022-12-14 09.30.06.jpg"
-         alt="Portrait of Franziska Ziolkowski"
-         style="width: 10%; height: auto; float: left;" />
-    2023 – ongoing 
-    <b>Master thesis</b> on recurrence plot quantification of dynamic functional connectivity changes after stroke related to motor recovery.
-</div>
+<script src="{{ '/assets/team.js' | relative_url }}" defer></script>
 
 <details>
 <summary><strong>Alumni</strong></summary>
@@ -162,7 +28,7 @@ layout: page
         <b>Aref Kalantari</b> <span class="year">(2021-2025)</span><br>
         PhD thesis (Cologne, Neuroscience): A unified framework for multimodla animal studies: data management, MRI quality control, and proportional recovery in mice<br>
         Next position: Postdoc (<a href="https://www.uniklinik-freiburg.de/imbi-en/research-data-management.html" title="Research Data Management group led by Dr. Klaus Kaiser">Research Data Management group led by Dr. Klaus Kaiser</a>, University Hospital Freiburg)
-    </div> 
+    </div>
     <div class="alumni-entry">
         <b>Irem Dilara Sen</b> <span class="year">(2024-2025)</span><br>
         Master thesis (Bremen, Neuroscience): Long-term cognitive and motor deficits after internal capsule stroke in mice<br>

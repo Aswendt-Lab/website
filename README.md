@@ -91,4 +91,6 @@ Validation also checks internal links and anchors with `bundle exec ruby scripts
 
 The adapter embeds DejaVu Sans fonts from Matplotlib and normalizes typographic hyphens so author names and publication titles render correctly in the PDF.
 
-The shared AIDA video and GitHub repository overview are defined in `_includes/tools-feature.html` and shown on both the homepage and Software & Data page. The player uses `img/AIDA-Tools-Animation.mp4` with `img/AIDA-Tools-Illustration.jpg` as its poster; playback starts on user request and loops with controls available.
+The shared AIDA video and GitHub repository overview are defined in `_includes/tools-feature.html` and shown on both the homepage and Software & Data page. The feature displays `img/AIDA-Tools-Animation.gif` as an automatically looping image, with a pause/resume button. Visitors who prefer reduced motion see `img/AIDA-Tools-Illustration.jpg` instead. The MP4 remains the source asset for future GIF regeneration.
+
+Team profiles are stored in `_data/team.yml`. The Team page renders them as portrait tiles that start in grayscale and turn to color when opened or hovered. Native details/summary elements support keyboard and touch interaction; `assets/team.js` adds mouse-hover disclosure.
