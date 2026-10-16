@@ -90,3 +90,5 @@ Set `OPENALEX_API_KEY` through your environment or secret manager if needed. A c
 Validation also checks internal links and anchors with `bundle exec ruby scripts/check_links.rb` and filter behavior with `node --test tests/publications.test.js`. The report adapter corrects PMID values read as floating-point numbers by pandas. The page distinguishes OpenAlex’s indexed citation counts from the report’s actually retrieved citation links.
 
 The adapter embeds DejaVu Sans fonts from Matplotlib and normalizes typographic hyphens so author names and publication titles render correctly in the PDF.
+
+The shared AIDA video and GitHub repository overview are defined in `_includes/tools-feature.html` and shown on both the homepage and Software & Data page. The player uses `img/AIDA-Tools-Animation.mp4` with `img/AIDA-Tools-Illustration.jpg` as its poster; playback starts on user request and loops with controls available.

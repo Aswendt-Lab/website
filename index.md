@@ -25,6 +25,8 @@ description: Discover how the Aswendt Lab studies stroke recovery through MRI, c
   <article class="card"><h3>Open science</h3><p>We build accessible imaging tools and FAIR workflows to make preclinical research more reproducible.</p><a href="{{ '/software.html' | relative_url }}">Discover software &amp; data →</a></article>
 </div>
 
+{% include tools-feature.html %}
+
 {% assign featured = site.data.publications.publications | where: 'doi', '10.4103/nrr.nrr-d-25-00491' | first %}
 <section class="publication-feature" aria-labelledby="publication-title">
   <img src="{{ '/img/Mahani2026_SC_GraphicalAbstract.png' | relative_url }}" alt="Graphical abstract accompanying the study of structural connectivity changes after stroke in mice" loading="lazy" decoding="async">
