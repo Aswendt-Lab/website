@@ -90,28 +90,57 @@ def verify_author(config, author):
 
 
 def select_works(works, config):
-    selected = []
-    by_doi = {}
-    excluded = set(config.get("exclude_ids", []))
-    for work in works:
-        if work.get("type") not in config["include_types"] or work["id"] in excluded:
+    """Preserve every fetched record for the report and CSV, including preprints."""
+    if not works:
+        raise ValueError("No author records returned")
+    return list(works)
+
+
+def is_display_publication(work, config):
+    """Exclude preprints, presentations, abstracts, and repository-only records."""
+    if work.get("type") not in config.get("display_types", ["article", "review", "data-paper", "book", "book-chapter"]):
+        return False
+    if work.get("is_retracted") or work.get("is_paratext") or work["id"] in config.get("exclude_ids", []):
+        return False
+    location = work.get("primary_location") or {}
+    source = location.get("source") or {}
+    if source.get("type") not in {"journal", "book series", "ebook platform", "book"}:
+        return False
+    if re.search(r"\b(?:biorxiv|medrxiv|arxiv)\b", source.get("display_name", ""), re.I):
+        return False
+    if (location.get("raw_type") or "").lower() in {"proceedings-article", "proceedings", "posted-content"}:
+        return False
+    title = work.get("title") or ""
+    if re.match(r"^(?:Abstract\b|(?:P|PO|OP|FV)\s+\d+\b)", title, re.I):
+        return False
+    return True
+
+
+def display_records(records):
+    """Count publisher/repository/video versions once without dropping CSV rows."""
+    selected, seen_dois, seen_titles = [], set(), set()
+    def preference(record):
+        # Publisher metadata generally includes a volume; JoVE's -v DOI is a
+        # video version of the same paper, not an additional publication.
+        return (bool(record["volume"]), not record["doi"].endswith("-v"), record["cited_by_count"])
+    for record in sorted(records, key=preference, reverse=True):
+        if not record["display_eligible"]:
             continue
-        if work.get("is_retracted"):
+        doi = record["doi"].lower()
+        if doi.startswith("10.3791/"):
+            doi = doi.removesuffix("-v")
+        title = re.sub(r"[\W_]+", "", record["title"].casefold())
+        venue = re.sub(r"[\W_]+", "", record["journal"].casefold())
+        first_author = record["authors"].split(",")[0].split()[0].casefold()
+        title_key = (title, venue, first_author) if len(title) >= 32 else None
+        if doi and doi in seen_dois or title_key and title_key in seen_titles:
             continue
-        doi = (work.get("doi") or "").lower().removeprefix("https://doi.org/")
-        if doi and doi in by_doi:
-            # OpenAlex can contain duplicate records for one DOI. Keep the richer one.
-            previous = by_doi[doi]
-            if work.get("cited_by_count", 0) > previous.get("cited_by_count", 0):
-                selected.remove(previous)
-            else:
-                continue
-        selected.append(work)
         if doi:
-            by_doi[doi] = work
-    if not selected:
-        raise ValueError("No eligible publications returned")
-    return selected
+            seen_dois.add(doi)
+        if title_key:
+            seen_titles.add(title_key)
+        selected.append(record)
+    return sorted(selected, key=lambda p: (p["year"], p["publication_date"], p["title"]), reverse=True)
 
 
 def build_dataset(rows, works, config, previous=None):
@@ -143,6 +172,8 @@ def build_dataset(rows, works, config, previous=None):
             "year": int(row["year"]), "cited_by_count": count,
             "url": "https://doi.org/" + doi if doi else identifier,
             "type": work["type"],
+            "source_type": ((work.get("primary_location") or {}).get("source") or {}).get("type", ""),
+            "display_eligible": is_display_publication(work, config),
         })
         # Use explicit source metrics; never describe SCImago's metric as JIF.
         metric = row.get("impact_factor", "").strip()
@@ -150,6 +181,10 @@ def build_dataset(rows, works, config, previous=None):
             publication["scimago_cites_per_doc_2y"] = float(metric)
             publication["scimago_year"] = int(float(row["impact_factor_year"]))
         publications.append(publication)
+    all_publications = sorted(publications, key=lambda p: (p["year"], p["publication_date"], p["title"]), reverse=True)
+    publications = display_records(all_publications)
+    for publication in publications:
+        work = raw_by_id[publication["openalex_id"]]
         for point in work.get("counts_by_year", []):
             year, citations = int(point["year"]), int(point["cited_by_count"])
             if citations < 0:
@@ -157,7 +192,7 @@ def build_dataset(rows, works, config, previous=None):
             annual[year] = annual.get(year, 0) + citations
     publications.sort(key=lambda p: (p["year"], p["publication_date"], p["title"]), reverse=True)
     if previous:
-        old_ids = {p["openalex_id"] for p in previous["publications"]}
+        old_ids = {p["openalex_id"] for p in previous.get("all_publications", previous["publications"])}
         if len(old_ids - seen) > max(2, int(len(old_ids) * 0.1)):
             raise ValueError("More than 10% of previous publications disappeared; investigate before replacing")
     maximum = max(annual.values(), default=1) or 1
@@ -167,6 +202,8 @@ def build_dataset(rows, works, config, previous=None):
         "source": "OpenAlex via Aswendt-Lab/Tools CitationsReport",
         "reporter_revision": UPSTREAM_REV,
         "publication_count": len(publications),
+        "total_record_count": len(all_publications),
+        "all_publications": all_publications,
         "citation_count": sum(p["cited_by_count"] for p in publications),
         "annual_citations": [{"year": y, "count": n, "width": round(n / maximum * 100, 1)} for y, n in sorted(annual.items())],
         "publications": publications,
@@ -247,6 +284,20 @@ def refresh(config, workspace, previous=None):
         raise ValueError("Expected exactly one works-summary CSV")
     with csv_files[0].open(encoding="utf-8-sig", newline="") as handle:
         data = build_dataset(list(csv.DictReader(handle)), works, config, previous)
+    with csv_files[0].open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        fieldnames = list(reader.fieldnames)
+        csv_rows = list(reader)
+    classifications = {p["openalex_id"]: p for p in data["all_publications"]}
+    displayed_ids = {p["openalex_id"] for p in data["publications"]}
+    with csv_files[0].open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames + ["type", "source_type", "displayed_on_website"], lineterminator="\n")
+        writer.writeheader()
+        for row in csv_rows:
+            record = classifications[row["openalex_id"]]
+            row.update(type=record["type"], source_type=record["source_type"], displayed_on_website=row["openalex_id"] in displayed_ids)
+            writer.writerow(row)
+
     pdf = generated.get("pdf")
     if not pdf or not pdf.is_file() or not pdf.read_bytes().startswith(b"%PDF-"):
         raise ValueError("Reporter did not produce a valid PDF")

@@ -2,12 +2,21 @@
   "author_name": "Markus Aswendt",
   "author_id": "A5088353298",
   "orcid": "0000-0003-1423-0934",
-  "include_types": [
+  "exclude_ids": [
+    "https://openalex.org/W3177904469",
+    "https://openalex.org/W4223422472",
+    "https://openalex.org/W4392281695"
+  ],
+  "display_types": [
     "article",
     "review",
-    "preprint"
+    "data-paper",
+    "book",
+    "book-chapter"
   ],
-  "exclude_ids": [
-
-  ]
+  "exclusion_notes": {
+    "W3177904469": "Conference poster abstract P 18, Clinical Neurophysiology e8-e9",
+    "W4223422472": "Conference presentation FV 13, Clinical Neurophysiology e8-e9",
+    "W4392281695": "Conference abstract, Clinical Neurophysiology e42"
+  }
 }
