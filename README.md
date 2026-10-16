@@ -2,7 +2,7 @@
 
 Jekyll website for the Aswendt Lab’s research on experimental stroke, neuroimaging, and neuromodulation.
 
-**Live website:** https://aswendt-lab.github.io/website/
+**Live website:** https://aswendtlab.com/
 
 ## Local development
 
@@ -14,7 +14,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open http://localhost:4000/website/. To check a production build:
+Open http://localhost:4000/. To check a production build:
 
 ```sh
 JEKYLL_ENV=production bundle exec jekyll build
@@ -37,7 +37,7 @@ Use descriptive image alternative text. Add `loading="lazy"` to images below the
 
 ## Deployment
 
-The site uses GitHub Pages-compatible Jekyll dependencies. `_config.yml` sets `url: https://aswendt-lab.github.io` and `baseurl: /website`. Use Jekyll’s `relative_url` filter for internal links so the project path is preserved.
+The site uses GitHub Pages-compatible Jekyll dependencies. `_config.yml` sets `url: https://aswendtlab.com` and `baseurl: ""`. Use Jekyll’s `relative_url` filter for internal links so links resolve correctly at the custom-domain root.
 
 Deployment is managed through the repository’s GitHub Pages settings. Confirm the configured branch or workflow there before publishing; local edits alone do not deploy the site.
 
@@ -96,3 +96,5 @@ The shared AIDA video and GitHub repository overview are defined in `_includes/t
 Team profiles are stored in `_data/team.yml`. The Team page renders them as portrait tiles that start in grayscale and turn to color when opened or hovered. Native details/summary elements support keyboard and touch interaction; `assets/team.js` adds mouse-hover disclosure.
 
 The CSV adds `type`, `source_type`, and `displayed_on_website` columns so the full export can be audited against the filtered publication list. Source/type information and explicit conference exclusions are applied automatically on every refresh.
+
+The custom domain is declared in `CNAME` (`aswendtlab.com`). DNS is managed through Namecheap BasicDNS. HTTPS certificates are provisioned by GitHub Pages; enable Enforce HTTPS in the repository’s Pages settings once certificate issuance completes.

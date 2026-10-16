@@ -2,8 +2,8 @@ title: Aswendt Lab
 description: Understanding and improving recovery after stroke through neuroimaging, neuroengineering, and open science. Aswendt Lab, Frankfurt, Germany.
 theme: minima
 
-url: "https://aswendt-lab.github.io"
-baseurl: "/website"
+url: "https://aswendtlab.com"
+baseurl: ""
 repository: "Aswendt-Lab/website"
 
 show_menu: true
