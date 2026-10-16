@@ -32,6 +32,12 @@ github:
   is_project_page: false
 
 exclude:
+  - vendor/
+  - .venv/
   - gemfiles/
   - Gemfile*
   - README.md
+  - scripts/
+  - tests/
+  - data/*.pending
+  - '*.pending'

@@ -1,0 +1,13 @@
+{
+  "author_name": "Markus Aswendt",
+  "author_id": "A5088353298",
+  "orcid": "0000-0003-1423-0934",
+  "include_types": [
+    "article",
+    "review",
+    "preprint"
+  ],
+  "exclude_ids": [
+
+  ]
+}

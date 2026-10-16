@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+.venv/
+__pycache__/
+*.pyc
+openalex_citations_output/

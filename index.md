@@ -25,16 +25,19 @@ description: Discover how the Aswendt Lab studies stroke recovery through MRI, c
   <article class="card"><h3>Open science</h3><p>We build accessible imaging tools and FAIR workflows to make preclinical research more reproducible.</p><a href="{{ '/software.html' | relative_url }}">Discover software &amp; data →</a></article>
 </div>
 
+{% assign featured = site.data.publications.publications | where: 'doi', '10.4103/nrr.nrr-d-25-00491' | first %}
 <section class="publication-feature" aria-labelledby="publication-title">
   <img src="{{ '/img/Mahani2026_SC_GraphicalAbstract.png' | relative_url }}" alt="Graphical abstract accompanying the study of structural connectivity changes after stroke in mice" loading="lazy" decoding="async">
   <div>
-    <p class="eyebrow">Featured publication · 2026</p>
+    <p class="eyebrow">Featured publication · {{ featured.year | default: 2026 }}</p>
     <h2 id="publication-title">Mapping connectivity after stroke</h2>
     <p>How do structural brain networks change after stroke? Our longitudinal study examines connectivity changes in mice with cortical and cortico-striatal strokes.</p>
-    <p class="publication-citation">Mahani et al. · <em>Neural Regeneration Research</em></p>
+    <p class="publication-citation">{% if featured %}{{ featured.authors | split: "," | first | escape }} et al. · <em>{{ featured.journal | escape }}</em> · {{ featured.cited_by_count }} citations in OpenAlex{% else %}Mahani et al. · <em>Neural Regeneration Research</em>{% endif %}</p>
     <div class="actions"><a class="button" href="https://doi.org/10.4103/nrr.nrr-d-25-00491">Read the paper</a><a class="button secondary" href="{{ '/paper.html' | relative_url }}">All publications</a></div>
   </div>
 </section>
+
+{% include latest-publications.html %}
 
 <div class="section-heading"><h2>Latest news</h2><a href="{{ '/news.html' | relative_url }}">All news →</a></div>
 <div class="card-grid">

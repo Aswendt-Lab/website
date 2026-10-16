@@ -1,0 +1,26 @@
+name: Check website
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: node --test tests/publications.test.js
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler: '2.5.10'
+          bundler-cache: true
+      - run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+      - run: bundle exec ruby scripts/check_links.rb
