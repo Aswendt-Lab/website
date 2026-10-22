@@ -93,7 +93,7 @@ The adapter embeds DejaVu Sans fonts from Matplotlib and normalizes typographic 
 
 The shared AIDA video and GitHub repository overview are defined in `_includes/tools-feature.html` and shown on both the homepage and Software & Data page. The feature displays `img/AIDA-Tools-Animation.gif` as an automatically looping image, with a pause/resume button. Visitors who prefer reduced motion see `img/AIDA-Tools-Illustration.jpg` instead. The MP4 remains the source asset for future GIF regeneration.
 
-Team profiles are stored in `_data/team.yml`. The Team page renders them as portrait tiles that start in grayscale and turn to color when opened or hovered. Native details/summary elements support keyboard and touch interaction; `assets/team.js` adds mouse-hover disclosure.
+Team profiles are stored in `_data/team.yml`. The Team page renders them as portrait tiles that start in color. On devices with mouse hover, hovering a tile turns all other portraits grayscale; leaving the tile restores their color, including in grid gaps. Touch devices keep all portraits in color. Native details/summary elements support keyboard and touch interaction; `assets/team.js` adds mouse-hover disclosure.
 
 The CSV adds `type`, `source_type`, and `displayed_on_website` columns so the full export can be audited against the filtered publication list. Source/type information and explicit conference exclusions are applied automatically on every refresh.
 
