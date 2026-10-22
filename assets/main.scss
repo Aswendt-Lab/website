@@ -140,7 +140,6 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 .team-tile summary::-webkit-details-marker { display: none; }
 .team-tile summary::marker { content: ''; }
 .team-info:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
-.team-close-label { display: none; }
 .post-content .team-tile img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; filter: grayscale(0%); transition: filter .3s ease; }
 @media (hover: hover) and (pointer: fine) {
   .post-content .team-grid:has(.team-tile:hover) .team-tile:not(:hover) img { filter: grayscale(100%); }
@@ -150,9 +149,7 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 .team-name { position: absolute; inset: auto 0 0; padding: 56px 22px 54px; font-weight: 650; font-size: 1.15rem; overflow-wrap: anywhere; background: linear-gradient(transparent, rgba(0,0,0,.92)); }
 .team-tile:has(.team-details[open]) .team-name { visibility: hidden; }
 .team-details[open] { position: absolute; inset: auto 0 0; max-height: 50%; overflow-y: auto; box-sizing: border-box; background: linear-gradient(to bottom, transparent 0, rgba(0,0,0,.88) 46px, rgba(0,0,0,.97) 100%); }
-.team-details[open] .team-info { top: 12px; right: 12px; bottom: auto; left: auto; z-index: 1; display: grid; place-items: center; width: 32px; height: 32px; padding: 0; box-sizing: border-box; border-radius: 50%; font-size: 1rem; }
-.team-details[open] .team-info-label { display: none; }
-.team-details[open] .team-close-label { display: inline; }
+.team-details[open] .team-info { opacity: 0; pointer-events: none; }
 .team-biography { padding: 46px 22px 22px; color: #fff; font-size: .9rem; line-height: 1.6; }
 .team-biography h3 { font-size: 1.2rem; margin: 0 0 12px; }
 .team-biography p { margin: 0; }
@@ -162,8 +159,6 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 @media (max-width: 800px) { .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; } .team-biography { font-size: .85rem; padding-inline: 16px; } }
 @media (max-width: 480px) { .team-grid { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { .team-tile img { transition: none; } }
-
-.team-biography h3 { padding-right: 30px; }
 
 .news-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; gap: 16px; margin: 24px 0 36px; }
 .news-gallery--1 { grid-template-columns: 1fr; max-width: 720px; }

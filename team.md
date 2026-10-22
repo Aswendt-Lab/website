@@ -13,7 +13,7 @@ layout: page
     <img src="{{ member.image | relative_url }}" alt="Portrait of {{ member.name | escape }}" loading="lazy" decoding="async" width="400" height="500">
     <span class="team-name">{{ member.name | escape }}</span>
     <details class="team-details">
-      <summary class="team-info" aria-label="Details for {{ member.name | escape }}"><span class="team-info-label" aria-hidden="true">Info</span><span class="team-close-label" aria-hidden="true">×</span></summary>
+      <summary class="team-info" aria-label="Details for {{ member.name | escape }}">Info</summary>
       <div class="team-biography"><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
     </details>
   </article>
