@@ -7,16 +7,17 @@ layout: page
 
 ## Meet the team
 
-<p class="team-instructions">Hover over a portrait to meet our researchers. Tap a portrait or use the keyboard to show their details.</p>
+<p class="team-instructions">Hover over a portrait to reveal Info, then select it to meet our researchers. On touch devices, tap Info. You can also reach Info with the keyboard.</p>
 <div class="team-grid">
 {% for member in site.data.team %}
-  <details class="team-tile">
-    <summary>
-      <img src="{{ member.image | relative_url }}" alt="Portrait of {{ member.name | escape }}" loading="lazy" decoding="async" width="400" height="500">
-      <span class="team-name">{{ member.name | escape }}</span>
-    </summary>
-    <div class="team-biography"><button class="team-close" type="button" aria-label="Close details for {{ member.name | escape }}">×</button><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
-  </details>
+  <article class="team-tile">
+    <img src="{{ member.image | relative_url }}" alt="Portrait of {{ member.name | escape }}" loading="lazy" decoding="async" width="400" height="500">
+    <span class="team-name">{{ member.name | escape }}</span>
+    <details class="team-details">
+      <summary class="team-info" aria-label="Details for {{ member.name | escape }}"><span class="team-info-label" aria-hidden="true">Info</span><span class="team-close-label" aria-hidden="true">×</span></summary>
+      <div class="team-biography"><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
+    </details>
+  </article>
 {% endfor %}
 </div>
 <script src="{{ '/assets/team.js' | relative_url }}" defer></script>
