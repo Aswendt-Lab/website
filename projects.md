@@ -3,6 +3,15 @@ title: Research
 layout: page
 ---
 
+## White matter degeneration and plasticity after stroke
+Damage to white matter pathways after stroke disrupts communication between brain regions and contributes to persistent motor deficits, including spasticity. However, how degeneration and plasticity of descending motor tracts influence recovery remains poorly understood. In this project, we are investigating whole-brain structural connectivity during spontaneous recovery and recovery supported by transcranial direct current stimulation (tDCS) in a mouse model of internal capsule stroke. We combine longitudinal in vivo diffusion tensor imaging (DTI), motor behaviour testing, and histology to relate changes in white matter integrity to motor function. By linking MRI measures to microscopic tissue changes and behavioural outcomes, we aim to understand how structural network reorganisation contributes to recovery and whether tDCS can promote white matter plasticity.
+
+<div style="text-align: center;">
+  <img src="img/WhiteMatter_Plasticity_Stroke.png" alt="Experimental setup, research aim, atlas registration and DTI-based fibre tracking for studying white matter plasticity after stroke." width="983" height="282" style="width: 900px; max-width: 100%; height: auto; background-color: #fff;"/>
+</div>
+
+<div style="margin-top: 30px;"></div>
+
 ## Spontaneous recovery after stroke
 Loss of function after stroke is caused by cell death and breakdown of the functional networks in the infarcted and connected brain regions. To some extent, the affected limb regains function, in a form of spontaneous recovery during the first 3 months after stroke. However, this recovery is generally incomplete and the underlying neural and molecular mechanisms are still unknown. In this project we are investigating brain/circuit activation patterns and analyse the transcriptome in the ipsi- and contralesional hemispheres of recovered vs. non-recovered mice after experimental stroke. 
 
