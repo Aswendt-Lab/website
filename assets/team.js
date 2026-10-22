@@ -2,15 +2,16 @@
 for (const tile of document.querySelectorAll('.team-tile')) {
   const details = tile.querySelector('.team-details');
   const summary = details.querySelector('summary');
+  const biography = tile.querySelector('.team-biography');
 
   details.addEventListener('toggle', () => {
     summary.tabIndex = details.open ? -1 : 0;
     if (details.open) {
       // Focus the scroll container so keyboard users can read long biographies.
-      details.tabIndex = 0;
-      details.focus({ preventScroll: true });
+      biography.tabIndex = 0;
+      biography.focus({ preventScroll: true });
     } else {
-      details.removeAttribute('tabindex');
+      biography.removeAttribute('tabindex');
     }
   });
   tile.addEventListener('pointerleave', event => {

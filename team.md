@@ -14,7 +14,9 @@ layout: page
     <span class="team-name">{{ member.name | escape }}</span>
     <details class="team-details">
       <summary class="team-info" aria-label="Details for {{ member.name | escape }}">Info</summary>
-      <div class="team-biography"><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
+      <div class="team-panel">
+        <div class="team-biography"><h3>{{ member.name | escape }}</h3><p>{{ member.biography }}</p></div>
+      </div>
     </details>
   </article>
 {% endfor %}

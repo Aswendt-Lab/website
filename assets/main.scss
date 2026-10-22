@@ -148,9 +148,11 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 }
 .team-name { position: absolute; inset: auto 0 0; padding: 56px 22px 54px; font-weight: 650; font-size: 1.15rem; overflow-wrap: anywhere; background: linear-gradient(transparent, rgba(0,0,0,.92)); }
 .team-tile:has(.team-details[open]) .team-name { visibility: hidden; }
-.team-details[open] { position: absolute; inset: auto 0 0; max-height: 50%; overflow-y: auto; box-sizing: border-box; background: linear-gradient(to bottom, transparent 0, rgba(0,0,0,.88) 46px, rgba(0,0,0,.97) 100%); }
+.team-details[open] { position: absolute; inset: 50% 0 0; }
 .team-details[open] .team-info { opacity: 0; pointer-events: none; }
-.team-biography { padding: 46px 22px 22px; color: #fff; font-size: .9rem; line-height: 1.6; }
+.team-panel { position: absolute; inset: auto 0 0; display: flex; flex-direction: column; max-height: 100%; overflow: hidden; background: linear-gradient(to bottom, transparent 0, rgba(0,0,0,.88) 46px, rgba(0,0,0,.97) 100%); }
+.team-panel::before { content: ''; flex: 0 0 46px; }
+.team-biography { min-height: 0; overflow-y: auto; padding: 0 22px 22px; color: #fff; font-size: .9rem; line-height: 1.6; }
 .team-biography h3 { font-size: 1.2rem; margin: 0 0 12px; }
 .team-biography p { margin: 0; }
 .alumni-entry { margin-bottom: 25px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
