@@ -7,7 +7,6 @@ layout: page
 
 ## Meet the team
 
-<p class="team-instructions">Hover over a portrait to reveal Info, then select it to meet our researchers. On touch devices, tap Info. You can also reach Info with the keyboard.</p>
 <div class="team-grid">
 {% for member in site.data.team %}
   <article class="team-tile">
