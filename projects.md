@@ -8,7 +8,7 @@ Loss of function after stroke is caused by cell death and breakdown of the funct
 
 On a molecular level, we have identified stroke recovery genes with region- and time-specific changes in gene expression related to spontaneous recovery after cortical stroke [Götz et al. Genes 2023](https://doi.org/10.3390/genes14020454): 
 <div style="text-align: center;">
-  <img src="img/Goetz_RecoveryGenes.png" alt="Figure illustrating stroke recovery findings" style="width: auto; height: auto;"/>
+  <img src="img/Goetz_RecoveryGenes.png" alt="Figure illustrating stroke recovery findings" style="width: auto; height: auto; background-color: #fff;"/>
 </div>
 
 On a network level, we have mapped the dynamic changes in the sensorimotor network related to recovery after cortical stroke using DTI and graph theory [Pallast et al. Neuroimage 2021](https://doi.org/10.1016/j.neuroimage.2020.116873):
