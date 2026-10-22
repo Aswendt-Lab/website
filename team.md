@@ -3,7 +3,7 @@ title: Team
 layout: page
 ---
 
-<figure class="team-group"><img src="{{ '/img/team_2026-rund.png' | relative_url }}" alt="Aswendt Lab team, 2026" width="1120" loading="eager"></figure>
+<figure class="team-group"><img src="{{ '/img/team_2026-rund_V2.png' | relative_url }}" alt="Aswendt Lab team, 2026" width="1120" loading="eager"></figure>
 
 ## Meet the team
 
