@@ -135,7 +135,7 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 .team-group img { display: block; width: 100%; height: auto; border-radius: 16px; }
 .team-instructions { color: var(--muted); font-size: .9rem; }
 .team-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin: 28px 0 48px; }
-.team-tile { position: relative; min-width: 0; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 12px; border: 1px solid var(--border); background: #101619; }
+.team-tile { position: relative; min-width: 0; width: 90%; justify-self: center; box-sizing: border-box; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 12px; border: 1px solid var(--border); background: #101619; }
 .team-info { position: absolute; left: 22px; bottom: 18px; padding: 3px 10px; border: 1px solid var(--border); border-radius: 5px; background: #101619; color: #fff; font-size: .75rem; line-height: 1.5; list-style: none; }
 .team-tile summary::-webkit-details-marker { display: none; }
 .team-tile summary::marker { content: ''; }
