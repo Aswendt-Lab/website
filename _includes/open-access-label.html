@@ -1,0 +1,1 @@
+{% if include.publication.is_open_access %}{% if include.publication.open_access_url != '' %}<a class="open-access-label" href="{{ include.publication.open_access_url | escape }}" aria-label="Open access version of {{ include.publication.title | escape }}">Open access ↗</a>{% else %}<span class="open-access-label">Open access</span>{% endif %}{% endif %}

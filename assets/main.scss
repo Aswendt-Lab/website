@@ -194,3 +194,5 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 #lab-content > .card-grid:has(+ .section-heading) { margin-bottom: 28px; }
 #lab-content > .join-banner { margin-bottom: 28px; }
 #lab-content > .join-banner + h2 { margin-top: 0; }
+
+.open-access-label { display: inline-block; padding: 2px 9px; border: 1px solid var(--accent); border-radius: 5px; color: var(--accent); font-size: .78rem; font-weight: 650; line-height: 1.5; }

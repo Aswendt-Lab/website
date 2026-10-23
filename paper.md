@@ -34,7 +34,7 @@ layout: page
   <h3><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h3>
   <p>{{ publication.authors | escape }}</p>
   <p class="publication-citation"><em>{{ publication.journal | default: 'Source not specified' | escape }}</em> · {{ publication.year }}{% if publication.volume != '' %}; {{ publication.volume | escape }}{% endif %}{% if publication.issue != '' %}({{ publication.issue | escape }}){% endif %}{% if publication.pages != '' %}: {{ publication.pages | escape }}{% endif %}</p>
-  <p class="publication-labels"><span>{{ publication.type | capitalize | escape }}</span><a href="{{ publication.openalex_id | escape }}">{{ publication.cited_by_count }} citations in OpenAlex</a>{% if publication.doi != '' %}<span>DOI: {{ publication.doi | escape }}</span>{% endif %}</p>
+  <p class="publication-labels">{% include open-access-label.html publication=publication %}<span>{{ publication.type | capitalize | escape }}</span><a href="{{ publication.openalex_id | escape }}">{{ publication.cited_by_count }} citations in OpenAlex</a>{% if publication.doi != '' %}<span>DOI: {{ publication.doi | escape }}</span>{% endif %}</p>
 </li>
 {% endfor %}
 </ul></section>

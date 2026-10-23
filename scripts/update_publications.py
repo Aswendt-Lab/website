@@ -175,6 +175,13 @@ def build_dataset(rows, works, config, previous=None):
             "source_type": ((work.get("primary_location") or {}).get("source") or {}).get("type", ""),
             "display_eligible": is_display_publication(work, config),
         })
+        access = work.get("open_access") or {}
+        oa_url = access.get("oa_url") or ""
+        publication.update({
+            "is_open_access": access.get("is_oa") is True,
+            "open_access_status": access.get("oa_status") or "unknown",
+            "open_access_url": oa_url if isinstance(oa_url, str) and oa_url.startswith("https://") else "",
+        })
         # Use explicit source metrics; never describe SCImago's metric as JIF.
         metric = row.get("impact_factor", "").strip()
         if metric:
@@ -249,6 +256,9 @@ def refresh(config, workspace, previous=None):
     # OpenAlex metadata already present: avoids thousands of optional requests.
     reporter.crossref_enrich_metadata = lambda meta: meta
     reporter.pmid_text = normalize_pmid
+    from citation_geography import plot_citation_geography
+    reporter.plot_citations_by_country = lambda frame, title, **kwargs: plot_citation_geography(
+        frame, title, reporter.OUTDIR, reporter.safe_filename)
     # Embed Unicode-capable fonts for names, Greek letters, and punctuation.
     # Keep the reporter's existing font-family names and layout settings.
     from matplotlib import get_data_path
@@ -291,11 +301,12 @@ def refresh(config, workspace, previous=None):
     classifications = {p["openalex_id"]: p for p in data["all_publications"]}
     displayed_ids = {p["openalex_id"] for p in data["publications"]}
     with csv_files[0].open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames + ["type", "source_type", "displayed_on_website"], lineterminator="\n")
+        writer = csv.DictWriter(handle, fieldnames=fieldnames + ["type", "source_type", "displayed_on_website", "is_open_access", "open_access_status", "open_access_url"], lineterminator="\n")
         writer.writeheader()
         for row in csv_rows:
             record = classifications[row["openalex_id"]]
             row.update(type=record["type"], source_type=record["source_type"], displayed_on_website=row["openalex_id"] in displayed_ids)
+            row.update({key: record[key] for key in ("is_open_access", "open_access_status", "open_access_url")})
             writer.writerow(row)
 
     pdf = generated.get("pdf")

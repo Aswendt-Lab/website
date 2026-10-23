@@ -35,6 +35,7 @@ description: Discover how the Aswendt Lab studies stroke recovery through MRI, c
     <h2 id="publication-title">Mapping connectivity after stroke</h2>
     <p>How do structural brain networks change after stroke? Our longitudinal study examines connectivity changes in mice with cortical and cortico-striatal strokes.</p>
     <p class="publication-citation">{% if featured %}{{ featured.authors | split: "," | first | escape }} et al. · <em>{{ featured.journal | escape }}</em> · {{ featured.cited_by_count }} citations in OpenAlex{% else %}Mahani et al. · <em>Neural Regeneration Research</em>{% endif %}</p>
+    {% if featured.is_open_access %}<p>{% include open-access-label.html publication=featured %}</p>{% endif %}
     <div class="actions"><a class="button" href="https://doi.org/10.4103/nrr.nrr-d-25-00491">Read the paper</a><a class="button secondary" href="{{ '/paper.html' | relative_url }}">All publications</a></div>
   </div>
 </section>

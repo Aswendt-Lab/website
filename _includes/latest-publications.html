@@ -3,7 +3,7 @@
 <div class="section-heading"><h2>Latest publications</h2><a href="{{ '/paper.html' | relative_url }}">All publications →</a></div>
 <div class="card-grid">
   {% for publication in latest limit:3 %}
-  <article class="card"><p class="eyebrow">{{ publication.type | escape }} · {{ publication.year }}</p><h3><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h3><p>{{ publication.journal | escape }}</p><p class="publication-citation">{{ publication.cited_by_count }} citations in OpenAlex</p></article>
+  <article class="card"><p class="eyebrow">{{ publication.type | escape }} · {{ publication.year }}</p><h3><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></h3><p>{{ publication.journal | escape }}</p>{% if publication.is_open_access %}<p>{% include open-access-label.html publication=publication %}</p>{% endif %}<p class="publication-citation">{{ publication.cited_by_count }} citations in OpenAlex</p></article>
   {% endfor %}
 </div>
 {% endif %}

@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - scripts/update_publications.py
+      - scripts/citation_geography.py
+      - scripts/world-countries.geojson
       - scripts/publications-config.json
       - scripts/requirements-publications.txt
       - .github/workflows/publications.yml

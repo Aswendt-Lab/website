@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T11:00:20+00:00",
+  "updated_at": "2026-10-23T15:55:57+00:00",
   "author": {
     "name": "Markus Aswendt",
     "openalex_id": "A5088353298",
@@ -25,7 +25,10 @@
       "url": "https://doi.org/10.64898/2026.09.26.754615",
       "type": "preprint",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2026/10/01/2026.09.26.754615.full.pdf"
     },
     {
       "openalex_id": "https://openalex.org/W7214953248",
@@ -42,7 +45,10 @@
       "url": "https://doi.org/10.64898/2026.09.29.754185",
       "type": "preprint",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/30/2026.09.29.754185.full.pdf"
     },
     {
       "openalex_id": "https://openalex.org/W7213396969",
@@ -59,7 +65,10 @@
       "url": "https://doi.org/10.64898/2026.09.18.752042",
       "type": "preprint",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2026/09/24/2026.09.18.752042.full.pdf"
     },
     {
       "openalex_id": "https://openalex.org/W7214045794",
@@ -76,7 +85,10 @@
       "url": "https://doi.org/10.12751/nncn.bc2026.372",
       "type": "article",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doi.org/10.12751/nncn.bc2026.372"
     },
     {
       "openalex_id": "https://openalex.org/W7202341763",
@@ -93,7 +105,10 @@
       "url": "https://doi.org/10.12751/g-node.s9ezrq",
       "type": "dataset",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doi.org/10.12751/g-node.s9ezrq"
     },
     {
       "openalex_id": "https://openalex.org/W7162802708",
@@ -111,6 +126,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cns.71114",
       "scimago_cites_per_doc_2y": 6.46,
       "scimago_year": 2025
     },
@@ -130,6 +148,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1186/s12911-026-03553-7.pdf",
       "scimago_cites_per_doc_2y": 6.68,
       "scimago_year": 2025
     },
@@ -148,7 +169,10 @@
       "url": "https://doi.org/10.6084/m9.figshare.c.8494091",
       "type": "other",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doi.org/10.6084/m9.figshare.c.8494091"
     },
     {
       "openalex_id": "https://openalex.org/W7162185740",
@@ -165,7 +189,10 @@
       "url": "https://doi.org/10.6084/m9.figshare.32382878",
       "type": "dataset",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doi.org/10.6084/m9.figshare.32382878"
     },
     {
       "openalex_id": "https://openalex.org/W7133514507",
@@ -183,6 +210,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/nrr.nrr-d-25-00491",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -201,7 +231,10 @@
       "url": "https://doi.org/10.24406/publica-9686",
       "type": "other",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doi.org/10.24406/publica-9686"
     },
     {
       "openalex_id": "https://openalex.org/W7161554661",
@@ -218,7 +251,10 @@
       "url": "https://doi.org/10.13140/rg.2.2.30675.95524",
       "type": "article",
       "source_type": "",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.13140/rg.2.2.30675.95524"
     },
     {
       "openalex_id": "https://openalex.org/W7123252602",
@@ -236,6 +272,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://doi.org/10.34734/fzj-2026-00236",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -255,6 +294,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.34734/fzj-2026-04869",
       "scimago_cites_per_doc_2y": 6.46,
       "scimago_year": 2025
     },
@@ -274,6 +316,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.expneurol.2025.115604",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -293,6 +338,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 4.73,
       "scimago_year": 2025
     },
@@ -311,7 +359,10 @@
       "url": "https://doi.org/10.1101/2025.03.17.643730",
       "type": "preprint",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W4407115764",
@@ -324,11 +375,14 @@
       "pages": "115180",
       "doi": "10.1016/j.expneurol.2025.115180",
       "year": 2025,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "url": "https://doi.org/10.1016/j.expneurol.2025.115180",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.expneurol.2025.115180",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -348,6 +402,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae089/57162730/awae089.pdf",
       "scimago_cites_per_doc_2y": 9.66,
       "scimago_year": 2025
     },
@@ -367,6 +424,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.85,
       "scimago_year": 2025
     },
@@ -386,6 +446,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "diamond",
+      "open_access_url": "https://doi.org/10.1162/imag_a_00317",
       "scimago_cites_per_doc_2y": 2.37,
       "scimago_year": 2025
     },
@@ -405,6 +468,9 @@
       "type": "review",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fnins.2023.1194630/pdf?isPublishedV2=False",
       "scimago_cites_per_doc_2y": 3.73,
       "scimago_year": 2025
     },
@@ -423,7 +489,10 @@
       "url": "https://doi.org/10.1101/2023.07.07.547791",
       "type": "preprint",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/08/2023.07.07.547791.full.pdf"
     },
     {
       "openalex_id": "https://openalex.org/W4382343757",
@@ -441,6 +510,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.123.042808",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -460,6 +532,9 @@
       "type": "data-paper",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.nature.com/articles/s41597-023-02242-8.pdf",
       "scimago_cites_per_doc_2y": 6.78,
       "scimago_year": 2025
     },
@@ -478,7 +553,10 @@
       "url": "https://doi.org/10.5281/zenodo.7848670",
       "type": "dataset",
       "source_type": "repository",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://zenodo.org/record/7848671"
     },
     {
       "openalex_id": "https://openalex.org/W4361269827",
@@ -496,6 +574,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 9.84,
       "scimago_year": 2025
     },
@@ -515,6 +596,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.mdpi.com/2073-4425/14/2/454/pdf?version=1677037223",
       "scimago_cites_per_doc_2y": 3.32,
       "scimago_year": 2025
     },
@@ -534,6 +618,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11307-022-01790-6.pdf",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -553,6 +640,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.361541",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -572,6 +662,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -591,6 +684,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -610,6 +706,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.85,
       "scimago_year": 2025
     },
@@ -629,6 +728,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811922002385/pdf",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -648,6 +750,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.pneurobio.2021.102199",
       "scimago_cites_per_doc_2y": 4.74,
       "scimago_year": 2025
     },
@@ -667,6 +772,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 4.5,
       "scimago_year": 2025
     },
@@ -686,6 +794,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.85,
       "scimago_year": 2025
     },
@@ -705,6 +816,9 @@
       "type": "erratum",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11307-021-01590-4.pdf",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -724,6 +838,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811920311770?via%3Dihub",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -743,6 +860,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.301004",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -762,6 +882,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -781,6 +904,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811920303591/pdf",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -800,6 +926,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s12975-020-00802-3.pdf",
       "scimago_cites_per_doc_2y": 4.62,
       "scimago_year": 2025
     },
@@ -814,11 +943,14 @@
       "pages": "1469-1488",
       "doi": "10.1007/s11307-019-01440-4",
       "year": 2019,
-      "cited_by_count": 23,
+      "cited_by_count": 24,
       "url": "https://doi.org/10.1007/s11307-019-01440-4",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -838,6 +970,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.nature.com/articles/s41467-019-13374-0.pdf",
       "scimago_cites_per_doc_2y": 16.6,
       "scimago_year": 2025
     },
@@ -857,6 +992,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.264449",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -876,6 +1014,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.93,
       "scimago_year": 2025
     },
@@ -895,6 +1036,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fninf.2019.00042/pdf",
       "scimago_cites_per_doc_2y": 2.8,
       "scimago_year": 2025
     },
@@ -914,6 +1058,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fimmu.2019.01236/pdf",
       "scimago_cites_per_doc_2y": 6.38,
       "scimago_year": 2025
     },
@@ -933,6 +1080,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.spiedigitallibrary.org/journals/Neurophotonics/volume-6/issue-2/025006/----Custom-HTML----Quantitative/10.1117/1.NPh.6.2.025006.pdf",
       "scimago_cites_per_doc_2y": 3.47,
       "scimago_year": 2025
     },
@@ -952,6 +1102,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.1242/dmm.039065",
       "scimago_cites_per_doc_2y": 2.61,
       "scimago_year": 2025
     },
@@ -971,6 +1124,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1873506119300595/pdf",
       "scimago_cites_per_doc_2y": 0.63,
       "scimago_year": 2025
     },
@@ -990,6 +1146,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.118.021508",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -1009,6 +1168,9 @@
       "type": "book-chapter",
       "source_type": "book series",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 0.0,
       "scimago_year": 2025
     },
@@ -1028,6 +1190,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.1093/database/bay124",
       "scimago_cites_per_doc_2y": 2.33,
       "scimago_year": 2025
     },
@@ -1047,6 +1212,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "diamond",
+      "open_access_url": "https://doi.org/10.18632/oncotarget.20302",
       "scimago_cites_per_doc_2y": 1.89,
       "scimago_year": 2025
     },
@@ -1066,6 +1234,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/term.2497",
       "scimago_cites_per_doc_2y": 1.76,
       "scimago_year": 2025
     },
@@ -1080,11 +1251,14 @@
       "pages": "412-422",
       "doi": "10.1016/j.neuroimage.2017.04.021",
       "year": 2017,
-      "cited_by_count": 63,
+      "cited_by_count": 64,
       "url": "https://doi.org/10.1016/j.neuroimage.2017.04.021",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://doi.org/10.1016/j.neuroimage.2017.04.021",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -1104,6 +1278,9 @@
       "type": "conference-abstract",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -1123,6 +1300,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doaj.org/article/709c93e2eeb643bbaabac02c19a8a621",
       "scimago_cites_per_doc_2y": 6.07,
       "scimago_year": 2025
     },
@@ -1141,7 +1321,10 @@
       "url": "https://doi.org/10.1201/9781315364605-11",
       "type": "book-chapter",
       "source_type": "ebook platform",
-      "display_eligible": true
+      "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W2511563072",
@@ -1159,6 +1342,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -1178,6 +1364,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1007/s11481-016-9700-y",
       "scimago_cites_per_doc_2y": 6.07,
       "scimago_year": 2025
     },
@@ -1197,6 +1386,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 9.09,
       "scimago_year": 2025
     },
@@ -1216,6 +1408,9 @@
       "type": "conference-abstract",
       "source_type": "journal",
       "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -1234,7 +1429,10 @@
       "url": "https://openalex.org/W2745832082",
       "type": "article",
       "source_type": "",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W2221198671",
@@ -1252,6 +1450,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s13311-015-0411-5.pdf",
       "scimago_cites_per_doc_2y": 7.11,
       "scimago_year": 2025
     },
@@ -1271,6 +1472,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 3.96,
       "scimago_year": 2025
     },
@@ -1290,6 +1494,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.biomaterials.2014.12.038",
       "scimago_cites_per_doc_2y": 14.08,
       "scimago_year": 2025
     },
@@ -1309,6 +1516,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 3.13,
       "scimago_year": 2025
     },
@@ -1328,6 +1538,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fncel.2014.00226/pdf",
       "scimago_cites_per_doc_2y": 3.73,
       "scimago_year": 2025
     },
@@ -1347,6 +1560,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0142961213014518/pdf",
       "scimago_cites_per_doc_2y": 14.08,
       "scimago_year": 2025
     },
@@ -1366,6 +1582,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.jove.com/pdf/50802/in-vivo-19f-mri-for-cell-tracking",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -1385,6 +1604,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -1403,7 +1625,10 @@
       "url": "https://doi.org/10.1002/cmmi.1549",
       "type": "article",
       "source_type": "journal",
-      "display_eligible": true
+      "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W2520702902",
@@ -1420,7 +1645,10 @@
       "url": "https://openalex.org/W2520702902",
       "type": "article",
       "source_type": "",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W1979691767",
@@ -1438,6 +1666,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://zenodo.org/record/3443824",
       "scimago_cites_per_doc_2y": 6.84,
       "scimago_year": 2025
     },
@@ -1452,11 +1683,14 @@
       "pages": "e55662",
       "doi": "10.1371/journal.pone.0055662",
       "year": 2013,
-      "cited_by_count": 72,
+      "cited_by_count": 73,
       "url": "https://doi.org/10.1371/journal.pone.0055662",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0055662&type=printable",
       "scimago_cites_per_doc_2y": 2.95,
       "scimago_year": 2025
     },
@@ -1476,6 +1710,9 @@
       "type": "book-chapter",
       "source_type": "book series",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.07,
       "scimago_year": 2025
     },
@@ -1495,6 +1732,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811912005174",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -1514,6 +1754,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://zenodo.org/record/3418060",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -1532,7 +1775,10 @@
       "url": "https://openalex.org/W2527445855",
       "type": "article",
       "source_type": "",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W2525429606",
@@ -1549,10 +1795,13 @@
       "url": "https://openalex.org/W2525429606",
       "type": "article",
       "source_type": "",
-      "display_eligible": false
+      "display_eligible": false,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     }
   ],
-  "citation_count": 1514,
+  "citation_count": 1518,
   "annual_citations": [
     {
       "year": 2012,
@@ -1567,67 +1816,67 @@
     {
       "year": 2014,
       "count": 27,
-      "width": 13.5
+      "width": 13.4
     },
     {
       "year": 2015,
       "count": 48,
-      "width": 24.0
+      "width": 23.9
     },
     {
       "year": 2016,
       "count": 66,
-      "width": 33.0
+      "width": 32.8
     },
     {
       "year": 2017,
       "count": 78,
-      "width": 39.0
+      "width": 38.8
     },
     {
       "year": 2018,
       "count": 67,
-      "width": 33.5
+      "width": 33.3
     },
     {
       "year": 2019,
       "count": 106,
-      "width": 53.0
+      "width": 52.7
     },
     {
       "year": 2020,
       "count": 141,
-      "width": 70.5
+      "width": 70.1
     },
     {
       "year": 2021,
       "count": 151,
-      "width": 75.5
+      "width": 75.1
     },
     {
       "year": 2022,
       "count": 153,
-      "width": 76.5
+      "width": 76.1
     },
     {
       "year": 2023,
       "count": 171,
-      "width": 85.5
+      "width": 85.1
     },
     {
       "year": 2024,
       "count": 162,
-      "width": 81.0
+      "width": 80.6
     },
     {
       "year": 2025,
-      "count": 200,
+      "count": 201,
       "width": 100.0
     },
     {
       "year": 2026,
-      "count": 129,
-      "width": 64.5
+      "count": 132,
+      "width": 65.7
     }
   ],
   "publications": [
@@ -1647,6 +1896,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cns.71114",
       "scimago_cites_per_doc_2y": 6.46,
       "scimago_year": 2025
     },
@@ -1666,6 +1918,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1186/s12911-026-03553-7.pdf",
       "scimago_cites_per_doc_2y": 6.68,
       "scimago_year": 2025
     },
@@ -1685,6 +1940,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/nrr.nrr-d-25-00491",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -1704,6 +1962,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.expneurol.2025.115604",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -1723,6 +1984,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 4.73,
       "scimago_year": 2025
     },
@@ -1737,11 +2001,14 @@
       "pages": "115180",
       "doi": "10.1016/j.expneurol.2025.115180",
       "year": 2025,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "url": "https://doi.org/10.1016/j.expneurol.2025.115180",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.expneurol.2025.115180",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -1761,6 +2028,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awae089/57162730/awae089.pdf",
       "scimago_cites_per_doc_2y": 9.66,
       "scimago_year": 2025
     },
@@ -1780,6 +2050,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "diamond",
+      "open_access_url": "https://doi.org/10.1162/imag_a_00317",
       "scimago_cites_per_doc_2y": 2.37,
       "scimago_year": 2025
     },
@@ -1799,6 +2072,9 @@
       "type": "review",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fnins.2023.1194630/pdf?isPublishedV2=False",
       "scimago_cites_per_doc_2y": 3.73,
       "scimago_year": 2025
     },
@@ -1818,6 +2094,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.123.042808",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -1837,6 +2116,9 @@
       "type": "data-paper",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.nature.com/articles/s41597-023-02242-8.pdf",
       "scimago_cites_per_doc_2y": 6.78,
       "scimago_year": 2025
     },
@@ -1856,6 +2138,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 9.84,
       "scimago_year": 2025
     },
@@ -1875,6 +2160,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.mdpi.com/2073-4425/14/2/454/pdf?version=1677037223",
       "scimago_cites_per_doc_2y": 3.32,
       "scimago_year": 2025
     },
@@ -1894,6 +2182,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s11307-022-01790-6.pdf",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -1913,6 +2204,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.361541",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -1932,6 +2226,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -1951,6 +2248,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811922002385/pdf",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -1970,6 +2270,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.pneurobio.2021.102199",
       "scimago_cites_per_doc_2y": 4.74,
       "scimago_year": 2025
     },
@@ -1989,6 +2292,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 4.5,
       "scimago_year": 2025
     },
@@ -2008,6 +2314,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811920311770?via%3Dihub",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -2027,6 +2336,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.301004",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -2046,6 +2358,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     },
@@ -2065,6 +2380,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811920303591/pdf",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -2084,6 +2402,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s12975-020-00802-3.pdf",
       "scimago_cites_per_doc_2y": 4.62,
       "scimago_year": 2025
     },
@@ -2098,11 +2419,14 @@
       "pages": "1469-1488",
       "doi": "10.1007/s11307-019-01440-4",
       "year": 2019,
-      "cited_by_count": 23,
+      "cited_by_count": 24,
       "url": "https://doi.org/10.1007/s11307-019-01440-4",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -2122,6 +2446,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.nature.com/articles/s41467-019-13374-0.pdf",
       "scimago_cites_per_doc_2y": 16.6,
       "scimago_year": 2025
     },
@@ -2141,6 +2468,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.4103/1673-5374.264449",
       "scimago_cites_per_doc_2y": 5.98,
       "scimago_year": 2025
     },
@@ -2160,6 +2490,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.93,
       "scimago_year": 2025
     },
@@ -2179,6 +2512,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fninf.2019.00042/pdf",
       "scimago_cites_per_doc_2y": 2.8,
       "scimago_year": 2025
     },
@@ -2198,6 +2534,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fimmu.2019.01236/pdf",
       "scimago_cites_per_doc_2y": 6.38,
       "scimago_year": 2025
     },
@@ -2217,6 +2556,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.spiedigitallibrary.org/journals/Neurophotonics/volume-6/issue-2/025006/----Custom-HTML----Quantitative/10.1117/1.NPh.6.2.025006.pdf",
       "scimago_cites_per_doc_2y": 3.47,
       "scimago_year": 2025
     },
@@ -2236,6 +2578,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.1242/dmm.039065",
       "scimago_cites_per_doc_2y": 2.61,
       "scimago_year": 2025
     },
@@ -2255,6 +2600,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1873506119300595/pdf",
       "scimago_cites_per_doc_2y": 0.63,
       "scimago_year": 2025
     },
@@ -2274,6 +2622,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.ahajournals.org/doi/pdf/10.1161/STROKEAHA.118.021508",
       "scimago_cites_per_doc_2y": 6.75,
       "scimago_year": 2025
     },
@@ -2293,6 +2644,9 @@
       "type": "book-chapter",
       "source_type": "book series",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 0.0,
       "scimago_year": 2025
     },
@@ -2312,6 +2666,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://doi.org/10.1093/database/bay124",
       "scimago_cites_per_doc_2y": 2.33,
       "scimago_year": 2025
     },
@@ -2331,6 +2688,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "diamond",
+      "open_access_url": "https://doi.org/10.18632/oncotarget.20302",
       "scimago_cites_per_doc_2y": 1.89,
       "scimago_year": 2025
     },
@@ -2350,6 +2710,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/term.2497",
       "scimago_cites_per_doc_2y": 1.76,
       "scimago_year": 2025
     },
@@ -2364,11 +2727,14 @@
       "pages": "412-422",
       "doi": "10.1016/j.neuroimage.2017.04.021",
       "year": 2017,
-      "cited_by_count": 63,
+      "cited_by_count": 64,
       "url": "https://doi.org/10.1016/j.neuroimage.2017.04.021",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://doi.org/10.1016/j.neuroimage.2017.04.021",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -2388,6 +2754,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://doaj.org/article/709c93e2eeb643bbaabac02c19a8a621",
       "scimago_cites_per_doc_2y": 6.07,
       "scimago_year": 2025
     },
@@ -2406,7 +2775,10 @@
       "url": "https://doi.org/10.1201/9781315364605-11",
       "type": "book-chapter",
       "source_type": "ebook platform",
-      "display_eligible": true
+      "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W2511563072",
@@ -2424,6 +2796,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 2.79,
       "scimago_year": 2025
     },
@@ -2443,6 +2818,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1007/s11481-016-9700-y",
       "scimago_cites_per_doc_2y": 6.07,
       "scimago_year": 2025
     },
@@ -2462,6 +2840,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 9.09,
       "scimago_year": 2025
     },
@@ -2481,6 +2862,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s13311-015-0411-5.pdf",
       "scimago_cites_per_doc_2y": 7.11,
       "scimago_year": 2025
     },
@@ -2500,6 +2884,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 3.96,
       "scimago_year": 2025
     },
@@ -2519,6 +2906,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://doi.org/10.1016/j.biomaterials.2014.12.038",
       "scimago_cites_per_doc_2y": 14.08,
       "scimago_year": 2025
     },
@@ -2538,6 +2928,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 3.13,
       "scimago_year": 2025
     },
@@ -2557,6 +2950,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://www.frontiersin.org/articles/10.3389/fncel.2014.00226/pdf",
       "scimago_cites_per_doc_2y": 3.73,
       "scimago_year": 2025
     },
@@ -2576,6 +2972,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "hybrid",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S0142961213014518/pdf",
       "scimago_cites_per_doc_2y": 14.08,
       "scimago_year": 2025
     },
@@ -2595,6 +2994,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.jove.com/pdf/50802/in-vivo-19f-mri-for-cell-tracking",
       "scimago_cites_per_doc_2y": 1.06,
       "scimago_year": 2025
     },
@@ -2613,7 +3015,10 @@
       "url": "https://doi.org/10.1002/cmmi.1549",
       "type": "article",
       "source_type": "journal",
-      "display_eligible": true
+      "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": ""
     },
     {
       "openalex_id": "https://openalex.org/W1979691767",
@@ -2631,6 +3036,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://zenodo.org/record/3443824",
       "scimago_cites_per_doc_2y": 6.84,
       "scimago_year": 2025
     },
@@ -2645,11 +3053,14 @@
       "pages": "e55662",
       "doi": "10.1371/journal.pone.0055662",
       "year": 2013,
-      "cited_by_count": 72,
+      "cited_by_count": 73,
       "url": "https://doi.org/10.1371/journal.pone.0055662",
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "gold",
+      "open_access_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0055662&type=printable",
       "scimago_cites_per_doc_2y": 2.95,
       "scimago_year": 2025
     },
@@ -2669,6 +3080,9 @@
       "type": "book-chapter",
       "source_type": "book series",
       "display_eligible": true,
+      "is_open_access": false,
+      "open_access_status": "closed",
+      "open_access_url": "",
       "scimago_cites_per_doc_2y": 1.07,
       "scimago_year": 2025
     },
@@ -2688,6 +3102,9 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "bronze",
+      "open_access_url": "https://www.sciencedirect.com/science/article/pii/S1053811912005174",
       "scimago_cites_per_doc_2y": 5.31,
       "scimago_year": 2025
     },
@@ -2707,11 +3124,14 @@
       "type": "article",
       "source_type": "journal",
       "display_eligible": true,
+      "is_open_access": true,
+      "open_access_status": "green",
+      "open_access_url": "https://zenodo.org/record/3418060",
       "scimago_cites_per_doc_2y": 5.03,
       "scimago_year": 2025
     }
   ],
-  "report_citation_count": 1507,
+  "report_citation_count": 1511,
   "report_url": "/pdf/citations-latest.pdf",
   "csv_url": "/data/publications.csv"
 }
