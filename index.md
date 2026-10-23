@@ -6,7 +6,7 @@ description: Discover how the Aswendt Lab studies stroke recovery through MRI, c
 <section class="hero" aria-labelledby="hero-title">
   <div>
     <p class="eyebrow">Aswendt Lab · Frankfurt</p>
-    <h1 id="hero-title">Understanding stroke.<br>Advancing recovery.</h1>
+    <h1 id="hero-title">Decoding stroke.<br>Advancing recovery.</h1>
     <p>We study how brain circuits change after experimental stroke and how neuromodulation can support recovery. Our work combines MRI, viral tracing, light sheet microscopy, and open analysis tools.</p>
     <div class="actions">
       <a class="button" href="{{ '/projects.html' | relative_url }}">Explore research</a>
