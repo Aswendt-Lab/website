@@ -170,3 +170,12 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 .post-content .news-gallery--1 img { aspect-ratio: auto; max-height: 520px; }
 @media (max-width: 800px) { .news-gallery:not(.news-gallery--1) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
 @media (max-width: 480px) { .news-gallery:not(.news-gallery--1) { gap: 8px; } }
+
+.pdf-preview { width: 280px; max-width: 100%; margin: 20px 0; }
+.pdf-preview a { display: block; overflow: hidden; border: 1px solid var(--border); border-radius: 10px; background: #0b1013; }
+.post-content .pdf-preview img { display: block; width: 100%; height: 320px; object-fit: contain; background: #fff; margin: 0; }
+.pdf-preview span { display: block; padding: 12px 14px; font-size: .9rem; }
+.pdf-preview a:hover, .pdf-preview a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 600px) {
+  .post-content div:has(> div > .pdf-preview) { flex-wrap: wrap; }
+}

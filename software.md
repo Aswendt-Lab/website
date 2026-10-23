@@ -19,7 +19,7 @@ With the Atlas-based Imaging Data Analysis Pipeline AIDA we provide a set of ana
 
   <div>
 
-    <a href="pdf/Neuroinformatics_Aswendt_2022.pdf">[AIDA Tools Poster]</a>
+    <figure class="pdf-preview"><a href="{{ '/pdf/Neuroinformatics_Aswendt_2022.pdf' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/img/Neuroinformatics_Aswendt_2022-preview.jpg' | relative_url }}" alt="First-page preview of the AIDA toolbox poster" loading="lazy" decoding="async"><span>AIDA toolbox poster · Open PDF ↗</span></a></figure>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ AIDA*mri* is a fully automatized and containerized pipeline for anatomical, diff
 
   <div>
 
-    <a href="pdf/TOPIM2018_MA.pdf">[AIDA Tools Poster]</a>
+    <figure class="pdf-preview"><a href="{{ '/pdf/TOPIM2018_MA.pdf' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/img/TOPIM2018_MA-preview.jpg' | relative_url }}" alt="First-page preview of the AIDAmri poster" loading="lazy" decoding="async"><span>AIDAmri poster · Open PDF ↗</span></a></figure>
   </div>
 
 
@@ -59,12 +59,12 @@ To obtain valid scientific results in pre-clinical research, standardization of 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
   <div>
 
-    <a href="pdf/Poster_RDB_Aswendt_v1.pdf">[Database Poster]</a>
+    <figure class="pdf-preview"><a href="{{ '/pdf/Poster_RDB_Aswendt_v1.pdf' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/img/Poster_RDB_Aswendt_v1-preview.jpg' | relative_url }}" alt="First-page preview of the Database poster" loading="lazy" decoding="async"><span>Database poster · Open PDF ↗</span></a></figure>
   </div>
 
   <div>
 
-    <a href="pdf/Poster_RDM_Final_AKalantari_EMIM.pdf">[RDM Poster]</a>
+    <figure class="pdf-preview"><a href="{{ '/pdf/Poster_RDM_Final_AKalantari_EMIM.pdf' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/img/Poster_RDM_Final_AKalantari_EMIM-preview.jpg' | relative_url }}" alt="First-page preview of the Research data management poster" loading="lazy" decoding="async"><span>Research data management poster · Open PDF ↗</span></a></figure>
   </div>
 </div>
 
