@@ -174,6 +174,29 @@ class ReadingListTests(unittest.TestCase):
         self.assertEqual(added, 0)
         self.assertEqual(len(data["items"]), 1)
 
+    def test_updates_markdown_page_with_static_escaped_rows(self):
+        data = {
+            "items": [
+                {
+                    "title": 'A <paper> & more',
+                    "posted_at": "2025-02-01T08:00:00Z",
+                    "links": [{"label": "Full text", "url": "https://example.org/a?x=1&y=2"}],
+                }
+            ]
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "reading-list.md"
+            path.write_text(
+                "  <!-- reading-list-entries-start -->\n  <!-- reading-list-entries-end -->\n",
+                encoding="utf-8",
+            )
+            updater.update_reading_list_page(path, data)
+            content = path.read_text(encoding="utf-8")
+
+        self.assertIn("<td>A &lt;paper&gt; &amp; more</td>", content)
+        self.assertIn('datetime="2025-02-01T08:00:00Z">01 Feb 2025', content)
+        self.assertIn("https://example.org/a?x=1&amp;y=2", content)
+
 
 if __name__ == "__main__":
     unittest.main()

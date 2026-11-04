@@ -38,7 +38,7 @@ jobs:
       - name: Commit reading-list snapshot
         id: commit
         run: |
-          git add _data/reading_list.json _data/reading_list_state.json
+          git add _data/reading_list.json _data/reading_list_state.json reading-list.md
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

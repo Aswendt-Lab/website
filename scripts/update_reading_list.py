@@ -2,6 +2,7 @@
 """Import linked manuscripts from Telegram into the website data."""
 import argparse
 import datetime as dt
+import html
 import json
 import os
 from pathlib import Path
@@ -250,6 +251,41 @@ def _write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def render_reading_list(data):
+    rows = []
+    for item in data["items"]:
+        posted = dt.datetime.fromisoformat(item["posted_at"].replace("Z", "+00:00"))
+        links = " · ".join(
+            '<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(
+                html.escape(link["url"], quote=True),
+                html.escape(link["label"]),
+            )
+            for link in item["links"]
+        )
+        rows.append(
+            "  <tr>\n"
+            f"    <td>{html.escape(item['title'])}</td>\n"
+            f'    <td><time datetime="{html.escape(item["posted_at"], quote=True)}">{posted:%d %b %Y}</time></td>\n'
+            f"    <td>{links}</td>\n"
+            "  </tr>"
+        )
+    return "\n".join(rows) if rows else '  <tr><td colspan="3">The reading list is empty for now.</td></tr>'
+
+
+def update_reading_list_page(path, data):
+    content = path.read_text(encoding="utf-8")
+    start_marker = "  <!-- reading-list-entries-start -->"
+    end_marker = "  <!-- reading-list-entries-end -->"
+    if content.count(start_marker) != 1 or content.count(end_marker) != 1:
+        raise ValueError("Reading-list page is missing its generated-entry markers")
+    start = content.index(start_marker) + len(start_marker)
+    end = content.index(end_marker)
+    if end < start:
+        raise ValueError("Reading-list page has invalid generated-entry markers")
+    content = content[:start] + "\n" + render_reading_list(data) + "\n" + content[end:]
+    path.write_text(content, encoding="utf-8")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
@@ -295,8 +331,11 @@ def main():
     with tempfile.TemporaryDirectory(prefix="lab-reading-list-") as temporary:
         staged_data = Path(temporary) / "reading_list.json"
         _write_json(staged_data, data)
+        staged_page = Path(temporary) / "reading-list.md"
+        shutil.copyfile(root / "reading-list.md", staged_page)
+        update_reading_list_page(staged_page, data)
         state_path.parent.mkdir(parents=True, exist_ok=True)
-        staged_files = [(staged_data, data_path)]
+        staged_files = [(staged_data, data_path), (staged_page, root / "reading-list.md")]
         if state is not None:
             staged_state = Path(temporary) / "reading_list_state.json"
             _write_json(staged_state, state)
