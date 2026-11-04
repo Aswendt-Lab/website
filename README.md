@@ -96,7 +96,7 @@ The shared AIDA video and GitHub repository overview are defined in `_includes/t
 
 ## Automatic lab reading list
 
-The **Update reading list** workflow checks Telegram every 15 minutes and adds channel posts containing DOI or HTTP(S) links to the Reading list page. Each entry uses the post's first line as its title and shows its links and posting date.
+The **Update reading list** workflow checks Telegram every 15 minutes and adds channel posts or group messages containing DOI or HTTP(S) links to the Reading list page. Private bot chats are ignored. Each entry uses the post's text as its title and shows its links and posting date.
 
 To connect the bot:
 

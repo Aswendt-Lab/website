@@ -49,7 +49,7 @@ def fetch_updates(token, offset, get_json=request_json):
             "offset": offset,
             "limit": PAGE_SIZE,
             "timeout": 0,
-            "allowed_updates": json.dumps(["channel_post"]),
+            "allowed_updates": json.dumps(["channel_post", "message"]),
         },
     )
     updates = payload.get("result")
@@ -223,12 +223,16 @@ def process_updates(updates, state, data):
     incoming = []
 
     for update in updates:
-        message = update.get("channel_post")
+        message = update.get("channel_post") or update.get("message")
         if not isinstance(message, dict):
             continue
         chat = message.get("chat")
-        if not isinstance(chat, dict) or not isinstance(chat.get("id"), int):
-            raise ValueError("Telegram channel post is missing its channel ID")
+        if (
+            not isinstance(chat, dict)
+            or not isinstance(chat.get("id"), int)
+            or chat.get("type") not in {"channel", "group", "supergroup"}
+        ):
+            continue
         message_channel_id = chat["id"]
         if channel_id is None:
             channel_id = message_channel_id
@@ -281,7 +285,12 @@ def main():
         state, data, added = process_updates(updates, state, data)
         state["offset"] = next_offset
         update_count = len(updates)
-        channel_post_count = sum(isinstance(update.get("channel_post"), dict) for update in updates)
+        channel_post_count = sum(
+            isinstance(update.get("channel_post"), dict)
+            or isinstance(update.get("message"), dict)
+            and update["message"].get("chat", {}).get("type") in {"group", "supergroup"}
+            for update in updates
+        )
 
     with tempfile.TemporaryDirectory(prefix="lab-reading-list-") as temporary:
         staged_data = Path(temporary) / "reading_list.json"
@@ -301,7 +310,7 @@ def main():
     else:
         print(
             f"Telegram returned {update_count} update(s), including {channel_post_count} "
-            f"channel post(s); imported {added} new manuscript(s)."
+            f"channel/group post(s); imported {added} new manuscript(s)."
         )
 
 

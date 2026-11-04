@@ -28,7 +28,7 @@ class ReadingListTests(unittest.TestCase):
         post = {
             "message_id": 12,
             "date": 1793782800,
-            "chat": {"id": -100123},
+            "chat": {"id": -100123, "type": "channel"},
             "text": "A useful paper\nDOI: 10.1234/Example.1\nhttps://example.org/full-text",
         }
         item = updater.parse_channel_post(post)
@@ -58,13 +58,13 @@ class ReadingListTests(unittest.TestCase):
         message = {
             "message_id": 1,
             "date": 1793782800,
-            "chat": {"id": -100123},
+            "chat": {"id": -100123, "type": "channel"},
             "text": "A paper https://doi.org/10.1234/one",
         }
         updates = [
             {"update_id": 5, "channel_post": message},
             {"update_id": 6, "channel_post": dict(message, message_id=2)},
-            {"update_id": 7, "channel_post": dict(message, chat={"id": -100456}, text="Other https://example.org/other")},
+            {"update_id": 7, "channel_post": dict(message, chat={"id": -100456, "type": "channel"}, text="Other https://example.org/other")},
         ]
         state, data, added = updater.process_updates(updates, {"channel_id": -100123}, {"items": [], "updated_at": ""})
         self.assertEqual(state["channel_id"], -100123)
@@ -72,7 +72,7 @@ class ReadingListTests(unittest.TestCase):
         self.assertEqual(len(data["items"]), 1)
 
     def test_discovers_channel_id_on_first_channel_post(self):
-        post = {"message_id": 1, "date": 1793782800, "chat": {"id": -100123}, "text": "Paper https://example.org/paper"}
+        post = {"message_id": 1, "date": 1793782800, "chat": {"id": -100123, "type": "channel"}, "text": "Paper https://example.org/paper"}
         state, data, added = updater.process_updates(
             [{"update_id": 2, "channel_post": post}], {"channel_id": None}, {"items": [], "updated_at": ""}
         )
@@ -90,6 +90,46 @@ class ReadingListTests(unittest.TestCase):
         self.assertEqual(len(updates), updater.PAGE_SIZE)
         self.assertEqual(offset, updater.PAGE_SIZE)
         self.assertEqual(calls, [(0, updater.PAGE_SIZE)])
+
+    def test_subscribes_to_channel_and_group_updates(self):
+        requests = []
+
+        def fake_get_json(_url, params):
+            requests.append(params)
+            return {"result": []}
+
+        updater.fetch_updates("not-logged", 0, fake_get_json)
+
+        self.assertEqual(
+            json.loads(requests[0]["allowed_updates"]),
+            ["channel_post", "message"],
+        )
+
+    def test_imports_group_message_but_ignores_private_bot_chat(self):
+        group_post = {
+            "message_id": 1,
+            "date": 1793782800,
+            "chat": {"id": -100123, "type": "supergroup"},
+            "text": "Paper https://doi.org/10.1234/group",
+        }
+        private_message = {
+            "message_id": 2,
+            "date": 1793782800,
+            "chat": {"id": 123, "type": "private"},
+            "text": "Private https://doi.org/10.1234/private",
+        }
+        state, data, added = updater.process_updates(
+            [
+                {"update_id": 1, "message": private_message},
+                {"update_id": 2, "message": group_post},
+            ],
+            {"channel_id": None},
+            {"items": [], "updated_at": ""},
+        )
+
+        self.assertEqual(state["channel_id"], -100123)
+        self.assertEqual(added, 1)
+        self.assertEqual(data["items"][0]["key"], "doi:10.1234/group")
 
     def test_imports_desktop_history_and_sorts_newest_first(self):
         export = {
