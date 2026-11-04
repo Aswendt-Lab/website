@@ -13,6 +13,17 @@ spec.loader.exec_module(updater)
 
 
 class ReadingListTests(unittest.TestCase):
+    def test_identifies_bot_without_exposing_token(self):
+        calls = []
+
+        def fake_get_json(url, params):
+            calls.append((url, params))
+            return {"result": {"id": 123, "username": "readinglistauto_bot"}}
+
+        bot = updater.identify_bot("secret-token", fake_get_json)
+        self.assertEqual(bot["username"], "readinglistauto_bot")
+        self.assertEqual(calls, [("https://api.telegram.org/botsecret-token/getMe", {})])
+
     def test_extracts_doi_and_html_link_and_title(self):
         post = {
             "message_id": 12,

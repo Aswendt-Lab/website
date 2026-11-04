@@ -33,6 +33,14 @@ def request_json(url, params):
     return payload
 
 
+def identify_bot(token, get_json=request_json):
+    payload = get_json(f"https://api.telegram.org/bot{token}/getMe", {})
+    bot = payload.get("result")
+    if not isinstance(bot, dict) or not isinstance(bot.get("username"), str) or not isinstance(bot.get("id"), int):
+        raise ValueError("Telegram getMe response is missing bot identity")
+    return bot
+
+
 def fetch_updates(token, offset, get_json=request_json):
     """Fetch one batch; avoid acknowledging a batch before its state is saved."""
     payload = get_json(
@@ -256,6 +264,7 @@ def main():
         raise ValueError("Reading-list data has an invalid format")
 
     state = None
+    channel_post_count = 0
     if args.history_export:
         data, added = import_history_export(args.history_export, data)
         update_count = 0
@@ -263,6 +272,8 @@ def main():
         token = os.environ.get("TELEGRAM_BOT_TOKEN")
         if not token:
             raise RuntimeError("Set TELEGRAM_BOT_TOKEN or provide --history-export")
+        bot = identify_bot(token)
+        print(f"Connected Telegram bot: @{bot['username']} (ID {bot['id']}).")
         state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"offset": 0, "channel_id": None}
         if not isinstance(state.get("offset"), int):
             raise ValueError("Telegram update state has an invalid format")
@@ -270,6 +281,7 @@ def main():
         state, data, added = process_updates(updates, state, data)
         state["offset"] = next_offset
         update_count = len(updates)
+        channel_post_count = sum(isinstance(update.get("channel_post"), dict) for update in updates)
 
     with tempfile.TemporaryDirectory(prefix="lab-reading-list-") as temporary:
         staged_data = Path(temporary) / "reading_list.json"
@@ -284,7 +296,13 @@ def main():
             pending = destination.with_suffix(destination.suffix + ".pending")
             shutil.copyfile(source, pending)
             pending.replace(destination)
-    print(f"Imported {added} new manuscript(s) from {update_count} Telegram update(s).")
+    if state is None:
+        print(f"Imported {added} new manuscript(s) from the history export.")
+    else:
+        print(
+            f"Telegram returned {update_count} update(s), including {channel_post_count} "
+            f"channel post(s); imported {added} new manuscript(s)."
+        )
 
 
 if __name__ == "__main__":
