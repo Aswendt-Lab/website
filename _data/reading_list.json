@@ -1,4 +1,17 @@
 {
-  "items": [],
-  "updated_at": ""
+  "items": [
+    {
+      "key": "doi:10.1161/strokeaha.126.056133",
+      "title": "@readinglistauto_bot",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1161/strokeaha.126.056133"
+        }
+      ],
+      "posted_at": "2026-11-04T14:41:11Z",
+      "message_id": 436
+    }
+  ],
+  "updated_at": "2026-11-04T14:41:32Z"
 }
