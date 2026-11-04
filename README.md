@@ -25,6 +25,7 @@ The generated site is written to `_site/`, which is ignored by Git. Dependencies
 ## Editing content
 
 - `index.md`: homepage, research introduction, featured publication, and news highlights.
+- `reading-list.md`: manuscripts shared in the lab's Telegram channel; the page is populated from `_data/reading_list.json`.
 - `_data/partners.yml`: collaborator names, institutions, and logos shown on the homepage.
 - `projects.md`: research themes; `software.md`: AIDA tools, data workflows, tutorials, and poster downloads.
 - `opportunities.md`: student inquiries and application guidance.
@@ -92,6 +93,28 @@ Validation also checks internal links and anchors with `bundle exec ruby scripts
 The adapter embeds DejaVu Sans fonts from Matplotlib and normalizes typographic hyphens so author names and publication titles render correctly in the PDF.
 
 The shared AIDA video and GitHub repository overview are defined in `_includes/tools-feature.html` and shown on both the homepage and Software & Data page. The feature displays `img/AIDA-Tools-Animation.gif` as an automatically looping image, with a pause/resume button. Visitors who prefer reduced motion see `img/AIDA-Tools-Illustration.jpg` instead. The MP4 remains the source asset for future GIF regeneration.
+
+## Automatic lab reading list
+
+The **Update reading list** workflow checks Telegram every 15 minutes and adds channel posts containing DOI or HTTP(S) links to the Reading list page. Each entry uses the post's first line as its title and shows its links and posting date.
+
+To connect the bot:
+
+1. In Telegram, open [@BotFather](https://t.me/BotFather), send `/newbot`, choose a display name and a username ending in `bot`. Copy the token it gives you; treat it like a password.
+2. Open the private channel's **Manage channel → Administrators → Add administrator**, find the bot by username, and add it. It does not need posting or editing rights. Keep this dedicated bot in this channel only.
+3. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `TELEGRAM_BOT_TOKEN` and paste the token as its value. Never put the token in a file, command, or chat.
+4. Open **Settings → Actions → General → Workflow permissions** and select **Read and write permissions**.
+5. In **Actions → Update reading list → Run workflow**, run it once. The workflow will discover the channel and check for new posts every 15 minutes. A post's date is retained; the page lists the newest post first.
+
+To import older posts once, use Telegram Desktop while signed into an account that can access the channel:
+
+1. Open the channel, use its **⋮** menu and choose **Export chat history** (or use **Settings → Advanced → Export Telegram data** and select the channel). Choose **JSON** and include text messages. Export locally; the export can contain private channel content.
+2. Find the exported JSON file containing the channel's `messages` array (commonly named `messages.json` or `result.json`). Do not put the export inside the repository.
+3. From the website repository, run `python3 scripts/update_reading_list.py --history-export "/full/path/to/messages.json"`. The script reads it locally, extracts manuscript links and dates, merges DOI duplicates, and updates `_data/reading_list.json` in newest-first order. It does not send the export to Telegram or GitHub.
+4. Review the generated reading list, then commit and push `_data/reading_list.json`. The next scheduled workflow run will continue importing new posts without re-adding the historical DOI entries.
+5. Delete the local export when you're done, subject to your lab's data-retention policy.
+
+The Bot API cannot download channel history, so Desktop export is the one-time backfill route. The importer tracks the live Telegram update offset and discovered channel ID in `_data/reading_list_state.json`; the workflow commits that state with the data. Do not edit the offset manually. Telegram only retains uncollected bot updates for a limited time, so enable the workflow promptly after adding the bot.
 
 Team profiles are stored in `_data/team.yml`. The Team page renders them as portrait tiles that start in color. On devices with mouse hover, hovering a tile turns all other portraits grayscale and reveals a small Info control below its name; leaving the tile restores the other portraits' color, including in grid gaps. Keyboard focus also reveals Info. Touch devices keep all portraits in color and always show Info on closed profiles. Only selecting Info opens a biography; hovering or selecting the portrait or name does not. Open biographies hide the Info control and have no close button. `assets/team.js` closes them when the mouse leaves the portrait tile, when a click or tap lands outside it, with Escape (returning focus to Info), or when focus leaves the tile. Touch and pen pointer-leave events do not close biographies. Opening focuses the scrollable text area for keyboard navigation and temporarily removes the hidden Info control from the tab order. Fields grow with their text up to half the portrait height, including a fixed 46px fade at the top. Only the heading and biography below that fade scroll, so text never enters the transparent transition.
 
