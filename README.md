@@ -108,9 +108,9 @@ To connect the bot:
 
 To import older posts once, use Telegram Desktop while signed into an account that can access the channel:
 
-1. Open the channel, use its **⋮** menu and choose **Export chat history** (or use **Settings → Advanced → Export Telegram data** and select the channel). Choose **HTML** or **JSON** and include text messages. Export locally; the export can contain private channel content.
-2. Find the exported `messages.html` file or the JSON file containing the channel's `messages` array. Do not put the export inside the repository.
-3. From the website repository, run `python3 scripts/update_reading_list.py --history-export "/full/path/to/messages.html"` (or use the JSON file path). The script reads it locally, extracts manuscript links and dates, merges DOI duplicates, and updates `_data/reading_list.json` in newest-first order. It does not send the export to Telegram or GitHub.
+1. Open the channel, use its **⋮** menu and choose **Export chat history** (or use **Settings → Advanced → Export Telegram data** and select the channel). Choose **JSON** and include text messages. Export locally; the export can contain private channel content.
+2. Find the exported JSON file containing the channel's `messages` array (commonly named `messages.json` or `result.json`). Do not put the export inside the repository.
+3. From the website repository, run `python3 scripts/update_reading_list.py --history-export "/full/path/to/messages.json"`. The script reads it locally, extracts manuscript links and dates, merges DOI duplicates, and updates `_data/reading_list.json` in newest-first order. It does not send the export to Telegram or GitHub.
 4. Review the generated reading list, then commit and push `_data/reading_list.json`. The next scheduled workflow run will continue importing new posts without re-adding the historical DOI entries.
 5. Delete the local export when you're done, subject to your lab's data-retention policy.
 

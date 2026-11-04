@@ -2,7 +2,6 @@
 """Import linked manuscripts from Telegram into the website data."""
 import argparse
 import datetime as dt
-from html.parser import HTMLParser
 import json
 import os
 from pathlib import Path
@@ -106,8 +105,7 @@ def parse_channel_post(message):
     if not links:
         return None
 
-    title = message.get("title") or text
-    title = URL_PATTERN.sub("", title)
+    title = URL_PATTERN.sub("", text)
     title = DOI_PATTERN.sub("", title)
     title = re.sub(r"\bdoi\s*:\s*", "", title, flags=re.IGNORECASE)
     title = re.sub(r"\s+", " ", title).strip(" \t\r\n-–—:;|")
@@ -184,139 +182,30 @@ def _flatten_export_text(value):
     return ""
 
 
-class TelegramHtmlHistoryParser(HTMLParser):
-    """Extract dated Telegram Desktop HTML messages without retaining export markup."""
-
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.messages = []
-        self.message = None
-        self.div_depth = 0
-        self.text_depths = []
-        self.preview_depths = []
-
-    def handle_starttag(self, tag, attrs):
-        attributes = dict(attrs)
-        classes = attributes.get("class", "").split()
-        if self.message is None:
-            if tag == "div" and "message" in classes and "service" not in classes:
-                message_id = re.search(r"\d+", attributes.get("id", ""))
-                self.message = {
-                    "message_id": int(message_id.group()) if message_id else None,
-                    "date": "",
-                    "text_parts": [],
-                    "preview_parts": [],
-                    "urls": [],
-                }
-                self.div_depth = 1
-            return
-
-        if tag == "div":
-            self.div_depth += 1
-            if "date" in classes:
-                self.message["date"] = attributes.get("title", "")
-            if "text" in classes:
-                self.text_depths.append(self.div_depth)
-            if "webpage_title" in classes:
-                self.preview_depths.append(self.div_depth)
-        elif tag == "a":
-            href = attributes.get("href", "")
-            if href.startswith(("http://", "https://")):
-                self.message["urls"].append(href)
-        elif tag == "br":
-            if self.text_depths:
-                self.message["text_parts"].append("\n")
-            if self.preview_depths:
-                self.message["preview_parts"].append("\n")
-
-    def handle_endtag(self, tag):
-        if self.message is None or tag != "div":
-            return
-        if self.text_depths and self.text_depths[-1] == self.div_depth:
-            self.text_depths.pop()
-        if self.preview_depths and self.preview_depths[-1] == self.div_depth:
-            self.preview_depths.pop()
-        if self.div_depth == 1:
-            message_id = self.message["message_id"]
-            if message_id is not None:
-                self.message["message_id"] = message_id
-                self.messages.append(self.message)
-            self.message = None
-            self.div_depth = 0
-            self.text_depths.clear()
-            self.preview_depths.clear()
-            return
-        self.div_depth -= 1
-
-    def handle_data(self, data):
-        if self.message is None:
-            return
-        if self.text_depths:
-            self.message["text_parts"].append(data)
-        if self.preview_depths:
-            self.message["preview_parts"].append(data)
-
-
-def _html_export_messages(path):
-    try:
-        content = path.read_text(encoding="utf-8")
-    except OSError:
-        raise ValueError("Could not read the Telegram Desktop HTML export") from None
-    parser = TelegramHtmlHistoryParser()
-    parser.feed(content)
-    if not parser.messages:
-        raise ValueError("Telegram HTML export did not contain any dated messages")
-
-    messages = []
-    for message in parser.messages:
-        try:
-            local_date = dt.datetime.strptime(message["date"], "%d %B %Y, %H:%M:%S")
-        except ValueError:
-            raise ValueError(
-                f"Telegram HTML export has an unsupported date for message {message['message_id']}"
-            ) from None
-        posted = local_date.astimezone(dt.timezone.utc)
-        messages.append({
-            "message_id": message["message_id"],
-            "date": posted.isoformat(timespec="seconds").replace("+00:00", "Z"),
-            "text": "".join(message["text_parts"]),
-            "title": "".join(message["preview_parts"]).strip(),
-            "entities": [{"url": url} for url in message["urls"]],
-        })
-    return messages
-
-
 def import_history_export(path, data):
-    """Merge a Telegram Desktop JSON or HTML export into the list."""
-    if path.suffix.lower() in {".html", ".htm"}:
-        messages = _html_export_messages(path)
-    else:
-        try:
-            export = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            raise ValueError("Could not read the Telegram Desktop JSON export") from None
-        messages = export.get("messages") if isinstance(export, dict) else None
-        if not isinstance(messages, list):
-            raise ValueError("Telegram export must be a JSON or HTML Telegram Desktop export")
+    """Merge a Telegram Desktop channel export (messages.json) into the list."""
+    try:
+        export = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        raise ValueError("Could not read the Telegram Desktop JSON export") from None
+    messages = export.get("messages") if isinstance(export, dict) else None
+    if not isinstance(messages, list):
+        raise ValueError("Telegram export must be a messages.json file with a messages array")
 
     incoming = []
     for message in messages:
-        if not isinstance(message, dict):
-            continue
-        if "type" in message and message.get("type") != "message":
+        if not isinstance(message, dict) or message.get("type") != "message":
             continue
         message_id = message.get("id")
-        message_id = message.get("message_id", message_id)
         if not isinstance(message_id, int):
             raise ValueError("Telegram export contains a message without a numeric ID")
-        entities = message.get("entities") or message.get("text_entities") or []
+        entities = message.get("text_entities") or []
         if not isinstance(entities, list):
             raise ValueError("Telegram export contains invalid text entities")
         normalized = {
             "message_id": message_id,
             "date": message.get("date"),
-            "text": message.get("text") if isinstance(message.get("text"), str) else _flatten_export_text(message.get("text")),
-            "title": message.get("title", ""),
+            "text": _flatten_export_text(message.get("text")),
             "entities": [
                 {"url": entity.get("href") or entity.get("url", "")}
                 for entity in entities
@@ -367,7 +256,7 @@ def main():
     parser.add_argument(
         "--history-export",
         type=Path,
-        help="Import a Telegram Desktop JSON or HTML export without contacting the Bot API",
+        help="Import a Telegram Desktop messages.json export without contacting the Bot API",
     )
     args = parser.parse_args()
 
