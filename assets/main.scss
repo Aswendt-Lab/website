@@ -29,6 +29,13 @@ table { display: block; overflow-x: auto; color: #e8edf0; border-color: var(--bo
 table th, table td { border-color: var(--border); }
 table th { background: #182127; }
 table tr:nth-child(even) { background: #101619; }
+.reading-list-table { max-width: 100%; overflow-x: auto; }
+.reading-list-table table { display: table; width: 100%; min-width: 840px; table-layout: fixed; }
+.reading-list-table th, .reading-list-table td { overflow-wrap: normal; vertical-align: top; }
+.reading-list-table th:first-child, .reading-list-table td:first-child { width: 12%; white-space: nowrap; }
+.reading-list-table th:nth-child(2), .reading-list-table td:nth-child(2) { width: 66%; }
+.reading-list-table th:nth-child(3), .reading-list-table td:nth-child(3) { width: 9%; }
+.reading-list-table th:nth-child(4), .reading-list-table td:nth-child(4) { width: 13%; }
 .site-footer { border-color: var(--border); color: var(--muted); padding: 32px 0; }
 .footer-content { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .footer-content p { margin: 0; }
