@@ -13,12 +13,14 @@ import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 URL_PATTERN = re.compile(r"https?://[^\s<>()]+", re.IGNORECASE)
 DOI_PATTERN = re.compile(r"\b10\.\d{4,9}/[-._;()/:\w]+", re.IGNORECASE)
 TRAILING_URL_PUNCTUATION = ".,;:!?)]}'\""
 PAGE_SIZE = 100
+PUBMED_EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 
 def request_json(url, params):
@@ -32,6 +34,33 @@ def request_json(url, params):
     if not isinstance(payload, dict) or payload.get("ok") is not True:
         raise RuntimeError("Telegram API returned an unsuccessful response")
     return payload
+
+
+def request_pubmed_json(endpoint, params):
+    target = f"{PUBMED_EUTILS}/{endpoint}?" + urllib.parse.urlencode(params)
+    request = urllib.request.Request(
+        target,
+        headers={"User-Agent": "AswendtLabWebsite/1.0 (PubMed reading-list citations)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=40) as response:
+            payload = json.load(response)
+    except (urllib.error.URLError, TimeoutError, ValueError):
+        raise RuntimeError("PubMed API request failed; existing reading-list data retained") from None
+    return payload
+
+
+def request_pubmed_xml(params):
+    target = f"{PUBMED_EUTILS}/efetch.fcgi?" + urllib.parse.urlencode(params)
+    request = urllib.request.Request(
+        target,
+        headers={"User-Agent": "AswendtLabWebsite/1.0 (PubMed reading-list citations)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=40) as response:
+            return ET.fromstring(response.read())
+    except (urllib.error.URLError, TimeoutError, ET.ParseError):
+        raise RuntimeError("PubMed record request failed; existing reading-list data retained") from None
 
 
 def identify_bot(token, get_json=request_json):
@@ -255,6 +284,12 @@ def render_reading_list(data):
     rows = []
     for item in data["items"]:
         posted = dt.datetime.fromisoformat(item["posted_at"].replace("Z", "+00:00"))
+        citation = html.escape(item.get("citation") or item["title"])
+        if item.get("pubmed_url"):
+            citation = (
+                f'<a href="{html.escape(item["pubmed_url"], quote=True)}" '
+                f'target="_blank" rel="noopener noreferrer">{citation}</a>'
+            )
         links = " · ".join(
             '<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(
                 html.escape(link["url"], quote=True),
@@ -264,12 +299,216 @@ def render_reading_list(data):
         )
         rows.append(
             "  <tr>\n"
-            f"    <td>{html.escape(item['title'])}</td>\n"
+            f"    <td>{citation}</td>\n"
             f'    <td><time datetime="{html.escape(item["posted_at"], quote=True)}">{posted:%d %b %Y}</time></td>\n'
             f"    <td>{links}</td>\n"
             "  </tr>"
         )
     return "\n".join(rows) if rows else '  <tr><td colspan="3">The reading list is empty for now.</td></tr>'
+
+
+def _doi_candidates(item):
+    values = [item.get("key", "")]
+    values.extend(link.get("url", "") for link in item.get("links", []))
+    candidates = []
+    for value in values:
+        for doi in DOI_PATTERN.findall(urllib.parse.unquote(value)):
+            doi = doi.rstrip(TRAILING_URL_PUNCTUATION)
+            doi = re.sub(r"(?i)/(?:full|abstract|pdf)$", "", doi)
+            doi = re.sub(r"(?i)\.full(?:\.pdf)?$", "", doi)
+            doi = re.sub(r"(?i)\.pdf$", "", doi)
+            if doi.lower() not in {candidate.lower() for candidate in candidates}:
+                candidates.append(doi)
+    return candidates
+
+
+def _pubmed_record(article):
+    def text(node):
+        return "".join(node.itertext()).strip() if node is not None else ""
+
+    pmid = text(article.find("./MedlineCitation/PMID"))
+    pubmed_article = article.find("./MedlineCitation/Article")
+    journal_issue = pubmed_article.find("./Journal/JournalIssue")
+    pub_date = journal_issue.find("./PubDate")
+    authors = []
+    author_list = pubmed_article.find("./AuthorList")
+    if author_list is not None:
+        for author in author_list.findall("./Author"):
+            collective_name = text(author.find("./CollectiveName"))
+            last_name = text(author.find("./LastName"))
+            initials = text(author.find("./Initials"))
+            if collective_name:
+                authors.append(collective_name)
+            elif last_name:
+                authors.append(f"{last_name} {initials}".strip())
+
+    dois = []
+    article_ids = article.find("./PubmedData/ArticleIdList")
+    if article_ids is not None:
+        dois = [
+            identifier.text.lower().removeprefix("https://doi.org/")
+            for identifier in article_ids.findall("./ArticleId")
+            if identifier.attrib.get("IdType") == "doi" and identifier.text
+        ]
+    return {
+        "pmid": pmid,
+        "doi": dois[0] if dois else "",
+        "dois": dois,
+        "title": text(pubmed_article.find("./ArticleTitle")),
+        "journal": text(pubmed_article.find("./Journal/ISOAbbreviation"))
+        or text(pubmed_article.find("./Journal/Title")),
+        "year": text(pub_date.find("./Year")) or text(pub_date.find("./MedlineDate"))[:4],
+        "volume": text(journal_issue.find("./Volume")),
+        "issue": text(journal_issue.find("./Issue")),
+        "pages": text(pubmed_article.find("./Pagination/MedlinePgn")),
+        "authors": authors,
+        "publication_types": [
+            text(publication_type)
+            for publication_type in pubmed_article.findall("./PublicationTypeList/PublicationType")
+        ],
+        "publication_status": text(article.find("./PubmedData/PublicationStatus")),
+    }
+
+
+def _format_pubmed_citation(record):
+    authors = record["authors"]
+    author_text = ", ".join(authors[:6])
+    if len(authors) > 6:
+        author_text += ", et al"
+    title = record["title"].strip()
+    if title and title[-1] not in ".?!":
+        title += "."
+    citation = " ".join(
+        part
+        for part in (
+            author_text + "." if author_text else "",
+            title,
+            record["journal"] + "." if record["journal"] else "",
+        )
+        if part
+    )
+    if record["year"]:
+        citation += " " + record["year"]
+        if record["volume"]:
+            citation += ";" + record["volume"]
+            if record["issue"]:
+                citation += "(" + record["issue"] + ")"
+            if record["pages"]:
+                citation += ":" + record["pages"]
+        citation += "."
+    if record["publication_status"] == "aheadofprint":
+        citation += " [Epub ahead of print]."
+    if record["doi"]:
+        citation += " doi:" + record["doi"] + "."
+    return citation
+
+
+def _is_pubmed_publication(record):
+    publication_types = set(record["publication_types"])
+    return (
+        "Preprint" not in publication_types
+        and not publication_types.intersection({"Editorial", "Comment", "Letter", "News"})
+        and bool(publication_types.intersection({"Journal Article", "Review", "Systematic Review"}))
+        and bool(record["pmid"])
+    )
+
+
+def enrich_unverified_items(data):
+    pending = [item for item in data["items"] if not item.get("citation")]
+    if not pending:
+        return data, 0, 0
+
+    doi_to_items = {}
+    pmid_to_items = {}
+    for item in pending:
+        for doi in _doi_candidates(item):
+            doi_to_items.setdefault(doi.lower(), []).append(item)
+        for link in item.get("links", []):
+            match = re.search(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)", link.get("url", ""))
+            if match:
+                pmid_to_items.setdefault(match.group(1), []).append(item)
+
+    pmids = set(pmid_to_items)
+    doi_values = list(doi_to_items)
+    for start in range(0, len(doi_values), 15):
+        batch = doi_values[start : start + 15]
+        result = request_pubmed_json(
+            "esearch.fcgi",
+            {
+                "db": "pubmed",
+                "term": " OR ".join(f'"{doi}"[doi]' for doi in batch),
+                "retmode": "json",
+                "retmax": 100,
+            },
+        ).get("esearchresult", {})
+        ids = result.get("idlist")
+        if not isinstance(ids, list):
+            raise ValueError("PubMed response is missing its record list")
+        pmids.update(ids)
+
+    records = {}
+    pmid_values = sorted(pmids, key=int)
+    for start in range(0, len(pmid_values), 100):
+        root = request_pubmed_xml(
+            {
+                "db": "pubmed",
+                "id": ",".join(pmid_values[start : start + 100]),
+                "retmode": "xml",
+            }
+        )
+        for article in root.findall(".//PubmedArticle"):
+            record = _pubmed_record(article)
+            records[record["pmid"]] = record
+
+    records_by_doi = {
+        doi.lower(): record
+        for record in records.values()
+        for doi in record["dois"]
+    }
+    known_publication_ids = {
+        item["pmid"] for item in data["items"] if item.get("pmid")
+    }
+    accepted = []
+    rejected = 0
+    for item in pending:
+        record = next(
+            (records_by_doi.get(doi.lower()) for doi in _doi_candidates(item) if records_by_doi.get(doi.lower())),
+            None,
+        )
+        if record is None:
+            for link in item.get("links", []):
+                match = re.search(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)", link.get("url", ""))
+                if match:
+                    record = records.get(match.group(1))
+                    if record:
+                        break
+        if not record or not _is_pubmed_publication(record) or record["pmid"] in known_publication_ids:
+            rejected += 1
+            continue
+
+        item.update(
+            {
+                "key": "doi:" + record["doi"].lower() if record["doi"] else "pmid:" + record["pmid"],
+                "title": record["title"].rstrip("."),
+                "citation": _format_pubmed_citation(record),
+                "pmid": record["pmid"],
+                "pubmed_url": f"https://pubmed.ncbi.nlm.nih.gov/{record['pmid']}/",
+                "links": (
+                    [{"label": "DOI", "url": "https://doi.org/" + record["doi"]}]
+                    if record["doi"]
+                    else [{"label": "PubMed", "url": f"https://pubmed.ncbi.nlm.nih.gov/{record['pmid']}/"}]
+                ),
+            }
+        )
+        known_publication_ids.add(record["pmid"])
+        accepted.append(item)
+
+    data["items"] = [item for item in data["items"] if item.get("citation")] + accepted
+    data["items"].sort(
+        key=lambda item: (item["posted_at"], item.get("message_id") or 0),
+        reverse=True,
+    )
+    return data, len(accepted), rejected
 
 
 def update_reading_list_page(path, data):
@@ -305,8 +544,9 @@ def main():
 
     state = None
     channel_post_count = 0
+    skipped_publications = 0
     if args.history_export:
-        data, added = import_history_export(args.history_export, data)
+        data, _ = import_history_export(args.history_export, data)
         update_count = 0
     else:
         token = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -318,7 +558,7 @@ def main():
         if not isinstance(state.get("offset"), int):
             raise ValueError("Telegram update state has an invalid format")
         updates, next_offset = fetch_updates(token, state["offset"])
-        state, data, added = process_updates(updates, state, data)
+        state, data, _ = process_updates(updates, state, data)
         state["offset"] = next_offset
         update_count = len(updates)
         channel_post_count = sum(
@@ -328,6 +568,7 @@ def main():
             for update in updates
         )
 
+    data, verified_added, skipped_publications = enrich_unverified_items(data)
     with tempfile.TemporaryDirectory(prefix="lab-reading-list-") as temporary:
         staged_data = Path(temporary) / "reading_list.json"
         _write_json(staged_data, data)
@@ -345,11 +586,15 @@ def main():
             shutil.copyfile(source, pending)
             pending.replace(destination)
     if state is None:
-        print(f"Imported {added} new manuscript(s) from the history export.")
+        print(
+            f"Imported {verified_added} PubMed-indexed publication(s) from the history export; "
+            f"skipped {skipped_publications} unverified or non-publication item(s)."
+        )
     else:
         print(
             f"Telegram returned {update_count} update(s), including {channel_post_count} "
-            f"channel/group post(s); imported {added} new manuscript(s)."
+            f"channel/group post(s); imported {verified_added} PubMed-indexed publication(s) "
+            f"and skipped {skipped_publications} unverified or non-publication item(s)."
         )
 
 

@@ -3,6 +3,8 @@ import importlib.util
 from pathlib import Path
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
+from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parents[1] / "scripts/update_reading_list.py"
 spec = importlib.util.spec_from_file_location("reading_list_updater", SCRIPT)
@@ -179,6 +181,8 @@ class ReadingListTests(unittest.TestCase):
             "items": [
                 {
                     "title": 'A <paper> & more',
+                    "citation": 'Smith J. A <paper> & more. J Test. 2025;1(2):3-4.',
+                    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/12345/",
                     "posted_at": "2025-02-01T08:00:00Z",
                     "links": [{"label": "Full text", "url": "https://example.org/a?x=1&y=2"}],
                 }
@@ -193,9 +197,70 @@ class ReadingListTests(unittest.TestCase):
             updater.update_reading_list_page(path, data)
             content = path.read_text(encoding="utf-8")
 
-        self.assertIn("<td>A &lt;paper&gt; &amp; more</td>", content)
+        self.assertIn(
+            '<a href="https://pubmed.ncbi.nlm.nih.gov/12345/" target="_blank" rel="noopener noreferrer">'
+            "Smith J. A &lt;paper&gt; &amp; more. J Test. 2025;1(2):3-4.</a>",
+            content,
+        )
         self.assertIn('datetime="2025-02-01T08:00:00Z">01 Feb 2025', content)
         self.assertIn("https://example.org/a?x=1&amp;y=2", content)
+
+    def test_enriches_telegram_post_from_its_own_pubmed_doi(self):
+        data = {
+            "items": [
+                {
+                    "key": "doi:10.1234/example",
+                    "title": "@labmember",
+                    "links": [{"label": "DOI", "url": "https://doi.org/10.1234/example"}],
+                    "posted_at": "2025-02-01T08:00:00Z",
+                    "message_id": 9,
+                }
+            ],
+            "updated_at": "",
+        }
+        response_xml = ET.fromstring(
+            """<PubmedArticleSet>
+              <PubmedArticle>
+                <MedlineCitation>
+                  <PMID>12345</PMID>
+                  <Article>
+                    <Journal><Title>Journal of Tests</Title><ISOAbbreviation>J Test</ISOAbbreviation>
+                      <JournalIssue><PubDate><Year>2025</Year></PubDate><Volume>10</Volume><Issue>2</Issue></JournalIssue>
+                    </Journal>
+                    <ArticleTitle>A verified paper.</ArticleTitle>
+                    <Pagination><MedlinePgn>20-25</MedlinePgn></Pagination>
+                    <AuthorList><Author><LastName>Smith</LastName><Initials>J</Initials></Author></AuthorList>
+                    <PublicationTypeList><PublicationType>Journal Article</PublicationType></PublicationTypeList>
+                  </Article>
+                </MedlineCitation>
+                <PubmedData>
+                  <ArticleIdList><ArticleId IdType="doi">10.1234/example</ArticleId></ArticleIdList>
+                  <ReferenceList><Reference><ArticleIdList>
+                    <ArticleId IdType="doi">10.9999/reference</ArticleId>
+                  </ArticleIdList></Reference></ReferenceList>
+                </PubmedData>
+              </PubmedArticle>
+            </PubmedArticleSet>"""
+        )
+        with (
+            patch.object(
+                updater,
+                "request_pubmed_json",
+                return_value={"esearchresult": {"idlist": ["12345"]}},
+            ),
+            patch.object(updater, "request_pubmed_xml", return_value=response_xml),
+        ):
+            data, accepted, rejected = updater.enrich_unverified_items(data)
+
+        self.assertEqual((accepted, rejected), (1, 0))
+        item = data["items"][0]
+        self.assertEqual(item["pmid"], "12345")
+        self.assertEqual(item["title"], "A verified paper")
+        self.assertEqual(
+            item["citation"],
+            "Smith J. A verified paper. J Test. 2025;10(2):20-25. doi:10.1234/example.",
+        )
+        self.assertEqual(item["key"], "doi:10.1234/example")
 
 
 if __name__ == "__main__":
