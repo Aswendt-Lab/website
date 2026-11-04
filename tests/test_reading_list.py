@@ -174,6 +174,41 @@ class ReadingListTests(unittest.TestCase):
         self.assertEqual(added, 0)
         self.assertEqual(len(data["items"]), 1)
 
+    def test_imports_desktop_html_history_with_dates_links_and_preview_titles(self):
+        export = """<!DOCTYPE html>
+<div class="history">
+<div class="message default clearfix" id="message10">
+  <div class="body">
+    <div class="pull_right date details" title="1 February 2025, 10:00:00">10:00</div>
+    <div class="media_wrap">
+      <a class="webpage_preview" href="https://pubmed.ncbi.nlm.nih.gov/12345">
+        <div class="webpage_title bold">A recent paper - PubMed</div>
+      </a>
+    </div>
+    <div class="text">https://doi.org/10.1234/recent</div>
+  </div>
+</div>
+<div class="message default clearfix joined" id="message9">
+  <div class="body">
+    <div class="pull_right date details" title="1 January 2025, 10:00:00">10:00</div>
+    <div class="text">An older paper https://doi.org/10.1234/older</div>
+  </div>
+</div>
+</div>"""
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "messages.html"
+            path.write_text(export, encoding="utf-8")
+            data, added = updater.import_history_export(path, {"items": [], "updated_at": ""})
+
+        self.assertEqual(added, 2)
+        self.assertEqual([item["title"] for item in data["items"]], ["A recent paper - PubMed", "An older paper"])
+        self.assertEqual(data["items"][0]["key"], "doi:10.1234/recent")
+        self.assertIn(
+            "https://pubmed.ncbi.nlm.nih.gov/12345",
+            [link["url"] for link in data["items"][0]["links"]],
+        )
+        self.assertGreater(data["items"][0]["posted_at"], data["items"][1]["posted_at"])
+
 
 if __name__ == "__main__":
     unittest.main()
