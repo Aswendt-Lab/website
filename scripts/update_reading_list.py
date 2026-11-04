@@ -284,12 +284,17 @@ def render_reading_list(data):
     rows = []
     for item in data["items"]:
         posted = dt.datetime.fromisoformat(item["posted_at"].replace("Z", "+00:00"))
-        citation = html.escape(item.get("citation") or item["title"])
-        if item.get("pubmed_url"):
+        if item.get("authors") and item.get("journal"):
             citation = (
-                f'<a href="{html.escape(item["pubmed_url"], quote=True)}" '
-                f'target="_blank" rel="noopener noreferrer">{citation}</a>'
+                f'{html.escape(item["authors"])}. '
+                f'<i>{html.escape(item["title"])}</i>. '
+                f'<strong>{html.escape(item["journal"])}</strong>.'
             )
+            if item.get("citation_details"):
+                citation += " " + html.escape(item["citation_details"])
+        else:
+            citation = html.escape(item.get("citation") or item["title"])
+        journal_club = html.escape(item.get("journal_club", ""))
         links = " · ".join(
             '<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(
                 html.escape(link["url"], quote=True),
@@ -299,12 +304,13 @@ def render_reading_list(data):
         )
         rows.append(
             "  <tr>\n"
-            f"    <td>{citation}</td>\n"
             f'    <td><time datetime="{html.escape(item["posted_at"], quote=True)}">{posted:%d %b %Y}</time></td>\n'
+            f"    <td>{citation}</td>\n"
             f"    <td>{links}</td>\n"
+            f"    <td>{journal_club}</td>\n"
             "  </tr>"
         )
-    return "\n".join(rows) if rows else '  <tr><td colspan="3">The reading list is empty for now.</td></tr>'
+    return "\n".join(rows) if rows else '  <tr><td colspan="4">The reading list is empty for now.</td></tr>'
 
 
 def _doi_candidates(item):
@@ -398,9 +404,30 @@ def _format_pubmed_citation(record):
         citation += "."
     if record["publication_status"] == "aheadofprint":
         citation += " [Epub ahead of print]."
-    if record["doi"]:
-        citation += " doi:" + record["doi"] + "."
     return citation
+
+
+def _citation_fields(record):
+    authors = ", ".join(record["authors"][:6])
+    if len(record["authors"]) > 6:
+        authors += ", et al"
+    details = ""
+    if record["year"]:
+        details = record["year"]
+        if record["volume"]:
+            details += ";" + record["volume"]
+            if record["issue"]:
+                details += "(" + record["issue"] + ")"
+            if record["pages"]:
+                details += ":" + record["pages"]
+        details += "."
+    if record["publication_status"] == "aheadofprint":
+        details += " [Epub ahead of print]."
+    return {
+        "authors": authors,
+        "journal": record["journal"],
+        "citation_details": details,
+    }
 
 
 def _is_pubmed_publication(record):
@@ -491,8 +518,8 @@ def enrich_unverified_items(data):
                 "key": "doi:" + record["doi"].lower() if record["doi"] else "pmid:" + record["pmid"],
                 "title": record["title"].rstrip("."),
                 "citation": _format_pubmed_citation(record),
+                **_citation_fields(record),
                 "pmid": record["pmid"],
-                "pubmed_url": f"https://pubmed.ncbi.nlm.nih.gov/{record['pmid']}/",
                 "links": (
                     [{"label": "DOI", "url": "https://doi.org/" + record["doi"]}]
                     if record["doi"]

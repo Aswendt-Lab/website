@@ -182,7 +182,9 @@ class ReadingListTests(unittest.TestCase):
                 {
                     "title": 'A <paper> & more',
                     "citation": 'Smith J. A <paper> & more. J Test. 2025;1(2):3-4.',
-                    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/12345/",
+                    "authors": "Smith J",
+                    "journal": "J Test",
+                    "citation_details": "2025;1(2):3-4.",
                     "posted_at": "2025-02-01T08:00:00Z",
                     "links": [{"label": "Full text", "url": "https://example.org/a?x=1&y=2"}],
                 }
@@ -198,11 +200,13 @@ class ReadingListTests(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
 
         self.assertIn(
-            '<a href="https://pubmed.ncbi.nlm.nih.gov/12345/" target="_blank" rel="noopener noreferrer">'
-            "Smith J. A &lt;paper&gt; &amp; more. J Test. 2025;1(2):3-4.</a>",
+            "<td>Smith J. <i>A &lt;paper&gt; &amp; more</i>. <strong>J Test</strong>. "
+            "2025;1(2):3-4.</td>",
             content,
         )
         self.assertIn('datetime="2025-02-01T08:00:00Z">01 Feb 2025', content)
+        self.assertIn("<td>Smith J. <i>", content)
+        self.assertIn("<td></td>", content)
         self.assertIn("https://example.org/a?x=1&amp;y=2", content)
 
     def test_enriches_telegram_post_from_its_own_pubmed_doi(self):
@@ -258,8 +262,11 @@ class ReadingListTests(unittest.TestCase):
         self.assertEqual(item["title"], "A verified paper")
         self.assertEqual(
             item["citation"],
-            "Smith J. A verified paper. J Test. 2025;10(2):20-25. doi:10.1234/example.",
+            "Smith J. A verified paper. J Test. 2025;10(2):20-25.",
         )
+        self.assertEqual(item["authors"], "Smith J")
+        self.assertEqual(item["journal"], "J Test")
+        self.assertEqual(item["citation_details"], "2025;10(2):20-25.")
         self.assertEqual(item["key"], "doi:10.1234/example")
 
 

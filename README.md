@@ -96,7 +96,7 @@ The shared AIDA video and GitHub repository overview are defined in `_includes/t
 
 ## Automatic lab reading list
 
-The **Update reading list** workflow checks Telegram every 15 minutes and adds PubMed-indexed journal articles and reviews to the Reading list page. Entries use PubMed-formatted citations, with links to PubMed and the DOI; other posts and private bot chats are ignored.
+The **Update reading list** workflow checks Telegram every 15 minutes and adds PubMed-indexed journal articles and reviews to the Reading list page. Entries use plain-text PubMed-formatted citations, a Journal Club column, and a separate DOI link; other posts and private bot chats are ignored.
 
 To connect the bot:
 
