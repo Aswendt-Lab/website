@@ -102,7 +102,7 @@ To connect the bot:
 
 1. In Telegram, open [@BotFather](https://t.me/BotFather), send `/newbot`, choose a display name and a username ending in `bot`. Copy the token it gives you; treat it like a password.
 2. Open the private channel's **Manage channel → Administrators → Add administrator**, find the bot by username, and add it. It does not need posting or editing rights. Keep this dedicated bot in this channel only.
-3. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `TELEGRAM_BOT_TOKEN` and paste the token as its value. Never put the token in a file, command, or chat.
+3. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name it `readinglistauto_bot` and paste the token as its value. Never put the token in a file, command, or chat.
 4. Open **Settings → Actions → General → Workflow permissions** and select **Read and write permissions**.
 5. In **Actions → Update reading list → Run workflow**, run it once. The workflow will discover the channel and check for new posts every 15 minutes. A post's date is retained; the page lists the newest post first.
 

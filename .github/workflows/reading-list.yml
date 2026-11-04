@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
       - name: Import channel posts
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.readinglistauto_bot }}
         run: python scripts/update_reading_list.py
       - uses: ruby/setup-ruby@v1
         with:
