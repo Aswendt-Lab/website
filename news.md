@@ -2,6 +2,16 @@
 title: News
 layout: page
 ---
+## 07/2026 Aswendt Lab Retreat – Brainstorming on Board!
+Great science starts with inspiring discussions and sometimes a change of scenery! During our first Aswendt lab retreat in Frankfurt, we came together to exchange perspectives, spark new ideas, and share our visions for the future of our research. Beyond the memorable scientific talks, it was a wonderful opportunity to strengthen our team spirit, share some laughters. We wrapped up the day with a boat tour along the Main, enjoying Frankfurt's skyline, plenty of laughs, and some well-deserved time together- while science keeps our minds busiest. Here are a few moments from a lovely retreat day.
+
+<div class="news-gallery news-gallery--2" style="width: 80%; margin-left: auto; margin-right: auto;">
+  <img src="img/franky_retreat_2026_01.jpg" alt="Aswendt Lab group photo during the Main boat tour at the Frankfurt retreat 2026" loading="lazy" decoding="async">
+  <img src="img/franky_retreat_2026_02.jpg" alt="Aswendt Lab members enjoying the boat tour along the Main during the Frankfurt retreat 2026" loading="lazy" decoding="async">
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 05/2026 RMN2 Biennial Meeting Oberwesel
 Members of the Aswendt Lab participated in the RMN² Retreat 2026, bringing together researchers from across the Rhine-Main Neuroscience Network for scientific exchange and networking-an excellent platform in brain research. We greatly appreciated the opportunity to connect with new colleagues, exchange ideas, and foster novel collaborations. Stay tuned for future developments arising from these exciting interactions!
 
