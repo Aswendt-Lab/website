@@ -162,3 +162,20 @@ class DatasetTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class OpenAccessTests(unittest.TestCase):
+    def test_open_access_metadata_and_missing_values(self):
+        for access, expected in [({'is_oa': True, 'oa_status': 'green', 'oa_url': 'https://example.org/paper.pdf'}, True),
+                                 ({'is_oa': False, 'oa_status': 'closed'}, False), (None, False)]:
+            with self.subTest(access=access):
+                work = dict(WORK, open_access=access)
+                record = u.build_dataset([ROW], [work], CONFIG)['publications'][0]
+                self.assertEqual(record['is_open_access'], expected)
+                self.assertEqual(record['open_access_url'], (access or {}).get('oa_url', ''))
+
+    def test_unsafe_oa_url_is_not_published(self):
+        work = dict(WORK, open_access={'is_oa': True, 'oa_url': 'javascript:alert(1)'})
+        record = u.build_dataset([ROW], [work], CONFIG)['publications'][0]
+        self.assertTrue(record['is_open_access'])
+        self.assertEqual(record['open_access_url'], '')
