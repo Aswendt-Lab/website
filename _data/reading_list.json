@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "key": "doi:10.1016/j.neuroscience.2026.02.048",
+      "title": "Automated phenotyping of rodent behavior in the Cylinder Exploration Test using machine learning",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.neuroscience.2026.02.048"
+        }
+      ],
+      "posted_at": "2026-11-09T21:49:17Z",
+      "message_id": 439,
+      "citation": "Lukovikov DA, Zhukov IS, Gerasimova EV, Demin KA, Gainetdinov RR, Alenina NV, et al. Automated phenotyping of rodent behavior in the Cylinder Exploration Test using machine learning. Neuroscience. 2026;601:169-178.",
+      "authors": "Lukovikov DA, Zhukov IS, Gerasimova EV, Demin KA, Gainetdinov RR, Alenina NV, et al",
+      "journal": "Neuroscience",
+      "citation_details": "2026;601:169-178.",
+      "pmid": "41780714"
+    },
+    {
+      "key": "doi:10.1016/j.neuroscience.2026.02.048",
+      "title": "Automated phenotyping of rodent behavior in the Cylinder Exploration Test using machine learning",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.neuroscience.2026.02.048"
+        }
+      ],
+      "posted_at": "2026-11-09T21:49:17Z",
+      "message_id": 439,
+      "citation": "Lukovikov DA, Zhukov IS, Gerasimova EV, Demin KA, Gainetdinov RR, Alenina NV, et al. Automated phenotyping of rodent behavior in the Cylinder Exploration Test using machine learning. Neuroscience. 2026;601:169-178.",
+      "authors": "Lukovikov DA, Zhukov IS, Gerasimova EV, Demin KA, Gainetdinov RR, Alenina NV, et al",
+      "journal": "Neuroscience",
+      "citation_details": "2026;601:169-178.",
+      "pmid": "41780714"
+    },
+    {
       "key": "doi:10.1161/strokeaha.126.056133",
       "title": "Neural Repair Therapies After Stroke: II. Principles for Clinical Trials",
       "citation": "Lin DJ, Cramer SC. Neural Repair Therapies After Stroke: II. Principles for Clinical Trials. Stroke. 2026. [Epub ahead of print].",
@@ -4681,5 +4715,5 @@
       "citation_details": "2020;94(1):e104."
     }
   ],
-  "updated_at": "2026-11-04T17:25:52Z"
+  "updated_at": "2026-11-10T02:55:45Z"
 }
