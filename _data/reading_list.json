@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "key": "doi:10.1016/j.expneurol.2026.116109",
+      "title": "High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.expneurol.2026.116109"
+        }
+      ],
+      "posted_at": "2026-11-10T10:41:32Z",
+      "message_id": 440,
+      "citation": "Huang A, Zhang J, Hu J, Chen J, Zhao F, Ye Q, et al. High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage. Exp Neurol. 2026;409:116109. [Epub ahead of print].",
+      "authors": "Huang A, Zhang J, Hu J, Chen J, Zhao F, Ye Q, et al",
+      "journal": "Exp Neurol",
+      "citation_details": "2026;409:116109. [Epub ahead of print].",
+      "pmid": "42982398"
+    },
+    {
+      "key": "doi:10.1016/j.expneurol.2026.116109",
+      "title": "High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.expneurol.2026.116109"
+        }
+      ],
+      "posted_at": "2026-11-10T10:41:32Z",
+      "message_id": 440,
+      "citation": "Huang A, Zhang J, Hu J, Chen J, Zhao F, Ye Q, et al. High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage. Exp Neurol. 2026;409:116109. [Epub ahead of print].",
+      "authors": "Huang A, Zhang J, Hu J, Chen J, Zhao F, Ye Q, et al",
+      "journal": "Exp Neurol",
+      "citation_details": "2026;409:116109. [Epub ahead of print].",
+      "pmid": "42982398"
+    },
+    {
       "key": "doi:10.1016/j.neuroscience.2026.02.048",
       "title": "Automated phenotyping of rodent behavior in the Cylinder Exploration Test using machine learning",
       "links": [
@@ -4715,5 +4749,5 @@
       "citation_details": "2020;94(1):e104."
     }
   ],
-  "updated_at": "2026-11-10T02:55:45Z"
+  "updated_at": "2026-11-10T18:15:46Z"
 }
