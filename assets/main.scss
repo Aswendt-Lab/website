@@ -176,6 +176,16 @@ summary { cursor: pointer; color: var(--accent); padding: 12px 0; }
 @media (max-width: 800px) { .news-gallery:not(.news-gallery--1) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } }
 @media (max-width: 480px) { .news-gallery:not(.news-gallery--1) { gap: 8px; } }
 
+
+.news-gallery--aidamri figure { width: 50%; min-width: 0; margin: 0; justify-self: center; }
+.news-gallery--aidamri.news-gallery--4 figure { width: 100%; }
+.news-gallery--aidamri a { display: block; }
+.news-gallery--aidamri figcaption { margin-top: 8px; color: var(--muted); font-size: .9rem; line-height: 1.5; }
+.post-content .news-gallery--aidamri img { aspect-ratio: auto; max-height: none; }
+.news-gallery--aidamri.news-gallery--1 { max-width: none; }
+.news-gallery--aidamri.news-gallery--1 figure { width: 90%; }
+@media (max-width: 480px) { .news-gallery.news-gallery--aidamri { grid-template-columns: 1fr; gap: 20px; } }
+
 .pdf-preview { width: 280px; max-width: 100%; margin: 20px 0; }
 .pdf-preview a { display: block; overflow: hidden; border: 1px solid var(--border); border-radius: 10px; background: #0b1013; }
 .post-content .pdf-preview img { display: block; width: 100%; height: 320px; object-fit: contain; background: #fff; margin: 0; }

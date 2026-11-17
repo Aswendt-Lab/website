@@ -12,6 +12,50 @@ Great science starts with inspiring discussions and sometimes a change of scener
 
 <div style="margin-top: 100px;"></div>
 
+## 06/2026 Almost a Decade of AIDAmri – Version 3.0 Is Here!
+
+Almost ten years ago, the first lines of code for AIDAmri were written. What started as a project to simplify and standardize mouse brain MRI analysis has since evolved into an open-source pipeline for processing multimodal MRI data. We are proud that AIDAmri has been cited in more than 50 scientific publications by researchers from around the world, including Germany, the United States, and China.
+
+We are excited to announce the release of **AIDAmri v3.0**, marking another milestone in its development!
+
+The new version introduces several improvements to make MRI processing more robust, flexible, and user-friendly. Key highlights include enhanced brain extraction, a new bias field correction method, updated diffusion MRI processing, and expanded options for customizing analysis workflows. In addition, automated quality control reports make it easier to evaluate processing results.
+
+These improvements represent another step toward more reliable, reproducible, and accessible preclinical MRI analysis.
+
+In the spirit of open-source development and scientific collaboration, we would like to thank Paul Camacho from the Biomedical Imaging Center at the University of Illinois Urbana-Champaign for his valuable contributions and support in developing this release.
+
+AIDAmri v3.0 is available on GitHub, together with updated documentation and a new user manual.
+
+**Explore AIDAmri v3.0:** [https://github.com/Aswendt-Lab/AIDAmri](https://github.com/Aswendt-Lab/AIDAmri)
+
+<div class="news-gallery news-gallery--4 news-gallery--aidamri">
+  <figure>
+    <a href="img/AIDAmriV3/sub-NR1037_ses-PT3_raw.png"><img src="img/AIDAmriV3/sub-NR1037_ses-PT3_raw.png" alt="Raw diffusion-weighted mouse brain MRI" loading="lazy" decoding="async"></a>
+    <figcaption>DWI preprocessing — Raw</figcaption>
+  </figure>
+  <figure>
+    <a href="img/AIDAmriV3/sub-NR1037_ses-PT3_preprocessed.png"><img src="img/AIDAmriV3/sub-NR1037_ses-PT3_preprocessed.png" alt="Preprocessed diffusion-weighted mouse brain MRI" loading="lazy" decoding="async"></a>
+    <figcaption>DWI preprocessing — Preprocessed</figcaption>
+  </figure>
+  <figure>
+    <a href="img/AIDAmriV3/sub-SPsT1c2m3_raw.png"><img src="img/AIDAmriV3/sub-SPsT1c2m3_raw.png" alt="Raw T2-weighted mouse brain MRI" loading="lazy" decoding="async"></a>
+    <figcaption>T2 preprocessing — Raw</figcaption>
+  </figure>
+  <figure>
+    <a href="img/AIDAmriV3/sub-SPsT1c2m3_bias_smooth.png"><img src="img/AIDAmriV3/sub-SPsT1c2m3_bias_smooth.png" alt="T2-weighted mouse brain MRI after bias field correction and smoothing" loading="lazy" decoding="async"></a>
+    <figcaption>T2 preprocessing — Preprocessed</figcaption>
+  </figure>
+</div>
+
+<div class="news-gallery news-gallery--1 news-gallery--aidamri">
+  <figure>
+    <a href="img/AIDAmriV3/AIDAmriV3_html_reg.png"><img src="img/AIDAmriV3/AIDAmriV3_html_reg.png" alt="AIDAmri v3.0 registration report excerpt showing brain extraction and atlas annotation overlays" loading="lazy" decoding="async"></a>
+    <figcaption>Registration report excerpt</figcaption>
+  </figure>
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 05/2026 RMN2 Biennial Meeting Oberwesel
 Members of the Aswendt Lab participated in the RMN² Retreat 2026, bringing together researchers from across the Rhine-Main Neuroscience Network for scientific exchange and networking-an excellent platform in brain research. We greatly appreciated the opportunity to connect with new colleagues, exchange ideas, and foster novel collaborations. Stay tuned for future developments arising from these exciting interactions!
 
