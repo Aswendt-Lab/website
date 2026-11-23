@@ -2,6 +2,16 @@
 title: News
 layout: page
 ---
+## 09 /2026 Neda defended her Master thesis
+Neda completed her Master’s thesis in our Lab as part of her International Master of Biomedicine (IMBM) at the University of Strasbourg and Johannes Gutenberg University Mainz. In her systematic review and meta-analysis of 66 studies on transcranial magnetic stimulation (TMS) in rodent models of ischemic stroke, Neda provide evidence that TMS is associated with smaller infarct volumes. 
+
+<div class="news-gallery news-gallery--2" style="width: 100%; margin-left: auto; margin-right: auto;">
+  <img src="img/Neda_Master_2026_Graphical_Abstract.jpg" alt="Graphical abstract of Neda’s systematic review and meta-analysis on TMS and infarct volume in rodent models of ischemic stroke" loading="lazy" decoding="async">
+  <img src="img/Neda_Master_2026_Defense.jpg" alt="Neda celebrating the successful defense of her Master’s thesis" loading="lazy" decoding="async">
+</div>
+
+<div style="margin-top: 100px;"></div>
+
 ## 07/2026 Aswendt Lab Retreat – Brainstorming on Board!
 Great science starts with inspiring discussions and sometimes a change of scenery! During our first Aswendt lab retreat in Frankfurt, we came together to exchange perspectives, spark new ideas, and share our visions for the future of our research. Beyond the memorable scientific talks, it was a wonderful opportunity to strengthen our team spirit, share some laughters. We wrapped up the day with a boat tour along the Main, enjoying Frankfurt's skyline, plenty of laughs, and some well-deserved time together- while science keeps our minds busiest. Here are a few moments from a lovely retreat day.
 
