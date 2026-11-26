@@ -84,7 +84,7 @@ layout: page
     <div class="alumni-entry">
         <b>Prisca Kuhnhäuser</b> <span class="year">(2021-2022)</span><br>
         Master thesis: Identification and manipulation of spasticity-related extrapyramidal motor nuclei in mice<br>
-        Next position: PhD student (<a href="https://anatomie.uni-koeln.de/institut-ii/ag-prof-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
+        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/full-members/johannes-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Jule Ullert</b> <span class="year">(2021-2023)</span><br>
@@ -97,7 +97,7 @@ layout: page
     <div class="alumni-entry">
         <b>Jan Götz</b> <span class="year">(2020-2022)</span><br>
         Research assistant and master thesis: Longitudinal gene expression analysis in experimental stroke<br>
-        Next position: PhD student (<a href="https://anatomie.uni-koeln.de/institut-ii/ag-prof-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
+        Next position: PhD student (<a href="https://www.cecad.uni-koeln.de/research/principal-investigators/full-members/johannes-vogt" title="lab of Johannes Vogt">lab of Johannes Vogt</a>, University of Cologne)
     </div>
     <div class="alumni-entry">
         <b>Sebastian Kloubert</b> <span class="year">(2020-2021)</span><br>
