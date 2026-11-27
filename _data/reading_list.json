@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "key": "doi:10.3389/fncir.2018.00028",
+      "title": "Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.3389/fncir.2018.00028"
+        }
+      ],
+      "posted_at": "2026-11-27T13:41:36Z",
+      "message_id": 454,
+      "citation": "Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al. Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats. Front Neural Circuits. 2018;12:28.",
+      "authors": "Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al",
+      "journal": "Front Neural Circuits",
+      "citation_details": "2018;12:28.",
+      "pmid": "29706871"
+    },
+    {
+      "key": "doi:10.3389/fncir.2018.00028",
+      "title": "Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.3389/fncir.2018.00028"
+        }
+      ],
+      "posted_at": "2026-11-27T13:41:36Z",
+      "message_id": 454,
+      "citation": "Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al. Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats. Front Neural Circuits. 2018;12:28.",
+      "authors": "Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al",
+      "journal": "Front Neural Circuits",
+      "citation_details": "2018;12:28.",
+      "pmid": "29706871"
+    },
+    {
       "key": "doi:10.1016/j.expneurol.2026.116109",
       "title": "High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage",
       "links": [
@@ -4749,5 +4783,5 @@
       "citation_details": "2020;94(1):e104."
     }
   ],
-  "updated_at": "2026-11-22T18:36:30Z"
+  "updated_at": "2026-11-27T19:06:31Z"
 }

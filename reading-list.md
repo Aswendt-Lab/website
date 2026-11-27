@@ -12,6 +12,18 @@ The papers the lab is reading and discussing together.
   <tbody>
   <!-- reading-list-entries-start -->
   <tr>
+    <td><time datetime="2026-11-27T13:41:36Z">27 Nov 2026</time></td>
+    <td>Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al. <i>Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats</i>. <strong>Front Neural Circuits</strong>. 2018;12:28.</td>
+    <td><a href="https://doi.org/10.3389/fncir.2018.00028" target="_blank" rel="noopener noreferrer">DOI</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><time datetime="2026-11-27T13:41:36Z">27 Nov 2026</time></td>
+    <td>Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al. <i>Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats</i>. <strong>Front Neural Circuits</strong>. 2018;12:28.</td>
+    <td><a href="https://doi.org/10.3389/fncir.2018.00028" target="_blank" rel="noopener noreferrer">DOI</a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><time datetime="2026-11-10T10:41:32Z">10 Nov 2026</time></td>
     <td>Huang A, Zhang J, Hu J, Chen J, Zhao F, Ye Q, et al. <i>High-frequency rTMS improves post-stroke cognitive impairment and is associated with region-specific BBB remodeling and increased pericyte coverage</i>. <strong>Exp Neurol</strong>. 2026;409:116109. [Epub ahead of print].</td>
     <td><a href="https://doi.org/10.1016/j.expneurol.2026.116109" target="_blank" rel="noopener noreferrer">DOI</a></td>
