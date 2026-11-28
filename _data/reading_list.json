@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "key": "doi:10.1159/000545888",
+      "title": "Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network?",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1159/000545888"
+        }
+      ],
+      "posted_at": "2026-11-27T22:57:19Z",
+      "message_id": 455,
+      "citation": "Favre L, Zhang D, Pollo C, Nowacki A. Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network? Stereotact Funct Neurosurg. 2025;103(3):189-200.",
+      "authors": "Favre L, Zhang D, Pollo C, Nowacki A",
+      "journal": "Stereotact Funct Neurosurg",
+      "citation_details": "2025;103(3):189-200.",
+      "pmid": "40239639"
+    },
+    {
+      "key": "doi:10.1159/000545888",
+      "title": "Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network?",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1159/000545888"
+        }
+      ],
+      "posted_at": "2026-11-27T22:57:19Z",
+      "message_id": 455,
+      "citation": "Favre L, Zhang D, Pollo C, Nowacki A. Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network? Stereotact Funct Neurosurg. 2025;103(3):189-200.",
+      "authors": "Favre L, Zhang D, Pollo C, Nowacki A",
+      "journal": "Stereotact Funct Neurosurg",
+      "citation_details": "2025;103(3):189-200.",
+      "pmid": "40239639"
+    },
+    {
       "key": "doi:10.3389/fncir.2018.00028",
       "title": "Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats",
       "links": [
@@ -4783,5 +4817,5 @@
       "citation_details": "2020;94(1):e104."
     }
   ],
-  "updated_at": "2026-11-27T19:06:31Z"
+  "updated_at": "2026-11-28T01:56:43Z"
 }

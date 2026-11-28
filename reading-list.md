@@ -12,6 +12,18 @@ The papers the lab is reading and discussing together.
   <tbody>
   <!-- reading-list-entries-start -->
   <tr>
+    <td><time datetime="2026-11-27T22:57:19Z">27 Nov 2026</time></td>
+    <td>Favre L, Zhang D, Pollo C, Nowacki A. <i>Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network?</i>. <strong>Stereotact Funct Neurosurg</strong>. 2025;103(3):189-200.</td>
+    <td><a href="https://doi.org/10.1159/000545888" target="_blank" rel="noopener noreferrer">DOI</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><time datetime="2026-11-27T22:57:19Z">27 Nov 2026</time></td>
+    <td>Favre L, Zhang D, Pollo C, Nowacki A. <i>Literature Review on Lesion-Symptom Mapping and Deep Brain Stimulation for Poststroke Spasticity: Restoring a Dysfunctional Network?</i>. <strong>Stereotact Funct Neurosurg</strong>. 2025;103(3):189-200.</td>
+    <td><a href="https://doi.org/10.1159/000545888" target="_blank" rel="noopener noreferrer">DOI</a></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><time datetime="2026-11-27T13:41:36Z">27 Nov 2026</time></td>
     <td>Wen TC, Lall S, Pagnotta C, Markward J, Gupta D, Ratnadurai-Giridharan S, et al. <i>Plasticity in One Hemisphere, Control From Two: Adaptation in Descending Motor Pathways After Unilateral Corticospinal Injury in Neonatal Rats</i>. <strong>Front Neural Circuits</strong>. 2018;12:28.</td>
     <td><a href="https://doi.org/10.3389/fncir.2018.00028" target="_blank" rel="noopener noreferrer">DOI</a></td>
